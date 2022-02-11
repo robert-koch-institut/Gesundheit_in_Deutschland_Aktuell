@@ -1039,7 +1039,3 @@ Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.
 Der Datensatz "Gesundheit in Deutschland aktuell - GEDA 2019/2020-EHIS" ist lizensiert unter der [Creative Commons Namensnennung 4.0 International Public License |](https://creativecommons.org/licenses/by/4.0/deed.de) <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">CC-BY 4.0 International</a>.  
 
 Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede_r hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](/LICENSE) bzw. [LIZENZ](/LIZENZ) Datei des Datensatzes.  
-
-Die empfohlene Zitierweise ist:  
-
-Robert Koch-Institut (2021): Gesundheit in Deutschland aktuell - GEDA 2019/2020-EHIS, Berlin: Zenodo. DOI:[10.5281/zenodo.6036771](http://doi.org/10.5281/zenodo.6036771). 
