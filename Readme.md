@@ -84,13 +84,10 @@ Die Daten der Studie sind im Datensatz als kommaseparierte .csv Datei enthalten.
 
 ## GEDA Daten 
 
-Die aktuellen Daten der Studie "Gesundheit in Deutschland aktuell" sind im Hauptverzeichnis unter “Gesundheit_in_Deutschland_aktuell.csv” abrufbar. Im Archivordner sind die  historischen Datenstände unter den Dateinamen "JJJJ-MM-TT_Gesundheit_in_Deutschland_aktuell.csv" bereitgestellt. 
+Die aktuellen Daten der Studie "Gesundheit in Deutschland aktuell" sind im Hauptverzeichnis unter “Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.csv” abrufbar. 
 
-> [Gesundheit_in_Deutschland_aktuell.csv](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_aktuell/blob/master/Gesundheit_in_Deutschland_aktuell.csv)
-> [Archiv/JJJ-MM-TT_Gesundheit_in_Deutschland_aktuell.csv](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_aktuell/blob/master/Archiv)
+> [Gesundheit_in_Deutschland_aktuell.csv](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell/blob/main/Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.csv)
 
- Im Dateinamen repräsentiert die Sequenz “JJJJ-MM-TT” das Erstellungsdatum der Datei und gleichzeitig das Datum des enthaltenen Datenstands. “JJJJ” steht dabei für das Jahr, “MM” für den Monat und “TT” für den Tag der Erstellung bzw. des enthaltenen Datenstands.  
- 
 ### Variablen
 
 Die bereitgestellten GEDA-Daten differenzieren grundlegend nach drei übergeordneten Merkmalen:  
@@ -101,9 +98,9 @@ Die bereitgestellten GEDA-Daten differenzieren grundlegend nach drei übergeordn
 
 Eine zentrale Bedeutung kommt der Variable "Indikator" zu. Insgesamt werden Daten zu 42 verschiedenen Indikatoren der Gesundheitsberichterstattung ausgewiesen. Diese ergeben den Überblick über den allgemeinen Gesundheitszustand in Deutschland. Eine detailliertere Beschreibung der einzelnen Indikatoren ist im Abschnitt [Indikatorenbeschreibung](#Indiaktorenbeschreibung) zu finden.  
 
-Darüber hinaus wird die Indikatorenbeschreibung, so wie eine erste Interpretation der Daten in einer separaten Metadaten-Datei "2021-10-15_Gesundheit_in_Deutschland_aktuell_Indikatorenbeschreibung.csv", bereitgestellt.
+Darüber hinaus wird die Indikatorenbeschreibung, so wie eine erste Interpretation der Daten in einer separaten Metadaten-Datei "2019_Gesundheit_in_Deutschlandaktuell_Variablen.csv", bereitgestellt.
 
-> [Metadaten/2021-10-15_Gesundheit_in_Deutschland_aktuell_Indikatorenbeschreibung.csv](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_aktuell/blob/master/Metadaten/2021-10-15_Gesundheit_in_Deutschland_aktuell_Indikatorenbeschreibung.csv)
+> [Kontextmaterialien/2021-10-15_Gesundheit_in_Deutschland_aktuell_Indikatorenbeschreibung.csv](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell/blob/main/Kontextmaterialien/2019_Gesundheit_in_Deutschlandaktuell_Variablen.csv)
 
 ### Variablenausprägungen
 Die GEDA Daten enthalten die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:
