@@ -1,4 +1,4 @@
-﻿Altersgruppe,Gender,Bildungsgruppe,Frequency,Frequency_ges,Percent,LowerCL,UpperCL,Bundesland,Standard,Indikator,BundeslandId
+﻿Altersgruppe,Gender,Bildungsgruppe,Frequency,Freq_ges,Percent,LowerCL,UpperCL,Bundesland,Standard,Variable,BundeslandId
 18 - 29 Jahre,Frauen,Gesamt,302,899,36.902,32.817,41.184,Deutschland,0,AMarztB,0
 18 - 29 Jahre,Gesamt,Gesamt,561,2100,28.312,25.793,30.974,Deutschland,0,AMarztB,0
 18 - 29 Jahre,Männer,Gesamt,254,1188,20.697,17.841,23.878,Deutschland,0,AMarztB,0
