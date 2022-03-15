@@ -293,7 +293,7 @@ Obst und Gemüsesäfte enthalten wichtige Vitamine und Mineralstoffe, jedoch hä
  
 >[Rabenberg M, Mensink GBM (2013) Limo, Saft & Co – Konsum zuckerhaltiger Getränke in Deutschland. GBE kompakt 1/2013. 4. Robert Koch-Institut, Berlin.](https://edoc.rki.de/handle/176904/3111)
 
-#### 'GVzahnsa_k' - Mundgesundheit
+#### `GVzahnsa_k` - Mundgesundheit
  
 Selbstangaben der Befragten: „Wie würden Sie den Zustand Ihrer Zähne und Ihres Zahnfleischs beschreiben?“
  
