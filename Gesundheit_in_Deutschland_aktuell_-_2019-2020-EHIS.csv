@@ -1031,6 +1031,135 @@ Gesamt,Männer,Mittel,419,3789,10.203,9.085,11.442,Deutschland,0,EnsaftBtgl,0
 Gesamt,Männer,Mittel,419,3789,10.271,9.122,11.546,Deutschland,1,EnsaftBtgl,0
 Gesamt,Männer,Niedrig,63,475,13.869,10.575,17.981,Deutschland,0,EnsaftBtgl,0
 Gesamt,Männer,Niedrig,63,475,15.195,11.612,19.639,Deutschland,1,EnsaftBtgl,0
+18 - 29 Jahre,Frauen,Gesamt,810,900,88.067,84.699,90.774,Deutschland,0,GVzahnsa_k,0
+18 - 29 Jahre,Gesamt,Gesamt,1810,2101,82.837,80.381,85.043,Deutschland,0,GVzahnsa_k,0
+18 - 29 Jahre,Männer,Gesamt,990,1188,78.185,74.549,81.431,Deutschland,0,GVzahnsa_k,0
+30 - 44 Jahre,Frauen,Gesamt,1579,1893,80.265,77.493,82.771,Deutschland,0,GVzahnsa_k,0
+30 - 44 Jahre,Gesamt,Gesamt,3037,3763,76.063,73.954,78.051,Deutschland,0,GVzahnsa_k,0
+30 - 44 Jahre,Männer,Gesamt,1451,1860,72.278,69.104,75.243,Deutschland,0,GVzahnsa_k,0
+45 - 64 Jahre,Frauen,Gesamt,3582,4825,70.635,68.668,72.528,Deutschland,0,GVzahnsa_k,0
+45 - 64 Jahre,Gesamt,Gesamt,6384,8961,65.647,64.088,67.173,Deutschland,0,GVzahnsa_k,0
+45 - 64 Jahre,Männer,Gesamt,2789,4119,60.537,58.147,62.877,Deutschland,0,GVzahnsa_k,0
+65 + Jahre,Frauen,Gesamt,3117,4310,69.919,67.604,72.136,Deutschland,0,GVzahnsa_k,0
+65 + Jahre,Gesamt,Gesamt,5530,7822,67.442,65.709,69.128,Deutschland,0,GVzahnsa_k,0
+65 + Jahre,Männer,Gesamt,2400,3491,64.457,61.821,67.007,Deutschland,0,GVzahnsa_k,0
+Gesamt,Frauen,Gesamt,62,86,69.919,52.259,83.153,Bremen,0,GVzahnsa_k,4
+Gesamt,Frauen,Gesamt,62,86,70.891,58.779,80.618,Bremen,1,GVzahnsa_k,4
+Gesamt,Frauen,Gesamt,182,233,73.5,63.221,81.735,Mecklenburg-Vorpommern,0,GVzahnsa_k,13
+Gesamt,Frauen,Gesamt,182,233,76.733,67.592,83.909,Mecklenburg-Vorpommern,1,GVzahnsa_k,13
+Gesamt,Frauen,Gesamt,201,273,69.072,60.788,76.289,Sachsen-Anhalt,0,GVzahnsa_k,15
+Gesamt,Frauen,Gesamt,201,273,69.329,60.655,76.822,Sachsen-Anhalt,1,GVzahnsa_k,15
+Gesamt,Frauen,Gesamt,202,268,77.202,69.871,83.179,Thüringen,0,GVzahnsa_k,16
+Gesamt,Frauen,Gesamt,202,268,80.515,73.951,85.745,Thüringen,1,GVzahnsa_k,16
+Gesamt,Frauen,Gesamt,280,366,72.708,65.382,78.983,Hamburg,0,GVzahnsa_k,2
+Gesamt,Frauen,Gesamt,280,366,72.874,65.887,78.888,Hamburg,1,GVzahnsa_k,2
+Gesamt,Frauen,Gesamt,305,404,75.33,69.253,80.543,Schleswig-Holstein,0,GVzahnsa_k,1
+Gesamt,Frauen,Gesamt,305,404,76.968,70.693,82.237,Schleswig-Holstein,1,GVzahnsa_k,1
+Gesamt,Frauen,Gesamt,315,431,69.045,62.427,74.965,Brandenburg,0,GVzahnsa_k,12
+Gesamt,Frauen,Gesamt,315,431,71.523,65.136,77.151,Brandenburg,1,GVzahnsa_k,12
+Gesamt,Frauen,Gesamt,351,472,76.296,70.903,80.958,Sachsen,0,GVzahnsa_k,14
+Gesamt,Frauen,Gesamt,351,472,78.691,73.268,83.265,Sachsen,1,GVzahnsa_k,14
+Gesamt,Frauen,Gesamt,368,496,74.354,68.35,79.559,Rheinland-Pfalz,0,GVzahnsa_k,7
+Gesamt,Frauen,Gesamt,368,496,76.256,70.273,81.354,Rheinland-Pfalz,1,GVzahnsa_k,7
+Gesamt,Frauen,Gesamt,575,730,77.804,73.156,81.847,Hessen,0,GVzahnsa_k,6
+Gesamt,Frauen,Gesamt,575,730,78.531,73.888,82.544,Hessen,1,GVzahnsa_k,6
+Gesamt,Frauen,Gesamt,681,922,73.502,69.314,77.306,Niedersachsen,0,GVzahnsa_k,3
+Gesamt,Frauen,Gesamt,681,922,74.134,69.835,78.013,Niedersachsen,1,GVzahnsa_k,3
+Gesamt,Frauen,Gesamt,815,1110,71.797,67.16,76.014,Saarland,0,GVzahnsa_k,10
+Gesamt,Frauen,Gesamt,815,1110,73.752,68.556,78.36,Saarland,1,GVzahnsa_k,10
+Gesamt,Frauen,Gesamt,849,1145,72.602,68.305,76.517,Berlin,1,GVzahnsa_k,11
+Gesamt,Frauen,Gesamt,849,1145,72.763,68.368,76.754,Berlin,0,GVzahnsa_k,11
+Gesamt,Frauen,Gesamt,1001,1294,76.672,73.25,79.777,Baden-Württemberg,0,GVzahnsa_k,8
+Gesamt,Frauen,Gesamt,1001,1294,77.371,73.907,80.497,Baden-Württemberg,1,GVzahnsa_k,8
+Gesamt,Frauen,Gesamt,1280,1587,76.022,72.645,79.103,Bayern,0,GVzahnsa_k,9
+Gesamt,Frauen,Gesamt,1280,1587,76.819,73.493,79.842,Bayern,1,GVzahnsa_k,9
+Gesamt,Frauen,Gesamt,1606,2092,75.886,73.072,78.492,Nordrhein-Westfalen,0,GVzahnsa_k,5
+Gesamt,Frauen,Gesamt,1606,2092,77.429,74.654,79.983,Nordrhein-Westfalen,1,GVzahnsa_k,5
+Gesamt,Frauen,Gesamt,9088,11928,75.146,73.926,76.327,Deutschland,0,GVzahnsa_k,0
+Gesamt,Frauen,Hoch,4117,5212,81.803,80.463,83.07,Deutschland,1,GVzahnsa_k,0
+Gesamt,Frauen,Hoch,4117,5212,82.093,80.736,83.374,Deutschland,0,GVzahnsa_k,0
+Gesamt,Frauen,Mittel,4373,5840,75.249,73.754,76.686,Deutschland,0,GVzahnsa_k,0
+Gesamt,Frauen,Mittel,4373,5840,76.049,74.497,77.534,Deutschland,1,GVzahnsa_k,0
+Gesamt,Frauen,Niedrig,575,849,67.795,63.927,71.435,Deutschland,0,GVzahnsa_k,0
+Gesamt,Frauen,Niedrig,575,849,68.32,63.796,72.521,Deutschland,1,GVzahnsa_k,0
+Gesamt,Gesamt,Gesamt,127,180,68.532,55.958,78.871,Bremen,0,GVzahnsa_k,4
+Gesamt,Gesamt,Gesamt,127,180,69.343,61.226,76.415,Bremen,1,GVzahnsa_k,4
+Gesamt,Gesamt,Gesamt,307,420,66.734,59.141,73.547,Mecklenburg-Vorpommern,0,GVzahnsa_k,13
+Gesamt,Gesamt,Gesamt,307,420,70.616,64.048,76.427,Mecklenburg-Vorpommern,1,GVzahnsa_k,13
+Gesamt,Gesamt,Gesamt,377,541,64.348,58.308,69.963,Sachsen-Anhalt,0,GVzahnsa_k,15
+Gesamt,Gesamt,Gesamt,377,541,65.028,58.849,70.741,Sachsen-Anhalt,1,GVzahnsa_k,15
+Gesamt,Gesamt,Gesamt,385,510,74.064,68.232,79.151,Thüringen,0,GVzahnsa_k,16
+Gesamt,Gesamt,Gesamt,385,510,76.015,70.589,80.713,Thüringen,1,GVzahnsa_k,16
+Gesamt,Gesamt,Gesamt,463,640,69.532,63.824,74.697,Hamburg,0,GVzahnsa_k,2
+Gesamt,Gesamt,Gesamt,463,640,69.58,64.357,74.343,Hamburg,1,GVzahnsa_k,2
+Gesamt,Gesamt,Gesamt,544,737,70.175,65.018,74.866,Schleswig-Holstein,0,GVzahnsa_k,1
+Gesamt,Gesamt,Gesamt,544,737,72.168,67.139,76.695,Schleswig-Holstein,1,GVzahnsa_k,1
+Gesamt,Gesamt,Gesamt,585,810,67.667,62.718,72.25,Brandenburg,0,GVzahnsa_k,12
+Gesamt,Gesamt,Gesamt,585,810,69.366,64.355,73.957,Brandenburg,1,GVzahnsa_k,12
+Gesamt,Gesamt,Gesamt,688,935,72.916,68.692,76.762,Sachsen,0,GVzahnsa_k,14
+Gesamt,Gesamt,Gesamt,688,935,74.785,70.519,78.62,Sachsen,1,GVzahnsa_k,14
+Gesamt,Gesamt,Gesamt,691,959,69.98,65.423,74.174,Rheinland-Pfalz,0,GVzahnsa_k,7
+Gesamt,Gesamt,Gesamt,691,959,70.901,66.222,75.175,Rheinland-Pfalz,1,GVzahnsa_k,7
+Gesamt,Gesamt,Gesamt,1078,1425,73.506,70.026,76.717,Hessen,0,GVzahnsa_k,6
+Gesamt,Gesamt,Gesamt,1078,1425,73.973,70.502,77.168,Hessen,1,GVzahnsa_k,6
+Gesamt,Gesamt,Gesamt,1316,1797,69.406,66.103,72.52,Niedersachsen,0,GVzahnsa_k,3
+Gesamt,Gesamt,Gesamt,1316,1797,70.253,66.892,73.408,Niedersachsen,1,GVzahnsa_k,3
+Gesamt,Gesamt,Gesamt,1434,1965,71.302,68.035,74.361,Saarland,0,GVzahnsa_k,10
+Gesamt,Gesamt,Gesamt,1434,1965,72.468,68.927,75.748,Saarland,1,GVzahnsa_k,10
+Gesamt,Gesamt,Gesamt,1505,2071,69.826,66.533,72.927,Berlin,1,GVzahnsa_k,11
+Gesamt,Gesamt,Gesamt,1505,2071,70.046,66.664,73.223,Berlin,0,GVzahnsa_k,11
+Gesamt,Gesamt,Gesamt,1902,2537,73.631,71.114,76.003,Baden-Württemberg,0,GVzahnsa_k,8
+Gesamt,Gesamt,Gesamt,1902,2537,73.729,71.144,76.16,Baden-Württemberg,1,GVzahnsa_k,8
+Gesamt,Gesamt,Gesamt,2330,2987,74.372,71.982,76.624,Bayern,0,GVzahnsa_k,9
+Gesamt,Gesamt,Gesamt,2330,2987,74.664,72.263,76.924,Bayern,1,GVzahnsa_k,9
+Gesamt,Gesamt,Gesamt,2996,4090,69.619,67.411,71.74,Nordrhein-Westfalen,0,GVzahnsa_k,5
+Gesamt,Gesamt,Gesamt,2996,4090,70.308,68.065,72.456,Nordrhein-Westfalen,1,GVzahnsa_k,5
+Gesamt,Gesamt,Gesamt,16761,22647,71.278,70.338,72.2,Deutschland,0,GVzahnsa_k,0
+Gesamt,Gesamt,Hoch,8922,11610,78.477,77.509,79.414,Deutschland,0,GVzahnsa_k,0
+Gesamt,Gesamt,Hoch,8922,11610,79.608,78.647,80.537,Deutschland,1,GVzahnsa_k,0
+Gesamt,Gesamt,Mittel,6929,9642,70.58,69.338,71.792,Deutschland,0,GVzahnsa_k,0
+Gesamt,Gesamt,Mittel,6929,9642,70.867,69.583,72.118,Deutschland,1,GVzahnsa_k,0
+Gesamt,Gesamt,Niedrig,864,1333,61.632,58.055,65.088,Deutschland,1,GVzahnsa_k,0
+Gesamt,Gesamt,Niedrig,864,1333,63.263,60.09,66.325,Deutschland,0,GVzahnsa_k,0
+Gesamt,Männer,Gesamt,65,94,67.084,48.514,81.509,Bremen,0,GVzahnsa_k,4
+Gesamt,Männer,Gesamt,65,94,68.05,56.732,77.578,Bremen,1,GVzahnsa_k,4
+Gesamt,Männer,Gesamt,124,184,63.58,52.842,73.118,Mecklenburg-Vorpommern,0,GVzahnsa_k,13
+Gesamt,Männer,Gesamt,124,184,66.594,57.054,74.945,Mecklenburg-Vorpommern,1,GVzahnsa_k,13
+Gesamt,Männer,Gesamt,176,266,59.749,50.818,68.077,Sachsen-Anhalt,0,GVzahnsa_k,15
+Gesamt,Männer,Gesamt,176,266,61.119,52.144,69.399,Sachsen-Anhalt,1,GVzahnsa_k,15
+Gesamt,Männer,Gesamt,182,240,72.295,63.277,79.806,Thüringen,0,GVzahnsa_k,16
+Gesamt,Männer,Gesamt,182,240,72.707,64.194,79.832,Thüringen,1,GVzahnsa_k,16
+Gesamt,Männer,Gesamt,182,271,66.53,57.435,74.543,Hamburg,0,GVzahnsa_k,2
+Gesamt,Männer,Gesamt,182,271,67.216,59.383,74.195,Hamburg,1,GVzahnsa_k,2
+Gesamt,Männer,Gesamt,238,332,64.68,56.401,72.162,Schleswig-Holstein,0,GVzahnsa_k,1
+Gesamt,Männer,Gesamt,238,332,67.325,59.499,74.293,Schleswig-Holstein,1,GVzahnsa_k,1
+Gesamt,Männer,Gesamt,269,378,66.021,58.485,72.826,Brandenburg,0,GVzahnsa_k,12
+Gesamt,Männer,Gesamt,269,378,67.041,59.243,74.002,Brandenburg,1,GVzahnsa_k,12
+Gesamt,Männer,Gesamt,321,461,64.68,57.719,71.069,Rheinland-Pfalz,0,GVzahnsa_k,7
+Gesamt,Männer,Gesamt,321,461,64.945,57.767,71.505,Rheinland-Pfalz,1,GVzahnsa_k,7
+Gesamt,Männer,Gesamt,334,460,69.302,62.704,75.195,Sachsen,0,GVzahnsa_k,14
+Gesamt,Männer,Gesamt,334,460,70.758,64.114,76.621,Sachsen,1,GVzahnsa_k,14
+Gesamt,Männer,Gesamt,501,692,69.052,63.757,73.891,Hessen,0,GVzahnsa_k,6
+Gesamt,Männer,Gesamt,501,692,69.424,64.176,74.212,Hessen,1,GVzahnsa_k,6
+Gesamt,Männer,Gesamt,615,851,70.665,65.928,74.993,Saarland,0,GVzahnsa_k,10
+Gesamt,Männer,Gesamt,615,851,71.091,66.099,75.619,Saarland,1,GVzahnsa_k,10
+Gesamt,Männer,Gesamt,635,875,65.14,60.028,69.926,Niedersachsen,0,GVzahnsa_k,3
+Gesamt,Männer,Gesamt,635,875,66.392,61.234,71.187,Niedersachsen,1,GVzahnsa_k,3
+Gesamt,Männer,Gesamt,650,916,67.239,62.135,71.965,Berlin,1,GVzahnsa_k,11
+Gesamt,Männer,Gesamt,650,916,67.382,62.088,72.267,Berlin,0,GVzahnsa_k,11
+Gesamt,Männer,Gesamt,895,1236,69.798,65.901,73.429,Baden-Württemberg,1,GVzahnsa_k,8
+Gesamt,Männer,Gesamt,895,1236,70.228,66.449,73.749,Baden-Württemberg,0,GVzahnsa_k,8
+Gesamt,Männer,Gesamt,1042,1389,72.461,68.905,75.754,Bayern,1,GVzahnsa_k,9
+Gesamt,Männer,Gesamt,1042,1389,72.649,69.163,75.878,Bayern,0,GVzahnsa_k,9
+Gesamt,Männer,Gesamt,1383,1989,63.004,59.639,66.248,Nordrhein-Westfalen,0,GVzahnsa_k,5
+Gesamt,Männer,Gesamt,1383,1989,63.234,59.818,66.521,Nordrhein-Westfalen,1,GVzahnsa_k,5
+Gesamt,Männer,Gesamt,7630,10658,67.304,65.874,68.702,Deutschland,0,GVzahnsa_k,0
+Gesamt,Männer,Hoch,4785,6370,75.899,74.548,77.201,Deutschland,0,GVzahnsa_k,0
+Gesamt,Männer,Hoch,4785,6370,77.49,76.098,78.823,Deutschland,1,GVzahnsa_k,0
+Gesamt,Männer,Mittel,2540,3780,65.531,63.527,67.48,Deutschland,0,GVzahnsa_k,0
+Gesamt,Männer,Mittel,2540,3780,65.681,63.652,67.654,Deutschland,1,GVzahnsa_k,0
+Gesamt,Männer,Niedrig,284,475,54.885,49.394,60.259,Deutschland,1,GVzahnsa_k,0
+Gesamt,Männer,Niedrig,284,475,56.301,50.913,61.545,Deutschland,0,GVzahnsa_k,0
 18 - 29 Jahre,Frauen,Gesamt,820,900,87.163,83.483,90.121,Deutschland,0,GZmehm1_k,0
 18 - 29 Jahre,Gesamt,Gesamt,1922,2101,87.417,85.069,89.441,Deutschland,0,GZmehm1_k,0
 18 - 29 Jahre,Männer,Gesamt,1092,1188,88.295,85.18,90.827,Deutschland,0,GZmehm1_k,0

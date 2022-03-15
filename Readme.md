@@ -293,6 +293,30 @@ Obst und Gemüsesäfte enthalten wichtige Vitamine und Mineralstoffe, jedoch hä
  
 >[Rabenberg M, Mensink GBM (2013) Limo, Saft & Co – Konsum zuckerhaltiger Getränke in Deutschland. GBE kompakt 1/2013. 4. Robert Koch-Institut, Berlin.](https://edoc.rki.de/handle/176904/3111)
 
+#### 'GVzahnsa_k' - Mundgesundheit
+ 
+Selbstangaben der Befragten: „Wie würden Sie den Zustand Ihrer Zähne und Ihres Zahnfleischs beschreiben?“
+ 
+Antwortmöglichkeiten: „Sehr gut“, „Gut“, „Mittelmäßig“, „Schlecht“, „Sehr schlecht“. 
+
+Für die Analysen wurde eine Dichotomisierung der Antwortkategorien in „sehr gut/gut“ vs. „mittelmäßig/schlecht/sehr schlecht“ vorgenommen.
+ 
+##### **Ergebnisse - Mundgesundheit**
+ 
+Mundgesundheit ist ein zentraler Bestandteil der allgemeinen Gesundheit und von großer Bedeutung für Wohlbefinden und Lebensqualität. 
+
+Fast drei Viertel der Erwachsenen (71,3 %) schätzten ihre Mundgesundheit als sehr gut oder gut ein, etwas mehr als ein Viertel (28,7 %) als mittelmäßig bis sehr schlecht. 
+
+Männer (32,7 %) berichteten häufiger eine mittelmäßige bis sehr schlechte Mundgesundheit als Frauen (24,9 %). 
+
+Mit zunehmendem Alter stieg der Anteil derjenigen, die eine mittelmäßige bis sehr schlechte Mundgesundheit berichteten, deutlich an und stagnierte ab dem Alter von 45 Jahren auf hohem Niveau. 
+
+Zudem zeigte sich ein ausgeprägter Bildungsgradient: Personen der unteren Bildungsgruppe (38,4 %) schätzten ihre Mundgesundheit häufiger als mittelmäßig bis sehr schlecht ein als Personen der mittleren und der oberen Bildungsgruppe (29,1 % bzw. 20,4 %). 
+
+Es zeigten sich keine statistisch bedeutsamen Unterschiede nach Bundesländern.
+ 
+>[Krause L, Seeling S, Starker A (2021) Selbstwahrgenommene Mundgesundheit und assoziierte Faktoren bei Erwachsenen in Deutschland. Ergebnisse aus GEDA 2019/2020-EHIS. Bundesgesundheitsbl 64: 967–976. https://doi.org/10.1007/s00103-021-03376-z](https://www.springermedizin.de/selbstwahrgenommene-mundgesundheit-und-assoziierte-faktoren-bei-/19339542?fulltextView=true)
+
 #### `GZmehm1_k` - Subjektive Gesundheit
  
 Selbstangaben der Befragten: „Wie ist Ihr Gesundheitszustand im Allgemeinen?“. 
