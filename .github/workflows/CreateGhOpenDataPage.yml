@@ -1,13 +1,13 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Create OpenData GH-Page
+name: Create OpenDataSet WebPage
 
 # Controls when the workflow will run
 on:
   workflow_dispatch: 
   # Triggers the workflow on push or pull request events but only for the master branch
-  #push:
-  #  branches: [ master ]
+  # push:
+  #   branches: [ master ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -17,15 +17,21 @@ jobs:
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:      
+    steps:     
+      - name: Fetch Repo Name
+        id: repo-name
+        run: echo "::set-output name=value::$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')"
+        
       - name: Pull OpenDataPage
-        # run: git clone https://github.com/whoohoo86/gh-open-data-page.git
         uses: actions/checkout@v2
         with:
           repository: 'whoohoo86/gh-open-data-page'
+          ref: '77aca803b165116b9da49a4efe10b1250d5dfa20'
+          # Stable desing commit ref
         
       - name: Create datasource.json
-        uses: whoohoo86/gh-open-data-page-ds-action@master
+        uses: whoohoo86/gh-open-data-page-ds-action@cc76faa86561b3a7e3a10e65ddfb9675e5871ab9
+        # Stable desing commit ref
         with:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           CWD:  ${{ github.workspace }}
@@ -43,4 +49,4 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE
           npm install
-          npm run ng -- deploy --repo=https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell.git --base-href=/Gesundheit_in_Deutschland_Aktuell/ --name="HannesWuensche" --email=wuenscheh@rki.de
+          npm run ng -- deploy --repo=https://github.com/$GITHUB_REPOSITORY.git --base-href=/${{ steps.repo-name.outputs.value }}/ --name=RKIOpenData --email=OpenData@rki.de --branch=open-data-website
