@@ -109,7 +109,7 @@ Die GEDA Daten enthalten die in der folgenden Tabelle abgebildeten Variablen und
 |--------- | -------------- | ---------------------------------------- | -------------- |
 | Altersgruppe |   Text      | `18  -  29 Jahre`<br/>`30 - 44 Jahre`<br/>`45 - 64 Jahre`<br/>`65+`<br/>`50 - 54 Jahre`<br/>`55 - 59 Jahre`<br/>`60 - 64 Jahre`<br/>`65 - 79 Jahre`<br/>`80+`<br/>`Gesamt` | Altersgruppe der Studienteilnehmer:innen |
 | Gender       |   Text      | `Frauen`<br/>`Männer`<br/>`Gesamt`      | Geschlechtsidentität der Studienteilnehmer:innen |
-| Bildungsgruppe      |   Text      | `Untere`<br/>`Mittlere`<br/>`Obere` <br/>`Gesammt`    | Bildungsabschluss kodiert nach ISCED11 (Internationale Standardklassifikation des Bildungswesens) der Studienteilnehmer:innen |
+| Bildungsgruppe      |   Text      | `Untere`<br/>`Mittlere`<br/>`Obere` <br/>`Gesamt`    | Bildungsabschluss kodiert nach ISCED11 (Internationale Standardklassifikation des Bildungswesens) der Studienteilnehmer:innen |
 | Frequency | Natürliche Zahl | `>0`  | Fälle innerhalb der Stichprobe, ungewichtet|
 | Frequency_ges | Natürliche Zahl | `>0`  | Gesamtumfang der Stichprobe, ungewichtet|
 | Percent   | Rationale Zahl | [`0.000` ; `100.000`] | Mittelwert des Anteils der Fälle innerhalb der Stichprobe  |
