@@ -1,24 +1,23 @@
-# This is a basic workflow to help you get started with Actions
+name: Bulild and deploy OpenData website
 
-name: Create OpenData-Website
-
-# Controls when the workflow will run
 on:
-  workflow_dispatch: 
-  # Triggers the workflow on push or pull request events but only for the master branch
-  # push:
-  #   branches: [ main ]
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Release new version on Github and Zenodo"]
+    types:
+      - completed
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
+    name: Bulid and deploy OpenData Website
     runs-on: ubuntu-latest
     
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:  
-    - name: Create and deploy OpenData Website
+    - name: Bulid and deploy OpenData Website
       uses: robert-koch-institut/OpenData-Website@main
       with:
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}   
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}   
