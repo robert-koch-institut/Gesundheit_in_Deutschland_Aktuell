@@ -11,7 +11,7 @@ Abteilung für Epidemiologie und Gesundheitsmonitoring
 
 ---
 
-Robert Koch-Institut (2022): Gesundheit in Deutschland aktuell - GEDA 2019/2020-EHIS, Berlin: Zenodo. DOI:[10.5281/zenodo.6036771](https://doi.org/10.5281/zenodo.6036771).  
+Robert Koch-Institut (2022): Gesundheit in Deutschland aktuell - GEDA 2019/2020-EHIS, Berlin: Zenodo. DOI:[10.5281/zenodo.6364944](https://doi.org/10.5281/zenodo.6364944).  
 
 Der Datensatz "Gesundheit in Deutschland aktuell GEDA 2019/2020-EHIS" ist lizensiert unter der [Creative Commons Namensnennung 4.0 International Public License |](https://creativecommons.org/licenses/by/4.0/deed.de) <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">CC-BY 4.0 International</a>
 
@@ -1048,12 +1048,15 @@ Darüber hinaus können die Scientific Usefiles der Studie auf [Antrag beim Epid
 https://www.rki.de/DE/Content/Forsch/FDZ/Datenangebot/GEDA_inhalt.html
 
 ### Metadaten
+Zur Erhöhung der Auffindbarkeit, sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadaten-Ordner hinterlegt:
 
-Die bereitgestellten Daten sind mit Metadaten beschrieben und wissenschaftlich zitierbar, u.a. durch die Vergabe einer DOI durch Zenodo.org. Die für den Import in Zenodo bereitgestellten Metadaten sind in folgender Datei hinterlegt:  
+> [Metadaten/](/Metadaten/)  
 
-> [.zenodo.json](/.zenodo.json)  
+Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.   
+Über die Metadaten der [nfdi4health.json](/Metadaten/nfdi4health.json) erlogt die Integration in den NFDI4Health StudyHub.
 
-Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.
+> [Metadaten/zenodo.json](/Metadaten/zenodo.json)  
+> [Metadaten/nfdi4health.json](/Metadaten/nfdi4health.json)
 
 ### Lizenz
 

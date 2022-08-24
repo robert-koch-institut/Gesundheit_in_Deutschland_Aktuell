@@ -1,0 +1,439 @@
+{
+  "data": {
+    "type": "studyhub_resources",
+    "attributes": {
+      "commit_button": "Submit",
+      "resource": {
+        "resource_type": "Study",
+        "resource_type_general": "Standard",
+        "resource_version": "",
+        "resource_format": "",
+        "resource_use_rights_label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)",
+        "resource_use_rights_description": "",
+        "resource_web_page": "https://robert-koch-institut.github.io/Gesundheit_in_Deutschland_Aktuell/",
+        "resource_language": [
+          "DE (German)"
+        ],
+        "resource_titles": [
+          {
+            "title": "German Health Update 2019/2020-EHIS",
+            "title_language": "EN (English)"
+          },
+          {
+            "title": "Gesundheit in Deutschland aktuell 2019/2020-EHIS",
+            "title_language": "DE (German)"
+          }
+        ],
+        "resource_acronyms": [
+          {
+            "acronym": "GEDA 2019/2020-EHIS",
+            "acronym_language": "EN (English)"
+          },
+          {
+            "acronym": "GEDA 2019/2020-EHIS",
+            "acronym_language": "DE (German)"
+          }
+        ],
+        "resource_keywords": [
+          {
+            "resource_keywords_label": "Verhaltensweise",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Behavior",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Inanspruchnahme von Gesundheitseinrichtungen",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Health Care Utilization",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Vorsorgemedizin",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Preventive Medicine",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Physisches Training",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Koerperliche Aktivitaet",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Physical Activities",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Ernaehrungserhebung",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Nutrition Surveys",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Alkoholkonsum",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Alcohol Drinking",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Rauchen",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Smoking",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Fettleibigkeit",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Adipositas",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Adiposity",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Koerpergewicht",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Body Weight",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Krankheitsmerkmale",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Disease Attributes",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Schlaganfall",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Stroke",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Asthma bronchiale",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Asthma",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Allergie",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Allergy",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Bronchitis, chronische",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Bronchitis, Chronic",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Gelenkentzuendung",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Arthritis",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Diabetes Mellitus",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Koronare Herzkrankheit",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Coronary Heart Disease",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Depressive Stoerung",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Depressive Disorder",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Deutschland",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Germany",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Oeffentliche Gesundheit",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Public Health",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "GEDA",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "EHIS",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "RKI",
+            "resource_keywords_label_code": ""
+          }
+        ],
+        "resource_descriptions": [
+          {
+            "description": "Die Studie 'Gesundheit in Deutschland aktuell' (GEDA) ist eine Querschnittbefragung der deutschsprachigen erwachsenen Wohnbevölkerung im Alter ab 15 Jahren, die regelmäßig vom Robert Koch-Institut als Komponente des bundesweiten Gesundheitsmonitorings durchgeführt wird. Für die Welle GEDA 2019/2020-EHIS hat das Robert Koch-Institut in seiner Funktion als nationale datenliefernde Stelle die europäische Gesundheitsbefragung – European Health Interview Survey (EHIS) – durchgeführt. Die entsprechenden Daten werden an Eurostat gemeldet und weitergegeben. Die Durchführung der EHIS-Befragung ist über eine Europäische Rechtsverordnung geregelt (EU Kommission, 2013). Die EHIS-Befragung hat das Ziel, vergleichbare Gesundheitsdaten der EU Mitgliedsstaaten zu liefern und damit Trendbetrachtungen in der Entwicklung von Gesundheitsindikatoren im europäischen Raum (EU 28) zu ermöglichen. Das EHIS-Befragungsinstrument ist in die GEDA-Welle 2019/2020 integriert worden. <br/>Da die Durchführung der Europäischen Gesundheitsbefragung Aufgabe der einzelnen Mitgliedsstaaten ist und es daher diesen obliegt, Details der Stichprobenplanung, der Übersetzung und Operationalisierung der Fragen sowie der Erhebungsmethodik selbst zu gestalten, hat Eurostat in einem methodischen Manual die grundlegenden Anforderungen definiert (Eurostat, 2013).<br/>Ziel der GEDA-Studie ist es, aktuelle Informationen zum Gesundheitszustand, zu Einflussfaktoren der gesundheitlichen Lage und zur Nutzung des Gesundheitssystems bereitzustellen. Als insgesamt fünfte Welle der GEDA-Studie wurde GEDA 2019/2020-EHIS zwischen April 2019 und September 2020 durchgeführt. Die Zielpopulation der Studie bildet für EHIS die deutschsprachige Wohnbevölkerung der Bundesrepublik Deutschland ab 15 Jahren ab, die in Privathaushalten lebt. Im Datensatz ist im Gegensatz zu den früheren GEDA-Studien die Bevölkerung ab 15 (statt 18) Jahren enthalten. GEDA 2019/2020-EHIS wurde als Telefoninterview durchgeführt. Die Datenerhebung erfolgte als standardisiertes computergestütztes telefonisches Interview per Festnetznummer oder per Mobilfunknummer.",
+            "description_language": "DE (German)"
+          },
+          {
+            "description": "",
+            "description_language": "EN (English)"
+          }
+        ],
+        "resource_use_rights_authors_confirmation_1": true,
+        "resource_use_rights_authors_confirmation_2": true,
+        "resource_use_rights_authors_confirmation_3": true,
+        "resource_use_rights_support_by_licencing": true,
+        "roles": [
+          {
+            "role_type": "Contact person",
+            "role_name_type": "Organisational",
+            "role_email": "fdz@rki.de",
+            "role_phone": "0049 30 187543100",
+            "role_affiliation_name": "Robert Koch Institute",
+            "role_affiliation_address": "Nordufer 20, 13353 Berlin",
+            "role_affiliation_web_page": "https://www.rki.de",
+            "role_affiliation_identifiers": [
+              {
+                "role_affiliation_identifier": "01k5qnb77",
+                "role_affiliation_identifier_scheme": "ROR"
+              }
+            ],
+            "role_name_organisational": "Unit 21 | Epidemiological Data Centre"
+          },
+          {
+            "role_type": "Data manager",
+            "role_name_type": "Personal",
+            "role_email": "",
+            "role_phone": "",
+            "role_affiliation_name": "Robert Koch Institute",
+            "role_affiliation_address": "Nordufer 20, 13353 Berlin",
+            "role_affiliation_web_page": "https://www.rki.de",
+            "role_affiliation_identifiers": [
+              {
+                "role_affiliation_identifier": "01k5qnb77",
+                "role_affiliation_identifier_scheme": "ROR"
+              }
+            ],
+            "role_name_personal_given_name": "Ronny",
+            "role_name_personal_family_name": "Kuhnert",
+            "role_name_personal_title": "Mr.",
+            "role_name_identifiers": [
+              {
+                "role_name_identifier": "0000-0001-6617-8475",
+                "role_name_identifier_scheme": "ORCID"
+              }
+            ]
+          },
+          {
+            "role_type": "Project leader",
+            "role_name_type": "Personal",
+            "role_email": "",
+            "role_phone": "",
+            "role_affiliation_name": "Robert Koch Institute",
+            "role_affiliation_address": "Nordufer 20, 13353 Berlin",
+            "role_affiliation_web_page": "https://www.rki.de",
+            "role_affiliation_identifiers": [
+              {
+                "role_affiliation_identifier": "01k5qnb77",
+                "role_affiliation_identifier_scheme": "ROR"
+              }
+            ],
+            "role_name_personal_given_name": "Jennifer",
+            "role_name_personal_family_name": "Allen",
+            "role_name_personal_title": "Ms.",
+            "role_name_identifiers": [
+              {
+                "role_name_identifier": "0000-0002-9201-1801",
+                "role_name_identifier_scheme": "ORCID"
+              }
+            ]
+          }
+        ],
+        "ids": [
+          {
+            "id_identifier": "10.5281/zenodo.6364944",
+            "id_date": "",
+            "id_type": "DOI",
+            "id_relation_type": "has part",
+            "id_resource_type_general": "Dataset"
+          },
+          {
+            "id_identifier": "176904/8750.2",
+            "id_date": "",
+            "id_type": "DOI",
+            "id_relation_type": "is described by",
+            "id_resource_type_general": "Journal article"
+          },
+          {
+            "id_identifier": "10.25646/8456",
+            "id_date": "",
+            "id_type": "DOI",
+            "id_relation_type": "is described by",
+            "id_resource_type_general": "Journal article"
+          },
+          {
+            "id_identifier": "10.25646/8554",
+            "id_date": "",
+            "id_type": "DOI",
+            "id_relation_type": "is described by",
+            "id_resource_type_general": "Journal article"
+          },
+          {
+            "id_identifier": "10.25646/8558",
+            "id_date": "",
+            "id_type": "DOI",
+            "id_relation_type": "is described by",
+            "id_resource_type_general": "Journal article"
+          },
+          {
+            "id_identifier": "https://public.tableau.com/app/profile/robert.koch.institut/viz/Gesundheit_in_Deutschland_aktuell/GEDA_20192020-EHIS",
+            "id_date": "",
+            "id_type": "URL",
+            "id_relation_type": "is described by",
+            "id_resource_type_general": "Report"
+          }
+        ],
+        "provenance": {
+          "data_source": ""
+        },
+        "study_design": {
+          "study_primary_design": "Non-interventional",
+          "study_type": "Cross-section",
+          "study_type_description": "",
+          "study_conditions": [
+            {
+              "study_conditions": "health status",
+              "study_conditions_classification": "ICD-10",
+              "study_conditions_classification_code": ""
+            },
+            {
+              "study_conditions": "health care use",
+              "study_conditions_classification": "ICD-10",
+              "study_conditions_classification_code": ""
+            },
+            {
+              "study_conditions": "health determinants",
+              "study_conditions_classification": "ICD-10",
+              "study_conditions_classification_code": ""
+            }
+          ],
+          "study_ethics_commitee_approval": "Request submitted, approval granted",
+          "study_status": "Completed: Recruitment, data collection, and data quality management completed normally",
+          "study_status_enrolling_by_invitation": "No",
+          "study_status_when_intervention": "",
+          "study_status_halted_stage": "",
+          "study_status_halted_reason": "",
+          "study_recruitment_status_register": "",
+          "study_start_date": "01.04.2019",
+          "study_end_date": "30.09.2022",
+          "study_country": [
+            "Germany"
+          ],
+          "study_region": "",
+          "study_centers": "",
+          "study_centers_number": null,
+          "study_subject": "Person",
+          "study_sampling": "Probability",
+          "study_data_source": [
+            "Questionnaire"
+          ],
+          "study_data_source_description": "",
+          "study_eligibility_age_min": 15,
+          "study_eligibility_age_min_description": "",
+          "study_eligibility_age_max": -1,
+          "study_eligibility_age_max_description": "",
+          "study_eligibility_gender": [
+            "Male",
+            "Female",
+            "Diverse"
+          ],
+          "study_eligibility_inclusion_criteria": "German-speaking population aged 15 and older living in private households",
+          "study_eligibility_exclusion_criteria": "Persons living in collective households and in institutions",
+          "study_population": "",
+          "study_target_sample_size": 22631,
+          "study_obtained_sample_size": 23001,
+          "study_age_min_examined": null,
+          "study_age_min_examined_description": "",
+          "study_age_max_examined": null,
+          "study_age_max_examined_description": "",
+          "study_hypothesis": "",
+          "study_outcomes": [],
+          "study_design_comment": "",
+          "study_data_sharing_plan_generally": "Yes, there is a plan to make data available.",
+          "study_data_sharing_plan_description": "EHIS microdata are available to researchers carrying out statistical analyses for scientific purposes by EUROSTAT. The microdata do not contain any administrative information such as names or addresses that would allow direct identification.",
+          "study_data_sharing_plan_supporting_information": [
+            "Data dictionary",
+            "Other"
+          ],
+          "study_data_sharing_plan_time_frame": "2022",
+          "study_data_sharing_plan_access_criteria": "Information on data details relevant for research project proposals: https://ec.europa.eu/eurostat/web/microdata/european-health-interview-survey",
+          "study_data_sharing_plan_url": "https://ec.europa.eu/eurostat/documents/203647/771732/How_to_apply_for_microdata_access.pdf",
+          "non_interventional_study_design": {
+            "study_time_perspective": [
+              "Cross-sectional"
+            ],
+            "study_target_follow-up_duration": null,
+            "study_biospecimen_retention": [
+              "None retained"
+            ],
+            "study_biospecomen_description": ""
+          }
+        }
+      }
+    },
+    "relationships": {
+      "projects": {
+        "data": [
+          {
+            "id": "1",
+            "type": "projects"
+          }
+        ]
+      }
+    },
+    "id": 226
+  }
+}
