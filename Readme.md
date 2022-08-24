@@ -11,7 +11,7 @@ Abteilung für Epidemiologie und Gesundheitsmonitoring
 
 ---
 
-Robert Koch-Institut (2022): Gesundheit in Deutschland aktuell - GEDA 2019/2020-EHIS, Berlin: Zenodo. DOI:[10.5281/zenodo.6364944](https://doi.org/10.5281/zenodo.6364944).  
+Robert Koch-Institut (2022): Gesundheit in Deutschland aktuell - GEDA 2019/2020-EHIS, Berlin: Zenodo. DOI:[10.5281/zenodo.7018526](https://doi.org/10.5281/zenodo.7018526).  
 
 Der Datensatz "Gesundheit in Deutschland aktuell GEDA 2019/2020-EHIS" ist lizensiert unter der [Creative Commons Namensnennung 4.0 International Public License |](https://creativecommons.org/licenses/by/4.0/deed.de) <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">CC-BY 4.0 International</a>
 

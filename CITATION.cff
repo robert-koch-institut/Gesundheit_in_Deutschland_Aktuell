@@ -5,12 +5,12 @@ authors:
   - name: Robert Koch-Institut
     email: info@rki.de
 licence: CC-BY-4.0
-doi: 10.5281/zenodo.6364944
+doi: 10.5281/zenodo.7018526
 abstract: >-
   Die Studie 'Gesundheit in Deutschland aktuell' (GEDA) ist eine Querschnittbefragung der deutschsprachigen erwachsenen Wohnbevölkerung im Alter ab 15 Jahren, die regelmäßig vom Robert Koch-Institut als Komponente des bundesweiten Gesundheitsmonitorings durchgeführt wird. Für die Welle GEDA 2019/2020-EHIS hat das Robert Koch-Institut in seiner Funktion als nationale datenliefernde Stelle die europäische Gesundheitsbefragung – European Health Interview Survey (EHIS) – durchgeführt. Die entsprechenden Daten werden an Eurostat gemeldet und weitergegeben. Die Durchführung der EHIS-Befragung ist über eine Europäische Rechtsverordnung geregelt (EU Kommission, 2013). Die EHIS-Befragung hat das Ziel, vergleichbare Gesundheitsdaten der EU Mitgliedsstaaten zu liefern und damit Trendbetrachtungen in der Entwicklung von Gesundheitsindikatoren im europäischen Raum (EU 28) zu ermöglichen. Das EHIS-Befragungsinstrument ist in die GEDA-Welle 2019/2020 integriert worden. <br/>Da die Durchführung der Europäischen Gesundheitsbefragung Aufgabe der einzelnen Mitgliedsstaaten ist und es daher diesen obliegt, Details der Stichprobenplanung, der Übersetzung und Operationalisierung der Fragen sowie der Erhebungsmethodik selbst zu gestalten, hat Eurostat in einem methodischen Manual die grundlegenden Anforderungen definiert (Eurostat, 2013).<br/>Ziel der GEDA-Studie ist es, aktuelle Informationen zum Gesundheitszustand, zu Einflussfaktoren der gesundheitlichen Lage und zur Nutzung des Gesundheitssystems bereitzustellen. Als insgesamt fünfte Welle der GEDA-Studie wurde GEDA 2019/2020-EHIS zwischen April 2019 und September 2020 durchgeführt. Die Zielpopulation der Studie bildet für EHIS die deutschsprachige Wohnbevölkerung der Bundesrepublik Deutschland ab 15 Jahren ab, die in Privathaushalten lebt. Im Datensatz ist im Gegensatz zu den früheren GEDA-Studien die Bevölkerung ab 15 (statt 18) Jahren enthalten. GEDA 2019/2020-EHIS wurde als Telefoninterview durchgeführt. Die Datenerhebung erfolgte als standardisiertes computergestütztes telefonisches Interview per Festnetznummer oder per Mobilfunknummer.	
 date-released: "2022-04-07"
 licence: CC-BY-4.0
-doi: 10.5281/zenodo.6364944
+doi: 10.5281/zenodo.7018526
 version: 2022-04-07
 keywords:
   - Verhaltensweise
