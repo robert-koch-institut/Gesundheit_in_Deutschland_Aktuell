@@ -5344,6 +5344,135 @@ Gesamt,Mittlere,Männer,2377,3771,61.091,59.055,63.089,Deutschland,0,PAueberB,0
 Gesamt,Mittlere,Männer,2377,3771,61.336,59.277,63.355,Deutschland,1,PAueberB,0
 Gesamt,Untere,Männer,265,467,61.313,56.048,66.327,Deutschland,0,PAueberB,0
 Gesamt,Untere,Männer,265,467,65.452,60.182,70.367,Deutschland,1,PAueberB,0
+18 - 29 Jahre,Gesamt,Frauen,62,884,7.193,5.209,9.854,Deutschland,0,PAunterB,0
+18 - 29 Jahre,Gesamt,Gesamt,90,2073,4.757,3.672,6.142,Deutschland,0,PAunterB,0
+18 - 29 Jahre,Gesamt,Männer,28,1176,2.737,1.804,4.133,Deutschland,0,PAunterB,0
+30 - 44 Jahre,Gesamt,Frauen,70,1866,4.133,2.959,5.744,Deutschland,0,PAunterB,0
+30 - 44 Jahre,Gesamt,Gesamt,82,3722,2.756,2.026,3.739,Deutschland,0,PAunterB,0
+30 - 44 Jahre,Gesamt,Männer,12,1846,1.416,0.698,2.85,Deutschland,0,PAunterB,0
+45 - 64 Jahre,Gesamt,Frauen,107,4739,1.969,1.516,2.554,Deutschland,0,PAunterB,0
+45 - 64 Jahre,Gesamt,Gesamt,126,8864,1.475,1.123,1.935,Deutschland,0,PAunterB,0
+45 - 64 Jahre,Gesamt,Männer,19,4108,0.997,0.535,1.85,Deutschland,0,PAunterB,0
+65 + Jahre,Gesamt,Frauen,107,4247,2.563,1.854,3.533,Deutschland,0,PAunterB,0
+65 + Jahre,Gesamt,Gesamt,122,7755,1.617,1.197,2.18,Deutschland,0,PAunterB,0
+65 + Jahre,Gesamt,Männer,14,3488,0.43,0.199,0.929,Deutschland,0,PAunterB,0
+Gesamt,Gesamt,Frauen,3,82,4.813,1.372,15.53,Bremen,1,PAunterB,4
+Gesamt,Gesamt,Frauen,3,82,7.621,2.193,23.282,Bremen,0,PAunterB,4
+Gesamt,Gesamt,Frauen,4,228,2.463,0.805,7.287,Mecklenburg-Vorpommern,0,PAunterB,13
+Gesamt,Gesamt,Frauen,4,228,2.551,0.823,7.627,Mecklenburg-Vorpommern,1,PAunterB,13
+Gesamt,Gesamt,Frauen,4,460,0.695,0.236,2.027,Sachsen,0,PAunterB,14
+Gesamt,Gesamt,Frauen,4,460,1.006,0.309,3.222,Sachsen,1,PAunterB,14
+Gesamt,Gesamt,Frauen,5,261,2,0.788,4.983,Thüringen,0,PAunterB,16
+Gesamt,Gesamt,Frauen,5,261,2.445,0.979,5.972,Thüringen,1,PAunterB,16
+Gesamt,Gesamt,Frauen,5,422,2.005,0.465,8.23,Brandenburg,0,PAunterB,12
+Gesamt,Gesamt,Frauen,5,422,2.201,0.478,9.544,Brandenburg,1,PAunterB,12
+Gesamt,Gesamt,Frauen,8,358,2.231,0.943,5.189,Hamburg,0,PAunterB,2
+Gesamt,Gesamt,Frauen,8,358,2.288,0.966,5.323,Hamburg,1,PAunterB,2
+Gesamt,Gesamt,Frauen,8,398,2.144,0.877,5.146,Schleswig-Holstein,0,PAunterB,1
+Gesamt,Gesamt,Frauen,8,398,2.567,0.965,6.655,Schleswig-Holstein,1,PAunterB,1
+Gesamt,Gesamt,Frauen,10,271,5.146,2.364,10.838,Sachsen-Anhalt,0,PAunterB,15
+Gesamt,Gesamt,Frauen,10,271,5.995,2.886,12.038,Sachsen-Anhalt,1,PAunterB,15
+Gesamt,Gesamt,Frauen,16,904,3.038,1.639,5.561,Niedersachsen,0,PAunterB,3
+Gesamt,Gesamt,Frauen,16,904,3.142,1.678,5.808,Niedersachsen,1,PAunterB,3
+Gesamt,Gesamt,Frauen,19,491,4.901,2.362,9.893,Rheinland-Pfalz,0,PAunterB,7
+Gesamt,Gesamt,Frauen,19,491,5.415,2.549,11.133,Rheinland-Pfalz,1,PAunterB,7
+Gesamt,Gesamt,Frauen,25,719,3.482,2.037,5.89,Hessen,0,PAunterB,6
+Gesamt,Gesamt,Frauen,25,719,3.546,2.079,5.984,Hessen,1,PAunterB,6
+Gesamt,Gesamt,Frauen,32,1089,5.493,3.189,9.302,Saarland,0,PAunterB,10
+Gesamt,Gesamt,Frauen,32,1089,6.143,3.426,10.773,Saarland,1,PAunterB,10
+Gesamt,Gesamt,Frauen,43,1130,4.217,2.833,6.234,Berlin,1,PAunterB,11
+Gesamt,Gesamt,Frauen,43,1130,4.373,2.92,6.502,Berlin,0,PAunterB,11
+Gesamt,Gesamt,Frauen,51,1280,3.857,2.65,5.582,Baden-Württemberg,0,PAunterB,8
+Gesamt,Gesamt,Frauen,51,1280,3.869,2.627,5.664,Baden-Württemberg,1,PAunterB,8
+Gesamt,Gesamt,Frauen,54,1566,2.804,1.988,3.941,Bayern,0,PAunterB,9
+Gesamt,Gesamt,Frauen,54,1566,2.955,2.079,4.185,Bayern,1,PAunterB,9
+Gesamt,Gesamt,Frauen,58,2060,3.978,2.683,5.859,Nordrhein-Westfalen,0,PAunterB,5
+Gesamt,Gesamt,Frauen,58,2060,4.211,2.799,6.288,Nordrhein-Westfalen,1,PAunterB,5
+Gesamt,Gesamt,Frauen,346,11736,3.389,2.883,3.98,Deutschland,0,PAunterB,0
+Gesamt,Obere,Frauen,169,5147,4.406,3.602,5.38,Deutschland,0,PAunterB,0
+Gesamt,Obere,Frauen,169,5147,4.433,3.613,5.429,Deutschland,1,PAunterB,0
+Gesamt,Mittlere,Frauen,143,5740,2.85,2.22,3.652,Deutschland,1,PAunterB,0
+Gesamt,Mittlere,Frauen,143,5741,2.711,2.141,3.427,Deutschland,0,PAunterB,0
+Gesamt,Untere,Frauen,33,825,4.282,2.855,6.376,Deutschland,0,PAunterB,0
+Gesamt,Untere,Frauen,33,825,4.472,2.863,6.922,Deutschland,1,PAunterB,0
+Gesamt,Gesamt,Gesamt,4,174,3.126,1.087,8.658,Bremen,1,PAunterB,4
+Gesamt,Gesamt,Gesamt,4,174,4.415,1.454,12.629,Bremen,0,PAunterB,4
+Gesamt,Gesamt,Gesamt,6,413,2.89,1.142,7.118,Mecklenburg-Vorpommern,1,PAunterB,13
+Gesamt,Gesamt,Gesamt,6,413,3.614,1.343,9.359,Mecklenburg-Vorpommern,0,PAunterB,13
+Gesamt,Gesamt,Gesamt,6,500,1.224,0.528,2.813,Thüringen,0,PAunterB,16
+Gesamt,Gesamt,Gesamt,6,500,1.558,0.677,3.548,Thüringen,1,PAunterB,16
+Gesamt,Gesamt,Gesamt,7,800,1.514,0.512,4.388,Brandenburg,0,PAunterB,12
+Gesamt,Gesamt,Gesamt,7,800,1.675,0.555,4.937,Brandenburg,1,PAunterB,12
+Gesamt,Gesamt,Gesamt,7,920,0.454,0.19,1.081,Sachsen,0,PAunterB,14
+Gesamt,Gesamt,Gesamt,7,920,0.596,0.219,1.614,Sachsen,1,PAunterB,14
+Gesamt,Gesamt,Gesamt,10,729,1.343,0.613,2.915,Schleswig-Holstein,0,PAunterB,1
+Gesamt,Gesamt,Gesamt,10,729,1.515,0.638,3.551,Schleswig-Holstein,1,PAunterB,1
+Gesamt,Gesamt,Gesamt,12,630,1.931,1,3.695,Hamburg,0,PAunterB,2
+Gesamt,Gesamt,Gesamt,12,630,1.951,1.005,3.753,Hamburg,1,PAunterB,2
+Gesamt,Gesamt,Gesamt,13,537,3.549,1.844,6.722,Sachsen-Anhalt,0,PAunterB,15
+Gesamt,Gesamt,Gesamt,13,537,3.934,2.093,7.274,Sachsen-Anhalt,1,PAunterB,15
+Gesamt,Gesamt,Gesamt,19,1778,1.763,1.003,3.08,Niedersachsen,0,PAunterB,3
+Gesamt,Gesamt,Gesamt,19,1778,1.773,1,3.125,Niedersachsen,1,PAunterB,3
+Gesamt,Gesamt,Gesamt,20,953,3.073,1.529,6.081,Rheinland-Pfalz,0,PAunterB,7
+Gesamt,Gesamt,Gesamt,20,953,3.287,1.611,6.589,Rheinland-Pfalz,1,PAunterB,7
+Gesamt,Gesamt,Gesamt,25,1410,1.788,1.047,3.04,Hessen,1,PAunterB,6
+Gesamt,Gesamt,Gesamt,25,1410,1.789,1.044,3.048,Hessen,0,PAunterB,6
+Gesamt,Gesamt,Gesamt,39,1943,3.224,1.948,5.291,Saarland,0,PAunterB,10
+Gesamt,Gesamt,Gesamt,39,1943,3.413,1.98,5.824,Saarland,1,PAunterB,10
+Gesamt,Gesamt,Gesamt,52,2055,3.791,2.532,5.64,Berlin,0,PAunterB,11
+Gesamt,Gesamt,Gesamt,52,2055,3.846,2.49,5.894,Berlin,1,PAunterB,11
+Gesamt,Gesamt,Gesamt,62,2519,2.886,2.043,4.063,Baden-Württemberg,0,PAunterB,8
+Gesamt,Gesamt,Gesamt,62,2519,2.904,2.018,4.163,Baden-Württemberg,1,PAunterB,8
+Gesamt,Gesamt,Gesamt,68,4052,2.525,1.752,3.627,Nordrhein-Westfalen,1,PAunterB,5
+Gesamt,Gesamt,Gesamt,68,4052,2.533,1.773,3.606,Nordrhein-Westfalen,0,PAunterB,5
+Gesamt,Gesamt,Gesamt,69,2963,2.247,1.65,3.053,Bayern,0,PAunterB,9
+Gesamt,Gesamt,Gesamt,69,2963,2.288,1.671,3.124,Bayern,1,PAunterB,9
+Gesamt,Gesamt,Gesamt,420,22414,2.335,2.022,2.695,Deutschland,0,PAunterB,0
+Gesamt,Obere,Gesamt,189,11527,2.054,1.694,2.488,Deutschland,0,PAunterB,0
+Gesamt,Obere,Gesamt,189,11527,2.409,1.981,2.926,Deutschland,1,PAunterB,0
+Gesamt,Mittlere,Gesamt,182,9532,2.049,1.66,2.527,Deutschland,1,PAunterB,0
+Gesamt,Mittlere,Gesamt,182,9533,2.024,1.655,2.474,Deutschland,0,PAunterB,0
+Gesamt,Untere,Gesamt,48,1301,3.481,2.403,5.017,Deutschland,1,PAunterB,0
+Gesamt,Untere,Gesamt,48,1301,3.787,2.707,5.275,Deutschland,0,PAunterB,0
+Gesamt,Gesamt,Männer,0,688,,,,Hessen,0,PAunterB,6
+Gesamt,Gesamt,Männer,0,688,,,,Hessen,1,PAunterB,6
+Gesamt,Gesamt,Männer,1,92,1.232,0.17,8.374,Bremen,0,PAunterB,4
+Gesamt,Gesamt,Männer,1,92,1.76,0.248,11.42,Bremen,1,PAunterB,4
+Gesamt,Gesamt,Männer,1,237,0.46,0.065,3.206,Thüringen,0,PAunterB,16
+Gesamt,Gesamt,Männer,1,237,0.703,0.099,4.824,Thüringen,1,PAunterB,16
+Gesamt,Gesamt,Männer,1,460,1.188,0.168,7.903,Rheinland-Pfalz,1,PAunterB,7
+Gesamt,Gesamt,Männer,1,460,1.191,0.169,7.917,Rheinland-Pfalz,0,PAunterB,7
+Gesamt,Gesamt,Männer,2,182,3.354,0.849,12.332,Mecklenburg-Vorpommern,1,PAunterB,13
+Gesamt,Gesamt,Männer,2,182,5.055,1.294,17.779,Mecklenburg-Vorpommern,0,PAunterB,13
+Gesamt,Gesamt,Männer,2,330,0.464,0.097,2.186,Schleswig-Holstein,1,PAunterB,1
+Gesamt,Gesamt,Männer,2,330,0.498,0.108,2.266,Schleswig-Holstein,0,PAunterB,1
+Gesamt,Gesamt,Männer,2,377,1.026,0.245,4.187,Brandenburg,0,PAunterB,12
+Gesamt,Gesamt,Männer,2,377,1.192,0.282,4.891,Brandenburg,1,PAunterB,12
+Gesamt,Gesamt,Männer,3,264,1.879,0.548,6.24,Sachsen-Anhalt,1,PAunterB,15
+Gesamt,Gesamt,Männer,3,264,1.892,0.576,6.034,Sachsen-Anhalt,0,PAunterB,15
+Gesamt,Gesamt,Männer,3,457,0.197,0.062,0.627,Sachsen,1,PAunterB,14
+Gesamt,Gesamt,Männer,3,457,0.213,0.066,0.68,Sachsen,0,PAunterB,14
+Gesamt,Gesamt,Männer,3,874,0.433,0.128,1.451,Niedersachsen,1,PAunterB,3
+Gesamt,Gesamt,Männer,3,874,0.457,0.132,1.569,Niedersachsen,0,PAunterB,3
+Gesamt,Gesamt,Männer,4,270,1.623,0.586,4.416,Hamburg,0,PAunterB,2
+Gesamt,Gesamt,Männer,4,270,1.633,0.577,4.532,Hamburg,1,PAunterB,2
+Gesamt,Gesamt,Männer,6,850,0.67,0.204,2.177,Saarland,1,PAunterB,10
+Gesamt,Gesamt,Männer,6,850,0.805,0.228,2.805,Saarland,0,PAunterB,10
+Gesamt,Gesamt,Männer,9,914,3.222,1.452,6.999,Berlin,0,PAunterB,11
+Gesamt,Gesamt,Männer,9,914,3.519,1.529,7.892,Berlin,1,PAunterB,11
+Gesamt,Gesamt,Männer,10,1983,0.914,0.417,1.991,Nordrhein-Westfalen,1,PAunterB,5
+Gesamt,Gesamt,Männer,10,1983,1.066,0.469,2.402,Nordrhein-Westfalen,0,PAunterB,5
+Gesamt,Gesamt,Männer,11,1232,1.924,0.934,3.924,Baden-Württemberg,0,PAunterB,8
+Gesamt,Gesamt,Männer,11,1232,1.972,0.914,4.203,Baden-Württemberg,1,PAunterB,8
+Gesamt,Gesamt,Männer,15,1387,1.648,0.896,3.012,Bayern,1,PAunterB,9
+Gesamt,Gesamt,Männer,15,1387,1.699,0.937,3.061,Bayern,0,PAunterB,9
+Gesamt,Gesamt,Männer,73,10618,1.269,0.936,1.719,Deutschland,0,PAunterB,0
+Gesamt,Obere,Männer,19,6352,0.363,0.204,0.648,Deutschland,0,PAunterB,0
+Gesamt,Obere,Männer,19,6352,0.412,0.228,0.743,Deutschland,1,PAunterB,0
+Gesamt,Mittlere,Männer,39,3771,1.262,0.855,1.858,Deutschland,1,PAunterB,0
+Gesamt,Mittlere,Männer,39,3771,1.297,0.884,1.899,Deutschland,0,PAunterB,0
+Gesamt,Untere,Männer,15,467,2.581,1.344,4.901,Deutschland,1,PAunterB,0
+Gesamt,Untere,Männer,15,467,3.145,1.726,5.664,Deutschland,0,PAunterB,0
 18 - 29 Jahre,Gesamt,Frauen,72,888,11.591,8.825,15.08,Deutschland,0,PKPHQ8_k6,0
 18 - 29 Jahre,Gesamt,Gesamt,136,2079,9.67,7.887,11.805,Deutschland,0,PKPHQ8_k6,0
 18 - 29 Jahre,Gesamt,Männer,61,1178,7.283,5.288,9.951,Deutschland,0,PKPHQ8_k6,0
