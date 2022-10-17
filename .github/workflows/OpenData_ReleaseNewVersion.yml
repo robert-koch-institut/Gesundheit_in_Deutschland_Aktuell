@@ -8,8 +8,10 @@ on:
 env:
   zenodo_deposition_id: 6364944
   zenodo_server: 'https://zenodo.org'
-  whitelist_replace_doi: .github/workflows/.zenodo_whitelist_replace_doi
-  whitelist_uploads: .github/workflows/.zenodo_whitelist_uploads
+  zenodo_json: Metadaten/zenodo.json
+  whitelist_replace_doi: .github/workflows/OpenData_ListReplaceDoi
+  whitelist_uploads: .github/workflows/OpenData_ZenodoUploads
+  branch: main
   
 jobs:
   new_zenodo_draft:
@@ -21,7 +23,7 @@ jobs:
     
     steps:
       - name: Create new draft of Zenodo deposition and replace DOI
-        uses: HannesWuensche/zenodo-new-version@df3cad6024415f2a48635424630efb2426fe134c 
+        uses: HannesWuensche/zenodo-new-version@e0dd7918d62495e8d294984293c90b0dd544882f
         id: retrieve_dois
         with:
          zenodo_deposition_id: ${{ env.zenodo_deposition_id }}
@@ -51,7 +53,8 @@ jobs:
       - name: Checkout Repository    
         uses: actions/checkout@v3
         with:
-          ref: main
+          ref: ${{ env.branch }}
+          lfs: true
         
       - name: Replace DOIs in all given files by whitelist_replace_doi
         shell: bash
@@ -79,10 +82,10 @@ jobs:
              fi  
         
       - name: Publish Data and Metadata on Zenodo
-        uses: kykrueger/zenodo-publish@v1.0.3
+        uses: kykrueger/zenodo-publish@v1.0.5
         with:
-          zenodo_metadata: Metadaten/zenodo.json
-          whitelist_uploads: .github/workflows/.zenodo_whitelist_uploads
+          zenodo_metadata: ${{ env.zenodo_json }}
+          whitelist_uploads: ${{ env.whitelist_uploads }}
           zenodo_deposition_id: ${{ env.zenodo_deposition_id }}
           zenodo_server: ${{ env.zenodo_server }}
           zenodo_token: ${{ secrets.ZENODO_TOKEN }}
@@ -105,7 +108,8 @@ jobs:
       - name: Checkout Repository    
         uses: actions/checkout@v3
         with:
-          ref: main
+          ref: ${{ env.branch }}
+          lfs: true
 
       - name: Create Release
         uses: actions/create-release@v1
@@ -113,7 +117,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
         with:
           tag_name: ${{ needs.create_tag.outputs.tag }}
-          release_name: GEDA 2019/2020-EHIS - ${{ needs.create_tag.outputs.tag }}
+          release_name: Datenstand ${{ needs.create_tag.outputs.tag }}
           body: Datenstand ${{ needs.create_tag.outputs.tag }} inklusive aktualisierter Metadaten
           draft: false
           prerelease: false
