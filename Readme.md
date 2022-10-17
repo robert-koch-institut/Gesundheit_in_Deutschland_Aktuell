@@ -13,7 +13,7 @@ Nordufer 20
 
 ---
 
-Robert Koch-Institut (2022): Gesundheit in Deutschland aktuell - GEDA 2019/2020-EHIS, Berlin: Zenodo. DOI:[10.5281/zenodo.7018526](https://doi.org/10.5281/zenodo.7018526). 
+Robert Koch-Institut (2022): Gesundheit in Deutschland aktuell - GEDA 2019/2020-EHIS, Berlin: Zenodo. DOI:[10.5281/zenodo.7214473](https://doi.org/10.5281/zenodo.7214473). 
 
 ## Einleitung und Ziele
 
