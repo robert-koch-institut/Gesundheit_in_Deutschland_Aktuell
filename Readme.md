@@ -1,9 +1,11 @@
 Datensatzbeschreibung
 
-# Gesundheit in Deutschland aktuell <br/> GEDA 2019/2020-EHIS
-[Robert Koch-Institut](https://grid.ac/institutes/grid.13652.33) | RKI  
+# Gesundheit in Deutschland aktuell <br/> GEDA 2019/2020-EHIS  
+ 
+**[Robert Koch-Institut](https://grid.ac/institutes/grid.13652.33) | RKI**  
 Abteilung für Epidemiologie und Gesundheitsmonitoring  
-
+Nordufer 20   
+13353 Berlin  
 
 **FG 21 |  Epidemiologisches Daten- und Befragungszentrum**  
 [Jennifer Allen](https://orcid.org/0000-0002-9201-1801) (Projektleitung)  
@@ -11,9 +13,7 @@ Abteilung für Epidemiologie und Gesundheitsmonitoring
 
 ---
 
-Robert Koch-Institut (2022): Gesundheit in Deutschland aktuell - GEDA 2019/2020-EHIS, Berlin: Zenodo. DOI:[10.5281/zenodo.7018526](https://doi.org/10.5281/zenodo.7018526).  
-
-Der Datensatz "Gesundheit in Deutschland aktuell GEDA 2019/2020-EHIS" ist lizensiert unter der [Creative Commons Namensnennung 4.0 International Public License |](https://creativecommons.org/licenses/by/4.0/deed.de) <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">CC-BY 4.0 International</a>
+Robert Koch-Institut (2022): Gesundheit in Deutschland aktuell - GEDA 2019/2020-EHIS, Berlin: Zenodo. DOI:[10.5281/zenodo.7018526](https://doi.org/10.5281/zenodo.7018526). 
 
 ## Einleitung und Ziele
 
@@ -43,7 +43,7 @@ Von USUMA wurden nur vollständige Interviews geliefert, daher waren die Einschl
 
 ### Teilnehmer:innenzahlen, Altersbereich und Feldphase 
 
-23.001 Teilnehmer:innen im Alter von 15 bis 99 Jahre sind im Datensatz enthalten, davon sind 10.838 männlich und 12.101 weiblich (Variable Gender). Die Feldlaufzeit war vom 04.04.2019 bis zum 05.09.2020. Die ersten 200 Interviews waren als Pretest konzipiert.
+23.001 Teilnehmer:innen im Alter von 15 bis 99 Jahre sind im Datensatz enthalten, davon sind 10.838 männlich und 12.101 weiblich (Variable Gender). Die Feldlaufzeit war vom 04.04.2019 bis zum 05.09.2020. Die ersten 200 Interviews waren als Pretest konzipiert. Für die vorliegenden Analysen wurden die Studienteilnehmer:innen auf 22.708 Personen ab 18 Jahren eingegrenzt
 
 | **Altersgruppe** | **Anzahl** | **Männer** | **Frauen** | **Missing** |
 | ---------------- | ---------- | ---------- | ---------- | ----------- |
@@ -56,9 +56,8 @@ Von USUMA wurden nur vollständige Interviews geliefert, daher waren die Einschl
 | **75 - 84 Jahre**  | 2.966      | 1.277      | 1.680      | 9           |
 | **85+ Jahre**    | 583        | 245        | 334        | 4           |
 | **Gesamt**       | **23.001** | **10.838** | **12.101** | **62**      |
-Tabelle: Teilnehmer:innenzahlen nach Alter und Geschlechtsidentität (Variable gender)
 
-Für die vorliegenden Analysen wurden die Studienteilnehmer:innen auf 22.708 Personen ab 18 Jahren eingegrenzt.
+Tabelle: Teilnehmer:innenzahlen nach Alter und Geschlechtsidentität (Variable gender)
 
 ### Datenprüfungen und Korrekturen
 Die GEDA19-Daten wurden einer umfangreichen Konsistenzprüfung unterzogen. Die Datenprüfung umfasste neben formalen ebenso inhaltliche Aspekte. Hauptkriterium für die Datenprüfung waren die Unterlagen von Eurostat (Methodenmanual und Validation-Rules), wenn die Fragen direkt von EHIS vorgegeben waren. Bei den anderen inhaltlichen Fragen wurde der oder die für den jeweiligen Fragebogenteil Verantwortliche an der Entscheidung, wie mit Implausibilitäten umzugehen ist oder wie codiert werden soll, beteiligt. Konnten widersprüchliche Angaben durch das Fehlen ergänzender Informationen nicht korrigiert werden, wurden diese Angaben in der Dateninfo dokumentiert. Zur Gewährleistung eines einheitlichen Vorgehens bei Datenänderungen wurden allgemeine Regeln zur Datenprüfung und -korrektur abgesprochen. Zudem wurden alle Editieranweisungen in einer Datenbank dokumentiert. Datenänderungen geschahen über eine Reihe von Korrektursyntaxen, so dass alle Änderungen nachvollziehbar und dokumentiert sind.
@@ -82,11 +81,22 @@ Die Daten der Studie sind im Datensatz als kommaseparierte .csv Datei enthalten.
 * Zeichensatz: UTF-8  
 * .csv Trennzeichen: Komma ","  
 
+### Metadaten
+Zur Erhöhung der Auffindbarkeit, sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadaten-Ordner hinterlegt:
+
+> [Metadaten/](/Metadaten/)  
+
+Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.   
+Über die Metadaten der [nfdi4health.json](/Metadaten/nfdi4health.json) erlogt die Integration in den NFDI4Health StudyHub.
+
+> [Metadaten/zenodo.json](/Metadaten/zenodo.json)  
+> [Metadaten/nfdi4health.json](/Metadaten/nfdi4health.json)
+
 ## GEDA Daten 
 
 Die aktuellen Daten der Studie "Gesundheit in Deutschland aktuell" sind im Hauptverzeichnis unter “Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.csv” abrufbar. 
 
-> [Gesundheit_in_Deutschland_aktuell.csv](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell/blob/main/Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.csv)
+> [Gesundheit_in_Deutschland_aktuell_-\_2019-2020-EHIS.csv](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell/blob/main/Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.csv)
 
 ### Variablen
 
@@ -117,7 +127,7 @@ Die GEDA Daten enthalten die in der folgenden Tabelle abgebildeten Variablen und
 | UpperCL   | Rationale Zahl | [`0.000` ; `100.000`] | Obere Grenze des Konfidenzintervalls des Anteils der Fälle innerhalb der Stichprobe |
 | Bundesland|    Text        | `Deutschland`<br/>`Baden-Württemberg`<br/>`Bayern`<br/>`Berlin`<br/>`Brandenburg`<br/>`Bremen`<br/>`Hamburg`<br/>`Hessen`<br/>`Mecklenburg-Vorpommern`<br/>`Niedersachsen`<br/>`Nordrhein-Westfalen`<br/>`Rheinland-Pfalz`<br/>`Saarland`<br/>`Sachsen`<br/>`Sachsen-Anhalt`<br/>`Schleswig-Holstein`<br/>`Thüringen`| Wohnort der Studienteilnehmer:innen, aufgeschlüsselt nach Bundesländern zuzüglich der Ausweisung für das gesamte Bundesgebiet |
 | Standard  |  Boolean       | `0` : nein<br/>`1` : ja| Eine Standardisierung nach Alter und Geschlecht wurde innerhalb der Bundesländer und innerhalb der Bildungsgruppen durchgeführt. Dazu wurde die europäische Standardbevölkerung 2013 verwendet. Damit sind die Bundesländer und die Prävalenzen in den drei Bildungsgruppen hinsichtlich Alter und Geschlecht vergleichbar.  |
-| Indikator |       Text     | `AMarztB`, `Akrausch`, `Akrisiko_k`<br/>`BBdors112`, `BBdors212`, `ENcolaBtgl`<br/>`ENgemDtgl`, `ENobgemtgl`, `ENobstDtgl`<br/>`EnsaftBtgl`, `GVzahnsa_k`, `GZmehm1_k`<br/> `GZmehm2D_k3`,&nbsp;`GZmehm3C`,&nbsp;`IAarzt14B_k`<br/> `IAarzt1B_k`, `IAarzt8C`, `IAcholus_k`<br/> `IAdiabus_k`, `IAfa_k`, `IAhypus_k`<br/> `IAkfutyp2B_lz_k`,&nbsp;`IAkfutyp4B_lz_k2`<br/> `IAther2B`, `Iakhs`,`KAgfa`, `IAnotkhs`<br/> `KAgfkaB`, `KAgfmk`, `KHBBsa12`<br/> `KHab12`, `KHalgi112`, `KHcb12B`<br/> `KHdge12`, `KHdiabB12`, `KHmyokhk12`<br/> `PAadiposB`, `PAnormalB`, `PAueberB`<br/>`PKPHQ8_k6`, `RCpass4B_k2`, `RCstatE_k3`| Gesundheitsindikatoren der Studie. Eine detaillierte Beschreibung der Indikatoren befindet sich im Abschnitt [Indikatorenbeschreibung](#Indiaktorenbeschreibung) |
+| Indikator |       Text     | `AMarztB`, `Akrausch`, `Akrisiko_k`<br/>`BBdors112`, `BBdors212`, `ENcolaBtgl`<br/>`ENgemDtgl`, `ENobgemtgl`, `ENobstDtgl`<br/>`EnsaftBtgl`, `GVzahnsa_k`, `GZmehm1_k`<br/> `GZmehm2D_k3`,&nbsp;`GZmehm3C`,&nbsp;`IAarzt14B_k`<br/> `IAarzt1B_k`, `IAarzt8C`, `IAcholus_k`<br/> `IAdiabus_k`, `IAfa_k`, `IAhypus_k`<br/> `IAkfutyp2B_lz_k`,&nbsp;`IAkfutyp4B_lz_k2`<br/> `IAther2B`, `Iakhs`,`KAgfa`, `IAnotkhs`<br/> `KAgfkaB`, `KAgfmk`, `KHBBsa12`<br/> `KHab12`, `KHalgi112`, `KHcb12B`<br/> `KHdge12`, `KHdiabB12`, `KHmyokhk12`<br/> `PAadiposB`, `PAnormalB`, `PAueberB`<br/> `PAunterB`, `PKPHQ8_k6`, `RCpass4B_k2`<br/> `RCstatE_k3`| Gesundheitsindikatoren der Studie. Eine detaillierte Beschreibung der Indikatoren befindet sich im Abschnitt [Indikatorenbeschreibung](#Indiaktorenbeschreibung) |
 | BundeslandId|    Text       | `00` : Deutschland <br/>`01` bis `16` : Bundesland ID | Identifikationsnummer des Wohnorts der Studienteilnehmer:innen, basierend auf dem Amtlichen Gemeindeschlüssel (AGS). Zusätzlich der Ausweisung für das gesamte Bundesgebiet (`00`) |
 
 ### Indikatorenbeschreibung  
@@ -130,7 +140,7 @@ Selbstangabe der Befragten:
 Antwortmöglichkeiten: „ja“, „nein“, „weiß nicht“ und „keine Angabe“
  
 ##### **Ergebnisse - Medikamenteneinnahme**
-
+ 
 Die Arzneimittelversorgung ist ein wesentlicher Bestandteil der Therapie von gesundheitlichen Beeinträchtigungen, Störungen und Erkrankungen. Die Anwendungsprävalenz ärztlich verordneter Medikamente im Jahr 2019 ist im Vergleich zu 2014/2015 ähnlich geblieben (55,5 % vs. 55,1 %). 
 
 Signifikante geschlechtsbezogene Unterschiede in der Anwendung ärztlich verschriebener Medikamente waren sowohl in GEDA 2014/2015-EHIS als auch in GEDA 2019/2020-EHIS zu verzeichnen, vor allem in den jüngeren Altersgruppen (unter 65 Jahren), mit höheren Anwendungsprävalenzen bei Frauen als bei Männern. Ab 65 Jahren glichen sich die Prävalenzraten bei Frauen und Männern an.
@@ -205,6 +215,8 @@ In früheren GEDA-Erhebungen wurde dieser Indikator nicht erfasst.
  
 >[Rabenberg M, Mensink GBM (2013) Limo, Saft & Co – Konsum zuckerhaltiger Getränke in Deutschland. GBE kompakt 1/2013. 4. Robert Koch-Institut, Berlin.](https://edoc.rki.de/handle/176904/3111)
 
+ 
+ 
 #### `ENgemDtgl` - Ernährung: Täglich Gemüse
  
 Selbstangabe der Befragten: „Wie oft essen Sie Gemüse oder Salat? Mit einzubeziehen ist getrocknetes, Tiefkühl- und Dosengemüse. Zählen Sie Kartoffeln und Gemüsesäfte bitte nicht mit“. 
@@ -293,6 +305,8 @@ Obst und Gemüsesäfte enthalten wichtige Vitamine und Mineralstoffe, jedoch hä
  
 >[Rabenberg M, Mensink GBM (2013) Limo, Saft & Co – Konsum zuckerhaltiger Getränke in Deutschland. GBE kompakt 1/2013. 4. Robert Koch-Institut, Berlin.](https://edoc.rki.de/handle/176904/3111)
 
+ 
+ 
 #### `GVzahnsa_k` - Mundgesundheit
  
 Selbstangaben der Befragten: „Wie würden Sie den Zustand Ihrer Zähne und Ihres Zahnfleischs beschreiben?“
@@ -317,6 +331,8 @@ Es zeigten sich keine statistisch bedeutsamen Unterschiede nach Bundesländern.
  
 >[Krause L, Seeling S, Starker A (2021) Selbstwahrgenommene Mundgesundheit und assoziierte Faktoren bei Erwachsenen in Deutschland. Ergebnisse aus GEDA 2019/2020-EHIS. Bundesgesundheitsbl 64: 967–976. https://doi.org/10.1007/s00103-021-03376-z](https://www.springermedizin.de/selbstwahrgenommene-mundgesundheit-und-assoziierte-faktoren-bei-/19339542?fulltextView=true)
 
+ 
+ 
 #### `GZmehm1_k` - Subjektive Gesundheit
  
 Selbstangaben der Befragten: „Wie ist Ihr Gesundheitszustand im Allgemeinen?“. 
@@ -336,6 +352,8 @@ In der unteren Bildungsgruppe wurde die subjektive Gesundheit deutlich schlechte
  
 >[Heidemann C, Scheidt-Nave C, Beyer AK, Baumert J, Thamm R et al. (2021) Gesundheitliche Lage von Erwachsenen in Deutschland – Ergebnisse zu ausgewählten Indikatoren der Studie GEDA 2019/2020-EHIS. Journal of Health Monitoring 6(3): 3–27. DOI 10.25646/8456](https://edoc.rki.de/handle/176904/8749)
 
+ 
+ 
 #### `GZmehm2D_k3` - Einschränkung durch Krankheit
  
 Selbstangabe der Befragten: „Sind Sie durch ein gesundheitliches Problem bei Tätigkeiten des normalen Alltagslebens eingeschränkt? Würden Sie sagen, Sie sind…“
@@ -358,6 +376,8 @@ In der unteren Bildungsgruppe wurden gesundheitsbedingter Einschränkungen deutl
  
 >[Heidemann C, Scheidt-Nave C, Beyer AK, Baumert J, Thamm R et al. (2021) Gesundheitliche Lage von Erwachsenen in Deutschland – Ergebnisse zu ausgewählten Indikatoren der Studie GEDA 2019/2020-EHIS. Journal of Health Monitoring 6(3): 3–27. DOI 10.25646/8456](https://edoc.rki.de/handle/176904/8749)
 
+ 
+ 
 #### `GZmehm3C` - Chronische Krankheit
  
 Selbstangaben der Befragten: „Haben Sie eine chronische Krankheit oder ein lang andauerndes gesundheitliches Problem? Damit gemeint sind Krankheiten oder gesundheitliche Probleme, die mindestens 6 Monate andauern oder voraussichtlich andauern werden.“ 
@@ -376,6 +396,8 @@ Erwachsene der unteren Bildungsgruppe berichteten deutlich häufiger eine chroni
  
 >[Heidemann C, Scheidt-Nave C, Beyer AK, Baumert J, Thamm R et al. (2021) Gesundheitliche Lage von Erwachsenen in Deutschland – Ergebnisse zu ausgewählten Indikatoren der Studie GEDA 2019/2020-EHIS. Journal of Health Monitoring 6(3): 3–27. DOI 10.25646/8456]( )
 
+ 
+ 
 #### `IAarzt14B_k` - Inanspruchnahme: Zahnmedizinische Versorgung
  
 Selbstangabe der Befragten: "Wann waren Sie zuletzt bei einem Zahnarzt, Kieferorthopäden oder einem anderen zahnmedizinischen Spezialisten, um sich selbst beraten, untersuchen oder behandeln zu lassen?" 
@@ -391,7 +413,6 @@ Der regelmäßige Besuch einer zahnmedizinischen Praxis trägt dazu bei, dass Fe
 Rund 80 % der Erwachsenen hatten innerhalb eines Jahres zahnmedizinische Leistungen in Anspruch genommen. Bei Frauen war die Inanspruchnahme höher als bei Männern (85,8 % bzw. 78,4 %). Im Altersgang war die Inanspruchnahme relativ konstant. Im hohen Erwachsenenalter (80 Jahre und älter) nahm sie jedoch bei Frauen ab und das Geschlechterverhältnis kehrte sich um. 
 
 Zudem zeigte sich ein deutlicher Bildungsgradient: Erwachsene der oberen Bildungsgruppe (87,0 %) nahmen häufiger zahnmedizinische Leistungen in Anspruch als Personen der mittleren und unteren Bildungsgruppe (82,1 % bzw. 75,0 %). Zwischen den Bundesländern waren keine statistisch bedeutsamen Unterschiede festzustellen.
- 
  
 #### `IAarzt1B_k` - Inanspruchnahme: Allgemeinärztliche oder hausärztliche Versorgung
  
@@ -428,6 +449,8 @@ Gleichermaßen zeigten sich Geschlechterunterschiede im Vergleich der Bildungsgr
  
 >[Prütz F, Rommel A, Thom J, Du Y, Sarganas G et al. (2021) Inanspruchnahme ambulanter medizinischer Leistungen in Deutschland – Ergebnisse der Studie GEDA 2019/2020-EHIS. Journal of Health Monitoring 6(3): 49–71. DOI 10.25646/8554](https://edoc.rki.de/handle/176904/8751)
 
+ 
+ 
 #### `IAcholus_k` - Vorsorge: Blutfettwertebestimmung
  
 Selbstangabe der Befragten: „Wann wurden Ihre Blutfettwerte bzw. Cholesterinwerte zuletzt von medizinischem Fachpersonal bestimmt?“ 
@@ -459,7 +482,7 @@ Kontrolluntersuchungen von Blutzuckerwerten spielen eine wichtige Rolle für die
 Die Mehrheit der Erwachsenen ließ sich in den letzten 12 Monaten die Blutzuckerwerte durch medizinisches Fachpersonal kontrollieren. Die Teilnahmequote an den Kontrolluntersuchungen nahm mit dem Lebensalter zu. Dabei zeigt sich ein signifikanter Geschlechtsunterschied.
  
 >[Prütz F, Rommel A, Thom J, Du Y, Sarganas G et al. (2021) Inanspruchnahme ambulanter medizinischer Leistungen in Deutschland – Ergebnisse der Studie GEDA 2019/2020-EHIS. Journal of Health Monitoring 6(3): 49–71.  DOI 10.25646/8554](https://edoc.rki.de/handle/176904/8751)
-
+ 
 #### `IAfa_k` - Inanspruchnahme: Fachärztliche Versorgung
  
 Selbstangabe der Befragten: „Wann waren Sie zuletzt bei einem Facharzt, um sich selbst beraten, untersuchen oder behandeln zu lassen?“ 
@@ -477,7 +500,7 @@ Es zeigte sich tendenziell eine Zunahme mit dem Alter: 79,6 % der 18- bis 29-jä
 Zudem bestand bei Frauen und Männern ein Bildungsgradient mit einer höheren fachärztlichen Inanspruchnahme bei Personen aus oberen Bildungsgruppen.
  
 >[Prütz F, Rommel A, Thom J, Du Y, Sarganas G et al. (2021) Inanspruchnahme ambulanter medizinischer Leistungen in Deutschland – Ergebnisse der Studie GEDA 2019/2020-EHIS. Journal of Health Monitoring 6(3):49–71. DOI 10.25646/8554](https://edoc.rki.de/handle/176904/8751)
-
+ 
 #### `IAhypus_k` - Vorsorge: Blutdruckmessung
  
 Selbstangabe der Befragten: „Wann wurde Ihr Blutdruck zuletzt von medizinischem Fachpersonal gemessen?“ 
@@ -518,7 +541,6 @@ Ein Trendvergleich mit früheren GEDA-Wellen ist nicht möglich, da der Test auf
 
 >[Gemeinsamer Bundesausschuss (2020) Richtlinie des Gemeinsamen Bundesausschusses für organisierte Krebsfrüherkennungsprogramme in der Fassung vom 19. Juli 2018 zuletzt geändert am 18. Juni 2020](https://www.g-ba.de/downloads/62-492-2237/oKFE-RL-2020-06-18-iK-2020-08-28.pdf)
 
- 
 #### `IAkfutyp4B_lz_k2` - Vorsorge: Darmspiegelung
  
 Selbstangabe der Befragten: „Wann wurde bei Ihnen zuletzt eine Darmspiegelung bzw. Koloskopie durchgeführt?“
@@ -543,7 +565,6 @@ Ein Trendvergleich mit früheren GEDA-Wellen ist nicht möglich, da die Darmspie
 
 >[Gemeinsamer Bundesausschuss (2020) Richtlinie des Gemeinsamen Bundesausschusses für organisierte Krebsfrüherkennungsprogramme in der Fassung vom 19. Juli 2018 zuletzt geändert am 18. Juni 2020](https://www.g-ba.de/downloads/62-492-2237/oKFE-RL-2020-06-18-iK-2020-08-28.pdf)
 
- 
 #### `IAnotkhs` - Inanspruchnahme: Notaufnahme im Krankenhaus
  
 Selbstangabe der Befragten: "Haben Sie in den letzten 12 Monaten aufgrund eines medizinischen Notfalls die Rettungsstelle/Notaufnahme eines Krankenhauses in Anspruch genommen?" 
@@ -560,7 +581,6 @@ Die Ergebnisse zeigen, dass Notaufnahmen und Rettungsstellen an Krankenhäusern 
 Vor allem bei Frauen verändert sich die Inanspruchnahme mit dem Alter. Im Vergleich zum mittleren Lebensalter findet sich eine höhere Inanspruchnahme in jüngeren wie auch in älteren Lebensjahren. Bei den Männern finden sich keine statistisch bedeutsamen Unterschiede zwischen den Altersgruppen. 
 
 Unterschiede nach Bildungsstand oder Bundesland zeigten sich nicht.
- 
  
 #### `IAther2B` - Inanspruchnahme: Physiotherapie
  
@@ -623,7 +643,6 @@ Im Vergleich zu GEDA 2014/2015 hat der Anteil der Personen mit sitzender oder st
 
 >[Finger JD, Tafforeau J, Gisle L et al. (2015) Development of the European Health Interview Survey. Physical Activity Questionnaire (EHIS-PAQ) to monitor physical activity in the European Union. Archives of public health 73:59. DOI 0.1186/s13690-015-0110-z](https://archpublichealth.biomedcentral.com/articles/10.1186/s13690-015-0110-z#citeas)
 
- 
 #### `KAcyc1` - Körperliche Aktivität: Fahrradfahren von Ort zu Ort
  
 Selbstangabe der Teilnehmenden: „An wie vielen Tagen in einer typischen Woche fahren Sie mindestens 10 Minuten ohne Unterbrechung mit dem Fahrrad, um von Ort zu Ort zu gelangen?“ 
@@ -932,6 +951,9 @@ Bei 26 % der Frauen und Männer der unteren Bildungsgruppe aber nur bei 11 % bzw
  
 >[Schienkiewitz A, Mensink GBM, Kuhnert R et al. (2017) Übergewicht und Adipositas bei Erwachsenen in Deutschland. Journal of Health Monitoring 2(2): 21 – 28. DOI 10.17886/RKI-GBE-2017-025](https://edoc.rki.de/handle/176904/2655)
 
+>[Schienkiewitz A, Kuhnert R, Blume M, Mensink GBM (2022) Übergewicht und Adipositas bei Erwachsenen in Deutschland. J Health Monit 7(3): 23–31. DOI 10.25646/10292](https://edoc.rki.de/handle/176904/10231)
+
+ 
 #### `PAnormalB` - Körpergewicht: Normalgewicht
  
 Selbstangabe der Befragten: „Wie groß sind Sie, wenn Sie keine Schuhe tragen? Bitte geben Sie Ihre Körpergröße in cm an.“, „Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere Frauen geben bitte ihr Gewicht vor der Schwangerschaft an.“
@@ -950,6 +972,9 @@ Ein Normalgewicht lag bei 60 % der Frauen der oberen Bildungsgruppe vor, jedoch 
  
 >[Richter A, Schienkiewitz A, Starker A, Krug S, Domanska O et al. (2021) Gesundheitsfördernde Verhaltensweisen bei Erwachsenen in Deutschland – Ergebnisse der Studie GEDA 2019/2020-EHIS. Journal of Health Monitoring 6(3): 28–48. DOI 10.25646/8460](https://edoc.rki.de/handle/176904/8750)
 
+>[Schienkiewitz A, Kuhnert R, Blume M, Mensink GBM (2022) Übergewicht und Adipositas bei Erwachsenen in Deutschland. J Health Monit 7(3): 23–31. DOI 10.25646/10292](https://edoc.rki.de/handle/176904/10231)
+
+ 
 #### `PAueberB` - Körpergewicht: Übergewicht
  
 Selbstangabe der Befragten: „Wie groß sind Sie, wenn Sie keine Schuhe tragen? Bitte geben Sie Ihre Körpergröße in cm an.“, „Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere Frauen geben bitte ihr Gewicht vor der Schwangerschaft an.“
@@ -967,6 +992,29 @@ Der Anteil an Frauen und Männern mit Übergewicht nahm im Lebensverlauf stetig 
 Ein Übergewicht lag bei 53% der Frauen der unteren Bildungsgruppe, aber nur bei 35 % der oberen Bildungsgruppe vor. Unter Berücksichtigung der unterschiedlichen Altersstruktur in den Bildungsgruppen waren diese Bildungsunterschiede auch bei Männern zu beobachten.
  
 >[Schienkiewitz A, Mensink GBM, Kuhnert R et al. (2017) Übergewicht und Adipositas bei Erwachsenen in Deutschland. Journal of Health Monitoring 2(2): 21 – 28. DOI 10.17886/RKI-GBE-2017-025](https://edoc.rki.de/handle/176904/2655)
+
+>[Schienkiewitz A, Kuhnert R, Blume M, Mensink GBM (2022) Übergewicht und Adipositas bei Erwachsenen in Deutschland. J Health Monit 7(3): 23–31. DOI 10.25646/10292](https://edoc.rki.de/handle/176904/10231)
+
+ 
+#### `PAunterB` - Körpergewicht: Untergewicht
+ 
+Der Indikator Untergewicht wird definiert als ein Body Mass Index (BMI) von weniger als 18,5 kg/m2 (1). Der BMI wird aus dem Verhältnis des Körpergewichts einer Person zum Quadrat der Körpergröße (kg/m2) berechnet.
+ 
+##### **Ergebnisse - Körpergewicht: Untergewicht**
+ 
+Untergewicht kann unterschiedliche Ursachen haben, und kann bei gleichzeitig auftretenden Mangelerscheinungen die Gesundheit gefährden. 
+
+In Deutschland lag bei 3,4 % der Frauen und 1,3 % der Männer ein Untergewicht vor. Ähnliche Prävalenzen finden sich auch in der amtlichen Statistik (Mikrozensus. Im Vergleich zu GEDA2012 zeigte sich ein statistisch signifikanter Anstieg für Frauen um 0,7 Prozentpunkte und für Männer um 0,8 Prozentpunkte. 
+
+Der Anteil an Personen mit Untergewicht nahm im Lebensverlauf stetig ab: Während in der Altersgruppe 18 bis 29 Jahre 7,2 % der Frauen und 2,7% der Männer ein Untergewicht aufwiesen, sank dieser Anteil bei den 65-Jährigen und Älteren auf 2,6 % bei Frauen und auf 0,4 % bei Männern. 
+
+Ein Untergewicht lag bei 3,8 % der Frauen der unteren Bildungsgruppen, aber nur bei 2,1 % der oberen Bildungsgruppen vor. Unter Berücksichtigung der unterschiedlichen Altersstruktur in den Bildungsgruppen waren diese Bildungsunterschiede auch bei Männern zu beobachten.
+ 
+>[Richter A, Schienkiewitz A, Starker A, Krug S, Domanska O et al. (2021) Gesundheitsfördernde Verhaltensweisen bei Erwachsenen in Deutschland – Ergebnisse der Studie GEDA 2019/2020-EHIS. Journal of Health Monitoring 6(3): 28–48. DOI 10.25646/8460 ](https://edoc.rki.de/handle/176904/8750.2)
+
+>[Schienkiewitz A, Kuhnert R, Blume M, Mensink GBM (2022) Übergewicht und Adipositas bei Erwachsenen in Deutschland. J Health Monit 7(3): 23–31. DOI 10.25646/10292](https://edoc.rki.de/handle/176904/10231)
+
+>[Statistisches Bundesamt: Mikrozensus – Fragen zur Gesundheit – Körpermaße der Bevölkerung. 2017. Wiesbaden (2018)](https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Gesundheitszustand-Relevantes-Verhalten/Publikationen/Downloads-Gesundheitszustand/koerpermasse-5239003179004.html)
 
 #### `PKPHQ8_k6` - Depressive Symptomatik (PHQ-8)
  
@@ -1016,6 +1064,7 @@ Ein Trendvergleich der regelmäßigen Passivrauchbelastung mit früheren GEDA-We
  
 >[Robert Koch-Institut (RKI) (2020) Rauchen – Gesundheit A bis Z. https://www.rki.de/rauchen](www.rki.de/rauchen)
 
+  
 #### `RCstatE_k3` - Rauchen: Tabakprodukte
  
 Selbstangabe der Befragten: „Rauchen Sie Tabakprodukte, einschließlich Tabakerhitzer? Bitte schließen Sie elektronische Zigaretten oder ähnliche Produkte aus.“.
@@ -1035,7 +1084,7 @@ Rauchen war bei beiden Geschlechtern in der unteren Bildungsgruppe deutlich häu
 Ein Trendvergleich zwischen den GEDA-Wellen [1,2] ist aufgrund unterschiedlicher Erhebungsmethoden bzw. unterschiedlicher Fragestellungen nur eingeschränkt möglich.
  
 >[Robert Koch-Institut (RKI) (2020) Rauchen – Gesundheit A bis Z. https://www.rki.de/rauchen](www.rki.de/rauchen)
- 
+
 ## Hinweise zur Nachnutzung der Daten
 
 Offene Forschungsdaten des RKI werden auf GitHub.com, Zenodo.org und Edoc.rki.de bereitgestellt:  
@@ -1046,17 +1095,6 @@ Offene Forschungsdaten des RKI werden auf GitHub.com, Zenodo.org und Edoc.rki.de
 Darüber hinaus können die Scientific Usefiles der Studie auf [Antrag beim Epidemiologisches Daten- und Befragungszentrum](https://www.rki.de/DE/Content/Forsch/FDZ/FDZ_node.html) zur wissenschaftlichen Nachnutzung erhalten werden.
 
 https://www.rki.de/DE/Content/Forsch/FDZ/Datenangebot/GEDA_inhalt.html
-
-### Metadaten
-Zur Erhöhung der Auffindbarkeit, sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadaten-Ordner hinterlegt:
-
-> [Metadaten/](/Metadaten/)  
-
-Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.   
-Über die Metadaten der [nfdi4health.json](/Metadaten/nfdi4health.json) erlogt die Integration in den NFDI4Health StudyHub.
-
-> [Metadaten/zenodo.json](/Metadaten/zenodo.json)  
-> [Metadaten/nfdi4health.json](/Metadaten/nfdi4health.json)
 
 ### Lizenz
 
