@@ -63,6 +63,6 @@
                     dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
-                    dcat:accessURL <https://zenodo.org/record/7214473/files/%5BDokumentation%5D_Gesundheit_in_Deutschland_aktuell_-_GEDA_2019/2020-EHIS.pdf>
+                    dcat:accessURL <https://zenodo.org/record/7214473/files/%5BDokumentation%5D_Gesundheit_in_Deutschland_aktuell_-_GEDA_2019/2020-EHIS.pdf>;
                     dct:modified "2022-04-07T10:55:21+02:00"^^xsd:dateTime;
                   ].
