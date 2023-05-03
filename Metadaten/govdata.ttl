@@ -6,7 +6,7 @@
               @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
               @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-              <10.5281/zenodo.7214473> a dcat:Dataset ;
+              <https://zenodo.org/record/7214473> a dcat:Dataset ;
                   dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
                   dcatde:maintainer [ a foaf:Agent ; foaf:mbox "opendata@rki.de" ; foaf:name "Robert Koch-Institut | Open Data Team"] ;
                   dcatde:contributor [ a foaf:Organization; foaf:name "Robert Koch-Institut" ];
@@ -51,7 +51,7 @@
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dct:title "Zenodo - Gesundheit in Deutschland aktuell - GEDA 2019/2020-EHIS" ;
-                    dcat:accessURL <https://doi.org/10.5281/zenodo.7214473>;
+                    dcat:accessURL <https://zenodo.org/record/7214473>;
                     dct:modified "2022-04-07T10:55:21+02:00"^^xsd:dateTime;
                   ],
                   [
