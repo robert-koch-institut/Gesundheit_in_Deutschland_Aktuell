@@ -1,19 +1,27 @@
 Datensatzbeschreibung
+# Gesundheit in Deutschland aktuell <br> GEDA 2019/2020-EHIS  
 
-# Gesundheit in Deutschland aktuell <br/> GEDA 2019/2020-EHIS  
- 
-**[Robert Koch-Institut](https://grid.ac/institutes/grid.13652.33) | RKI**  
+[**Robert Koch-Institut | RKI**](https://rki.de)  
 Abteilung für Epidemiologie und Gesundheitsmonitoring  
 Nordufer 20   
 13353 Berlin  
 
-**FG 21 |  Epidemiologisches Daten- und Befragungszentrum**  
-[Jennifer Allen](https://orcid.org/0000-0002-9201-1801) (Projektleitung)  
-[Ronny Kuhnert](https://orcid.org/0000-0001-6617-8475) (Datenmanagement)  
+<br>
 
----
+**Beitragende**  
 
-Robert Koch-Institut (2022): Gesundheit in Deutschland aktuell - GEDA 2019/2020-EHIS, Berlin: Zenodo. DOI:[10.5281/zenodo.7214473](https://doi.org/10.5281/zenodo.7214473). 
+[Jennifer Allen](https://orcid.org/0000-0002-9201-1801)&sup1; (Projektleitung) und [Ronny Kuhnert](https://orcid.org/0000-0001-6617-8475)&sup1; (Datenmanagement)  
+
+&emsp;&sup1; [Robert Koch-Institut | Fachgebiet 21 | Epidemiologisches Daten- und Befragungszentrum](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt2/FG21/fg21_node.html)  
+
+
+---  
+
+
+**Zitieren**  
+
+Robert Koch-Institut (**2022**): Gesundheit in Deutschland aktuell - GEDA 2019/2020-EHIS, Berlin: Zenodo. DOI:[10.5281/zenodo.7214473](https://doi.org/10.5281/zenodo.7214473).      
+
 
 ## Einleitung und Ziele
 
