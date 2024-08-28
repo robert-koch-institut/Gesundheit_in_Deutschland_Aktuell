@@ -1,0 +1,16 @@
+{
+  "name": "gesundheit_in_deutschland_aktuell",
+  "title": "Gesundheit_in_Deutschland_Aktuell",
+  "description": "Frictionless data package. This package lists and describes all data files in this open data repository. For more information on frictionless data, see https://specs.frictionlessdata.io/ and https://framework.frictionlessdata.io/.",
+  "resources": [
+    {
+      "name": "gesundheit_in_deutschland_aktuell_-_2019-2020-ehis",
+      "type": "table",
+      "path": "../../Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "frictionless_data_schema_Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.json"
+    }
+  ]
+}
