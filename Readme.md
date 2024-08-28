@@ -125,18 +125,19 @@ Die GEDA Daten enthalten die in der folgenden Tabelle abgebildeten Variablen und
     
 | Variable  | Typ            | Ausprägung                               | Beschreibung |
 |--------- | -------------- | ---------------------------------------- | -------------- |
-| Altersgruppe |   Text      | `18  -  29 Jahre`<br/>`30 - 44 Jahre`<br/>`45 - 64 Jahre`<br/>`65+`<br/>`50 - 54 Jahre`<br/>`55 - 59 Jahre`<br/>`60 - 64 Jahre`<br/>`65 - 79 Jahre`<br/>`80+`<br/>`Gesamt` | Altersgruppe der Studienteilnehmer:innen |
-| Gender       |   Text      | `Frauen`<br/>`Männer`<br/>`Gesamt`      | Geschlechtsidentität der Studienteilnehmer:innen |
+| Altersgruppe |   Text      | `18 - 29 Jahre`<br/>`30 - 44 Jahre`<br/>`45 - 64 Jahre`<br/>`65+`<br/>`50 - 54 Jahre`<br/>`55 - 59 Jahre`<br/>`60 - 64 Jahre`<br/>`65 + Jahre`<br/>`65 - 79 Jahre`<br/>`80 + Jahre`<br/>`Gesamt` | Altersgruppe der Studienteilnehmer:innen |
 | Bildungsgruppe      |   Text      | `Untere`<br/>`Mittlere`<br/>`Obere` <br/>`Gesamt`    | Bildungsabschluss kodiert nach ISCED11 (Internationale Standardklassifikation des Bildungswesens) der Studienteilnehmer:innen |
-| Frequency | Natürliche Zahl | `>0`  | Fälle innerhalb der Stichprobe, ungewichtet|
-| Frequency_ges | Natürliche Zahl | `>0`  | Gesamtumfang der Stichprobe, ungewichtet|
-| Percent   | Rationale Zahl | [`0.000` ; `100.000`] | Mittelwert des Anteils der Fälle innerhalb der Stichprobe  |
-| LowerCL   | Rationale Zahl | [`0.000` ; `100.000`] | Untere Grenze des Konfidenzintervalls des Anteils der Fälle innerhalb der Stichprobe |
-| UpperCL   | Rationale Zahl | [`0.000` ; `100.000`] | Obere Grenze des Konfidenzintervalls des Anteils der Fälle innerhalb der Stichprobe |
+| Gender       |   Text      | `Frauen`<br/>`Männer`<br/>`Gesamt`      | Geschlechtsidentität der Studienteilnehmer:innen |
+| Frequency | Natürliche Zahl | `≥0`  | Fälle innerhalb der Stichprobe, ungewichtet|
+| Freq_ges | Natürliche Zahl | `≥0`  | Gesamtumfang der Stichprobe, ungewichtet|
+| Percent   | Rationale Zahl | [`0.000` ; `100.000`] oder `NA` | Mittelwert des Anteils der Fälle innerhalb der Stichprobe  |
+| LowerCL   | Rationale Zahl | [`0.000` ; `100.000`] oder `NA` | Untere Grenze des Konfidenzintervalls des Anteils der Fälle innerhalb der Stichprobe |
+| UpperCL   | Rationale Zahl | [`0.000` ; `100.000`] oder `NA` | Obere Grenze des Konfidenzintervalls des Anteils der Fälle innerhalb der Stichprobe |
 | Bundesland|    Text        | `Deutschland`<br/>`Baden-Württemberg`<br/>`Bayern`<br/>`Berlin`<br/>`Brandenburg`<br/>`Bremen`<br/>`Hamburg`<br/>`Hessen`<br/>`Mecklenburg-Vorpommern`<br/>`Niedersachsen`<br/>`Nordrhein-Westfalen`<br/>`Rheinland-Pfalz`<br/>`Saarland`<br/>`Sachsen`<br/>`Sachsen-Anhalt`<br/>`Schleswig-Holstein`<br/>`Thüringen`| Wohnort der Studienteilnehmer:innen, aufgeschlüsselt nach Bundesländern zuzüglich der Ausweisung für das gesamte Bundesgebiet |
 | Standard  |  Boolean       | `0` : nein<br/>`1` : ja| Eine Standardisierung nach Alter und Geschlecht wurde innerhalb der Bundesländer und innerhalb der Bildungsgruppen durchgeführt. Dazu wurde die europäische Standardbevölkerung 2013 verwendet. Damit sind die Bundesländer und die Prävalenzen in den drei Bildungsgruppen hinsichtlich Alter und Geschlecht vergleichbar.  |
-| Indikator |       Text     | `AMarztB`, `Akrausch`, `Akrisiko_k`<br/>`BBdors112`, `BBdors212`, `ENcolaBtgl`<br/>`ENgemDtgl`, `ENobgemtgl`, `ENobstDtgl`<br/>`EnsaftBtgl`, `GVzahnsa_k`, `GZmehm1_k`<br/> `GZmehm2D_k3`,&nbsp;`GZmehm3C`,&nbsp;`IAarzt14B_k`<br/> `IAarzt1B_k`, `IAarzt8C`, `IAcholus_k`<br/> `IAdiabus_k`, `IAfa_k`, `IAhypus_k`<br/> `IAkfutyp2B_lz_k`,&nbsp;`IAkfutyp4B_lz_k2`<br/> `IAther2B`, `Iakhs`,`KAgfa`, `IAnotkhs`<br/> `KAgfkaB`, `KAgfmk`, `KHBBsa12`<br/> `KHab12`, `KHalgi112`, `KHcb12B`<br/> `KHdge12`, `KHdiabB12`, `KHmyokhk12`<br/> `PAadiposB`, `PAnormalB`, `PAueberB`<br/> `PAunterB`, `PKPHQ8_k6`, `RCpass4B_k2`<br/> `RCstatE_k3`| Gesundheitsindikatoren der Studie. Eine detaillierte Beschreibung der Indikatoren befindet sich im Abschnitt [Indikatorenbeschreibung](#Indiaktorenbeschreibung) |
+| Variable |       Text     | `AMarztB`, `Akrausch`, `Akrisiko_k`<br/>`BBdors112`, `BBdors212`, `ENcolaBtgl`<br/>`ENgemDtgl`, `ENobgemtgl`, `ENobstDtgl`<br/>`EnsaftBtgl`, `GVzahnsa_k`, `GZmehm1_k`<br/> `GZmehm2D_k3`,&nbsp;`GZmehm3C`,&nbsp;`IAarzt14B_k`<br/> `IAarzt1B_k`, `IAarzt8C`, `IAcholus_k`<br/> `IAdiabus_k`, `IAfa_k`, `IAhypus_k`<br/> `IAkfutyp2B_lz_k`,&nbsp;`IAkfutyp4B_lz_k2`<br/> `IAther2B`, `Iakhs`, `KAarbeit`, `KAcyc1`, `KAgfa`, `IAnotkhs`<br/> `KAgfkaB`, `KAgfmk`, `KAspo2`, `KAwalk2`, `KHBBsa12`<br/> `KHab12`, `KHalgi112`, `KHcb12B`<br/> `KHdge12`, `KHdiabB12`, `KHmyokhk12`<br/> `PAadiposB`, `PAnormalB`, `PAueberB`<br/> `PAunterB`, `PKPHQ8_k6`, `RCpass4B_k2`<br/> `RCstatE_k3`| Gesundheitsindikatoren der Studie. Eine detaillierte Beschreibung der Indikatoren befindet sich im Abschnitt [Indikatorenbeschreibung](#Indiaktorenbeschreibung) |
 | BundeslandId|    Text       | `00` : Deutschland <br/>`01` bis `16` : Bundesland ID | Identifikationsnummer des Wohnorts der Studienteilnehmer:innen, basierend auf dem Amtlichen Gemeindeschlüssel (AGS). Zusätzlich der Ausweisung für das gesamte Bundesgebiet (`00`) |
+| Bundesland_Klassifikation | Natürliche Zahl |  `>0` oder `NA` | TODO |
 
 ### Indikatorenbeschreibung  
 
