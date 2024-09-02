@@ -186,8 +186,12 @@
     },
     {
       "name": "BundeslandId",
-      "type": "string",
-      "description": "Identifikationsnummer des Wohnorts der Studienteilnehmer:innen, basierend auf dem Amtlichen Gemeindeschlüssel (AGS). Zusätzlich der Ausweisung für das gesamte Bundesgebiet (`00`)"
+      "type": "integer",
+      "description": "Identifikationsnummer des Wohnorts der Studienteilnehmer:innen, basierend auf dem Amtlichen Gemeindeschlüssel (AGS). Zusätzlich der Ausweisung für das gesamte Bundesgebiet (`00`). `00` : Deutschland <br/>`01` bis `16` : Bundesland ID",
+      "constraints": {
+        "minimum": 0,
+        "maximum": 16
+      }
     },
     {
       "name": "Bundesland_Klassifikation",

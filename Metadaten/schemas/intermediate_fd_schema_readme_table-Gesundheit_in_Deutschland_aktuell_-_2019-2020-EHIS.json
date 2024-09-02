@@ -126,13 +126,7 @@
     {
       "name": "Standard",
       "type": "boolean",
-      "description": "Eine Standardisierung nach Alter und Geschlecht wurde innerhalb der Bundesländer und innerhalb der Bildungsgruppen durchgeführt. Dazu wurde die europäische Standardbevölkerung 2013 verwendet. Damit sind die Bundesländer und die Prävalenzen in den drei Bildungsgruppen hinsichtlich Alter und Geschlecht vergleichbar.",
-      "constraints": {
-        "enum": [
-          "0",
-          "1"
-        ]
-      }
+      "description": "Eine Standardisierung nach Alter und Geschlecht wurde innerhalb der Bundesländer und innerhalb der Bildungsgruppen durchgeführt. Dazu wurde die europäische Standardbevölkerung 2013 verwendet. Damit sind die Bundesländer und die Prävalenzen in den drei Bildungsgruppen hinsichtlich Alter und Geschlecht vergleichbar."
     },
     {
       "name": "Variable",
@@ -192,8 +186,12 @@
     },
     {
       "name": "BundeslandId",
-      "type": "string",
-      "description": "Identifikationsnummer des Wohnorts der Studienteilnehmer:innen, basierend auf dem Amtlichen Gemeindeschlüssel (AGS). Zusätzlich der Ausweisung für das gesamte Bundesgebiet (`00`)"
+      "type": "integer",
+      "description": "Identifikationsnummer des Wohnorts der Studienteilnehmer:innen, basierend auf dem Amtlichen Gemeindeschlüssel (AGS). Zusätzlich der Ausweisung für das gesamte Bundesgebiet (`00`). `00` : Deutschland <br/>`01` bis `16` : Bundesland ID",
+      "constraints": {
+        "minimum": 0,
+        "maximum": 16
+      }
     },
     {
       "name": "Bundesland_Klassifikation",

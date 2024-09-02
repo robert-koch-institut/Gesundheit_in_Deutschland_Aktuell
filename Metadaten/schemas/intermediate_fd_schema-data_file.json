@@ -1,0 +1,56 @@
+{
+  "fields": [
+    {
+      "name": "Altersgruppe",
+      "type": "string"
+    },
+    {
+      "name": "Bildungsgruppe",
+      "type": "string"
+    },
+    {
+      "name": "Gender",
+      "type": "string"
+    },
+    {
+      "name": "Frequency",
+      "type": "integer"
+    },
+    {
+      "name": "Freq_ges",
+      "type": "integer"
+    },
+    {
+      "name": "Percent",
+      "type": "number"
+    },
+    {
+      "name": "LowerCL",
+      "type": "number"
+    },
+    {
+      "name": "UpperCL",
+      "type": "number"
+    },
+    {
+      "name": "Bundesland",
+      "type": "string"
+    },
+    {
+      "name": "Standard",
+      "type": "integer"
+    },
+    {
+      "name": "Variable",
+      "type": "string"
+    },
+    {
+      "name": "BundeslandId",
+      "type": "integer"
+    },
+    {
+      "name": "Bundesland_Klassifikation",
+      "type": "string"
+    }
+  ]
+}
