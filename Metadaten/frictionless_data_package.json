@@ -1,0 +1,17 @@
+{
+  "name": "10.5281/zenodo.6036771",
+  "title": "Gesundheit in Deutschland aktuell - GEDA 2019/2020-EHIS",
+  "description": "Diese Datei gibt eine Übersicht über alle Datensätze in diesem Open Data Repository. Informationen zum Frictionless Data Standard finden Sie unter https://specs.frictionlessdata.io/ und https://framework.frictionlessdata.io/. Mehr Information über diesen Datensatz finden sie auf Zenodo (https://doi.org/10.5281/zenodo.6036771) oder Github (https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell)",
+  "homepage": "https://doi.org/10.5281/zenodo.6036771",
+  "resources": [
+    {
+      "name": "gesundheit_in_deutschland_aktuell_-_2019-2020-ehis",
+      "type": "table",
+      "path": "../Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "schemas/frictionless_data_schema_Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.json"
+    }
+  ]
+}
