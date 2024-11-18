@@ -123,6 +123,12 @@ Darüber hinaus wird die Indikatorenbeschreibung, so wie eine erste Interpretati
 ### Variablenausprägungen
 Die GEDA Daten enthalten die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:
     
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS", "lang": "de"} -->
+
+Die Datei [Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.csv](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell/blob/main/Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Frictionless-Data Format](https://specs.frictionlessdata.io/) in [frictionless_data_schema_Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.json](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell/blob/main/Metadaten/schemas/frictionless_data_schema_Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.json) hinterlegt:
+> [frictionless_data_schema_Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.json](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell/blob/main/Metadaten/schemas/frictionless_data_schema_Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.json)
+
+<!-- DATA_SCHEMA_TABLE_START -->
 | Variable                  | Typ     | Ausprägungen                                                                                                          | Beschreibung                                                                                                                                                                                                                                                                                                                |
 |:--------------------------|:--------|:----------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Altersgruppe              | string  | Werte: `18 - 29 Jahre`, `30 - 44 Jahre`, `45 - 64 Jahre`, `65+`, `50 - 54 Jahre`, `55 - 59 Jahre`, `60 - 64 Jahre`, … | Altersgruppe der Studienteilnehmer:innen                                                                                                                                                                                                                                                                                    |
@@ -139,11 +145,14 @@ Die GEDA Daten enthalten die in der folgenden Tabelle abgebildeten Variablen und
 | BundeslandId              | integer | Werte: 0 - 16                                                                                                         | Identifikationsnummer des Wohnorts der Studienteilnehmer:innen, basierend auf dem Amtlichen Gemeindeschlüssel (AGS). Zusätzlich der Ausweisung für das gesamte Bundesgebiet (`00`). `00` : Deutschland <br/>`01` bis `16` : Bundesland ID                                                                                   |
 | Bundesland_Klassifikation | integer | Werte: ≥1<br>Fehlende Werte: `NA`                                                                                     | TODO                                                                                                                                                                                                                                                                                                                        |
 
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
 
 
 
 
-Eine maschinenlesbares Datenschema zu diesem Datensatz finden sie in der Datei [`frictionless_data_schema_Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.json`](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell/blob/main/Metadaten/schemas/frictionless_data_schema_Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.json).
+
 
 
 ### Indikatorenbeschreibung  
