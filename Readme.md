@@ -121,8 +121,7 @@ Darüber hinaus wird die Indikatorenbeschreibung, so wie eine erste Interpretati
 > [Kontextmaterialien/2021-10-15_Gesundheit_in_Deutschland_aktuell_Indikatorenbeschreibung.csv](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell/blob/main/Kontextmaterialien/2019_Gesundheit_in_Deutschlandaktuell_Variablen.csv)
 
 ### Variablenausprägungen
-Die GEDA Daten enthalten die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:
-    
+
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS", "lang": "de"} -->
 
 Die Datei [Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.csv](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell/blob/main/Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Frictionless-Data Format](https://specs.frictionlessdata.io/) in [frictionless_data_schema_Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.json](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell/blob/main/Metadaten/schemas/frictionless_data_schema_Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.json) hinterlegt:
@@ -144,15 +143,9 @@ Die Datei [Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.csv](https://githu
 | Variable                  | string  | Werte: `AMarztB`, `Akrausch`, `Akrisiko_k`, `BBdors112`, `BBdors212`, `ENcolaBtgl`, `ENgemDtgl`, …                    | Gesundheitsindikatoren der Studie. Eine detaillierte Beschreibung der Indikatoren befindet sich im Abschnitt [Indikatorenbeschreibung](#Indiaktorenbeschreibung)                                                                                                                                                            |
 | BundeslandId              | integer | Werte: 0 - 16                                                                                                         | Identifikationsnummer des Wohnorts der Studienteilnehmer:innen, basierend auf dem Amtlichen Gemeindeschlüssel (AGS). Zusätzlich der Ausweisung für das gesamte Bundesgebiet (`00`). `00` : Deutschland <br/>`01` bis `16` : Bundesland ID                                                                                   |
 | Bundesland_Klassifikation | integer | Werte: ≥1<br>Fehlende Werte: `NA`                                                                                     | TODO                                                                                                                                                                                                                                                                                                                        |
-
 <!-- DATA_SCHEMA_TABLE_END -->
 
 <!-- DATA_SCHEMA_SPECIFICATION_END -->
-
-
-
-
-
 
 
 ### Indikatorenbeschreibung  
