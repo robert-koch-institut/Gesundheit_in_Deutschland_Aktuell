@@ -196,7 +196,7 @@
     {
       "name": "Bundesland_Klassifikation",
       "type": "integer",
-      "description": "TODO",
+      "description": "Kategorie des Bundeslandes für diesen Indikator. Zum Hintergrund: Für jeden Indikator werden die Bundesländer nach dem Wert des Indikators in von niedrig(=1) zu hoch (=5) geordnete Kategorien eingeteilt.. Bei großen Unterschieden in den Werten des Indikators zwischen den Bundesländern gibt es viele Kategorien (max. 5), bei niedrigen Unterschieden gibt es weniger Kategorien.",
       "missingValues": [
         "NA"
       ],
