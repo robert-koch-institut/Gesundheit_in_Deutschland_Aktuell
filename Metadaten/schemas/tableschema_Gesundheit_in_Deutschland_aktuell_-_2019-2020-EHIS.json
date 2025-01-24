@@ -126,7 +126,13 @@
     {
       "name": "Standard",
       "type": "boolean",
-      "description": "Eine Standardisierung nach Alter und Geschlecht wurde innerhalb der Bundesländer und innerhalb der Bildungsgruppen durchgeführt. Dazu wurde die europäische Standardbevölkerung 2013 verwendet. Damit sind die Bundesländer und die Prävalenzen in den drei Bildungsgruppen hinsichtlich Alter und Geschlecht vergleichbar."
+      "description": "Eine Standardisierung nach Alter und Geschlecht wurde innerhalb der Bundesländer und innerhalb der Bildungsgruppen durchgeführt. Dazu wurde die europäische Standardbevölkerung 2013 verwendet. Damit sind die Bundesländer und die Prävalenzen in den drei Bildungsgruppen hinsichtlich Alter und Geschlecht vergleichbar.",
+      "constraints": {
+        "enum": [
+          "0",
+          "1"
+        ]
+      }
     },
     {
       "name": "Variable",
