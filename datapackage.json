@@ -1,0 +1,17 @@
+{
+  "name": "10.5281/zenodo.6036771",
+  "title": "Gesundheit in Deutschland aktuell - GEDA 2019/2020-EHIS",
+  "description": "Diese Datei gibt eine Übersicht über die im Datensatz enthaltenen Daten im Data Package Standard (https://datapackage.org). Der dokumentierte Datensatz ist auf den Plattformen Zenodo (https://doi.org/10.5281/zenodo.6036771) und Github (https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell) verfügbar.",
+  "homepage": "https://doi.org/10.5281/zenodo.6036771",
+  "resources": [
+    {
+      "name": "gesundheit_in_deutschland_aktuell_-_2019-2020-ehis",
+      "type": "table",
+      "path": "Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "Metadaten/schemas/tableschema_Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.json"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "fields": [
+    {
+      "name": "Altersgruppe",
+      "type": "string",
+      "description": "Altersgruppe der Studienteilnehmer:innen",
+      "constraints": {
+        "enum": [
+          "18 - 29 Jahre",
+          "30 - 44 Jahre",
+          "45 - 64 Jahre",
+          "65+",
+          "50 - 54 Jahre",
+          "55 - 59 Jahre",
+          "60 - 64 Jahre",
+          "65 + Jahre",
+          "65 - 79 Jahre",
+          "80 + Jahre",
+          "Gesamt"
+        ]
+      }
+    },
+    {
+      "name": "Bildungsgruppe",
+      "type": "string",
+      "description": "Bildungsabschluss kodiert nach ISCED11 (Internationale Standardklassifikation des Bildungswesens) der Studienteilnehmer:innen",
+      "constraints": {
+        "enum": [
+          "Untere",
+          "Mittlere",
+          "Obere",
+          "Gesamt"
+        ]
+      }
+    },
+    {
+      "name": "Gender",
+      "type": "string",
+      "description": "Geschlechtsidentität der Studienteilnehmer:innen",
+      "constraints": {
+        "enum": [
+          "Frauen",
+          "Männer",
+          "Gesamt"
+        ]
+      }
+    },
+    {
+      "name": "Frequency",
+      "type": "integer",
+      "description": "Fälle innerhalb der Stichprobe, ungewichtet",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "Freq_ges",
+      "type": "integer",
+      "description": "Gesamtumfang der Stichprobe, ungewichtet",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "Percent",
+      "type": "number",
+      "description": "Mittelwert des Anteils der Fälle innerhalb der Stichprobe",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "minimum": "0.000",
+        "maximum": "100.000"
+      }
+    },
+    {
+      "name": "LowerCL",
+      "type": "number",
+      "description": "Untere Grenze des Konfidenzintervalls des Anteils der Fälle innerhalb der Stichprobe",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "minimum": "0.000",
+        "maximum": "100.000"
+      }
+    },
+    {
+      "name": "UpperCL",
+      "type": "number",
+      "description": "Obere Grenze des Konfidenzintervalls des Anteils der Fälle innerhalb der Stichprobe",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "minimum": "0.000",
+        "maximum": "100.000"
+      }
+    },
+    {
+      "name": "Bundesland",
+      "type": "string",
+      "description": "Wohnort der Studienteilnehmer:innen, aufgeschlüsselt nach Bundesländern zuzüglich der Ausweisung für das gesamte Bundesgebiet",
+      "constraints": {
+        "enum": [
+          "Deutschland",
+          "Baden-Württemberg",
+          "Bayern",
+          "Berlin",
+          "Brandenburg",
+          "Bremen",
+          "Hamburg",
+          "Hessen",
+          "Mecklenburg-Vorpommern",
+          "Niedersachsen",
+          "Nordrhein-Westfalen",
+          "Rheinland-Pfalz",
+          "Saarland",
+          "Sachsen",
+          "Sachsen-Anhalt",
+          "Schleswig-Holstein",
+          "Thüringen"
+        ]
+      }
+    },
+    {
+      "name": "Standard",
+      "type": "boolean",
+      "description": "Eine Standardisierung nach Alter und Geschlecht wurde innerhalb der Bundesländer und innerhalb der Bildungsgruppen durchgeführt. Dazu wurde die europäische Standardbevölkerung 2013 verwendet. Damit sind die Bundesländer und die Prävalenzen in den drei Bildungsgruppen hinsichtlich Alter und Geschlecht vergleichbar."
+    },
+    {
+      "name": "Variable",
+      "type": "string",
+      "description": "Gesundheitsindikatoren der Studie. Eine detaillierte Beschreibung der Indikatoren befindet sich im Abschnitt [Indikatorenbeschreibung](#Indiaktorenbeschreibung)",
+      "constraints": {
+        "enum": [
+          "AMarztB",
+          "Akrausch",
+          "Akrisiko_k",
+          "BBdors112",
+          "BBdors212",
+          "ENcolaBtgl",
+          "ENgemDtgl",
+          "ENobgemtgl",
+          "ENobstDtgl",
+          "EnsaftBtgl",
+          "GVzahnsa_k",
+          "GZmehm1_k",
+          "GZmehm2D_k3",
+          "GZmehm3C",
+          "IAarzt14B_k",
+          "IAarzt1B_k",
+          "IAarzt8C",
+          "IAcholus_k",
+          "IAdiabus_k",
+          "IAfa_k",
+          "IAhypus_k",
+          "IAkfutyp2B_lz_k",
+          "IAkfutyp4B_lz_k2",
+          "IAther2B",
+          "Iakhs",
+          "KAarbeit",
+          "KAcyc1",
+          "KAgfa",
+          "IAnotkhs",
+          "KAgfkaB",
+          "KAgfmk",
+          "KAspo2",
+          "KAwalk2",
+          "KHBBsa12",
+          "KHab12",
+          "KHalgi112",
+          "KHcb12B",
+          "KHdge12",
+          "KHdiabB12",
+          "KHmyokhk12",
+          "PAadiposB",
+          "PAnormalB",
+          "PAueberB",
+          "PAunterB",
+          "PKPHQ8_k6",
+          "RCpass4B_k2",
+          "RCstatE_k3"
+        ]
+      }
+    },
+    {
+      "name": "BundeslandId",
+      "type": "integer",
+      "description": "Identifikationsnummer des Wohnorts der Studienteilnehmer:innen, basierend auf dem Amtlichen Gemeindeschlüssel (AGS). Zusätzlich der Ausweisung für das gesamte Bundesgebiet (`00`). `00` : Deutschland <br/>`01` bis `16` : Bundesland ID",
+      "constraints": {
+        "minimum": 0,
+        "maximum": 16
+      }
+    },
+    {
+      "name": "Bundesland_Klassifikation",
+      "type": "integer",
+      "description": "Kategorie des Bundeslandes für diesen Indikator. Zum Hintergrund: Für jeden Indikator werden die Bundesländer nach dem Wert des Indikators in von niedrig(=1) zu hoch (=5) geordnete Kategorien eingeteilt.. Bei großen Unterschieden in den Werten des Indikators zwischen den Bundesländern gibt es viele Kategorien (max. 5), bei niedrigen Unterschieden gibt es weniger Kategorien.",
+      "missingValues": [
+        "NA"
+      ],
+      "constraints": {
+        "minimum": 1
+      }
+    }
+  ]
+}
