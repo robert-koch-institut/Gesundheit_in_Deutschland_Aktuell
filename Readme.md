@@ -12,7 +12,7 @@ Nordufer 20
 
 [Jennifer Allen](https://orcid.org/0000-0002-9201-1801)&sup1; (Projektleitung) und [Ronny Kuhnert](https://orcid.org/0000-0001-6617-8475)&sup1; (Datenmanagement)  
 
-&emsp;&sup1; [Robert Koch-Institut | Fachgebiet 21 | Epidemiologisches Daten- und Befragungszentrum](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt2/FG21/fg21_node.html)  
+&emsp;&sup1; [Robert Koch-Institut | Fachgebiet 21 | Epidemiologisches Daten- und Befragungszentrum](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-2/FG21/fg21-epidemiologisches-daten-und-befragungszentren-node.html)  
 
 
 ---  
@@ -30,12 +30,12 @@ Die Studie "Gesundheit in Deutschland aktuell" (GEDA) ist eine Querschnittbefrag
 Da die Durchführung der Europäischen Gesundheitsbefragung Aufgabe der einzelnen Mitgliedsstaaten ist und es daher diesen obliegt, Details der Stichprobenplanung, der Übersetzung und Operationalisierung der Fragen sowie der Erhebungsmethodik selbst zu gestalten, hat Eurostat in einem methodischen Manual die grundlegenden Anforderungen definiert (Eurostat, 2013).  
 Ziel der GEDA-Studie ist es, aktuelle Informationen zum Gesundheitszustand, zu Einflussfaktoren der gesundheitlichen Lage und zur Nutzung des Gesundheitssystems bereitzustellen. Als insgesamt fünfte Welle der GEDA-Studie wurde GEDA 2019/2020-EHIS zwischen April 2019 und September 2020 durchgeführt. Die Zielpopulation der Studie bildet für EHIS die deutschsprachige Wohnbevölkerung der Bundesrepublik Deutschland ab 15 Jahren ab, die in Privathaushalten lebt. Im Datensatz ist im Gegensatz zu den früheren GEDA-Studien die Bevölkerung ab 15 (statt 18) Jahren enthalten. GEDA 2019/2020-EHIS wurde als Telefoninterview durchgeführt. Die Datenerhebung erfolgte als standardisiertes computergestütztes telefonisches Interview per Festnetznummer oder per Mobilfunknummer.  
   
-Der vorliegende Datensatz stellt aggregierte Daten und Ergebnisse der Studie als Open Data bereit. Zur wissenschaftlichen Nachnutzung, können Scientific Usefiles der Studie auf [Antrag beim epidemiologischen Daten- und Befragungszentrum des Robert Koch-Instituts](https://www.rki.de/DE/Content/Forsch/FDZ/FDZ_node.html) erhalten werden.
+Der vorliegende Datensatz stellt aggregierte Daten und Ergebnisse der Studie als Open Data bereit. Zur wissenschaftlichen Nachnutzung, können Scientific Usefiles der Studie auf [Antrag beim epidemiologischen Daten- und Befragungszentrum des Robert Koch-Instituts](https://www.rki.de/fdz) erhalten werden.
 
 ### Projektbeteiligte und Rollenbesetzung  
 
-Die Studie "Gesundheit in Deutschland aktuell" (GEDA) wurde vom [Fachgebiet 21 | Epidemiologisches Daten- und Befragungszentrum](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt2/FG21/fg21_node.html) des RKIs durchgeführt. Darüber hinaus wirken weitere Fachgebiete der [Abteilung für Epidemiologie und Gesundheitsmonitoring (Abteilung 2)](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt2/abt2_node.html) in der Erhebung und Auswertung der Daten mit. Inhaltliche Fragen bezüglich der Datenerhebung, der Datenauswertung oder Datenkuration können direkt an das Epidemiologische Daten- und Befragungszentrum unter [edz@rki.de](mailto:edz@rki.de) gestellt werden.  
-Die Veröffentlichung der Daten sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MF/MF4/mf4_node.html). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.  
+Die Studie "Gesundheit in Deutschland aktuell" (GEDA) wurde vom [Fachgebiet 21 | Epidemiologisches Daten- und Befragungszentrum](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-2/FG21/fg21-epidemiologisches-daten-und-befragungszentren-node.html) des RKIs durchgeführt. Darüber hinaus wirken weitere Fachgebiete der [Abteilung für Epidemiologie und Gesundheitsmonitoring (Abteilung 2)](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-2/abt2-epidemiologie-und-gesundheitsmonitoring-node.html) in der Erhebung und Auswertung der Daten mit. Inhaltliche Fragen bezüglich der Datenerhebung, der Datenauswertung oder Datenkuration können direkt an das Epidemiologische Daten- und Befragungszentrum unter [edz@rki.de](mailto:edz@rki.de) gestellt werden.  
+Die Veröffentlichung der Daten sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Forschungsdatenmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.  
 
 ## Studiendesign und Stichprobe
 ### Studiendesign
@@ -188,7 +188,7 @@ Ein Trendvergleich zwischen den GEDA-Wellen ist aufgrund unterschiedlicher Erheb
  
 >[Lange C, Manz K, Kuntz B (2017) Alkoholkonsum bei Erwachsenen in Deutschland: Rauschtrinken. Journal of Health Monitoring 2(2):74–81. DOI 10.17886/RKI-GBE-2017-03](https://edoc.rki.de/handle/176904/2654)
 
->[Robert Koch-Institut (Hrsg) (2014) Rauschtrinken. Faktenblatt zu GEDA 2012: Ergebnisse der Studie »Gesundheit in Deutschland aktuell 2012«. RKI, Berlin www.rki.de/geda (Stand: 25.10.2014)](https://www.rki.de/DE/Content/Gesundheitsmonitoring/Gesundheitsberichterstattung/GBEDownloadsF/Geda2012/rauschtrinken.pdf;jsessionid=3F99BD7750A3C683AFCB08E3A582C5EE.internet112?__blob=publicationFile)
+>[Robert Koch-Institut (Hrsg) (2014) Rauschtrinken. Faktenblatt zu GEDA 2012: Ergebnisse der Studie »Gesundheit in Deutschland aktuell 2012«. RKI, Berlin www.rki.de/geda (Stand: 25.10.2014)](https://www.rki.de/DE/Themen/Nichtuebertragbare-Krankheiten/Studien-und-Surveillance/Studien/GEDA/Geda2012/GEDA12.pdf?__blob=publicationFile&v=2)
 
  
 #### `Akrisiko_k` - Alkohol: Riskanter Konsum
@@ -621,9 +621,9 @@ Dies steht im Gegensatz zu sozialen Unterschieden bei möglichen Ursachen bei de
  
 >[Rommel A, Kroll LE (2017) Individual and regional determinants for physical therapy utilization in Germany: multilevel analysis of national survey data. Physical therapy 97(5):512-523](https://academic.oup.com/ptj/article/97/5/512/3064336)
 
->[Rommel A, Prütz F (2017) Inanspruchnahme physiotherapeutischer Leistungen in Deutschland. Journal of Health Monitoring 2(4):101-108. https://edoc.rki.de/handle/176904/2907 (Stand: 13.12.2017)](https://www.rki.de/DE/Content/Gesundheitsmonitoring/Gesundheitsberichterstattung/GBEDownloadsJ/FactSheets/JoHM_04_2017_Physiotherapeutische_Leistungen.pdf?__blob=publicationFile)
+>[Rommel A, Prütz F (2017) Inanspruchnahme physiotherapeutischer Leistungen in Deutschland. Journal of Health Monitoring 2(4):101-108. https://edoc.rki.de/handle/176904/2907 (Stand: 13.12.2017)](https://doi.org/10.17886/RKI-GBE-2017-118)
 
->[Rommel A, Hintzpeter B, Urbanski D (2018) Inanspruchnahme von Physiotherapie, Logopädie und Ergotherapie bei Kindern und Jugendlichen in Deutschland – Querschnittergebnisse aus KiGGS Welle 2 und Trends. Journal of Health Monitoring 3(4):22-37. https://edoc.rki.de/handle/176904/5870 (Stand: 03.01.2019)](https://www.rki.de/DE/Content/Gesundheitsmonitoring/Gesundheitsberichterstattung/GBEDownloadsJ/Focus/JoHM_04_2018_Inanspruchnahme_Heilmittel_KiGGS-Welle2.pdf?__blob=publicationFile)
+>[Rommel A, Hintzpeter B, Urbanski D (2018) Inanspruchnahme von Physiotherapie, Logopädie und Ergotherapie bei Kindern und Jugendlichen in Deutschland – Querschnittergebnisse aus KiGGS Welle 2 und Trends. Journal of Health Monitoring 3(4):22-37. https://edoc.rki.de/handle/176904/5870 (Stand: 03.01.2019)](http://dx.doi.org/10.17886/RKI-GBE-2018-090)
 
 #### `Iakhs` - Inanspruchnahme: Stationäre Versorgung
  
@@ -1112,7 +1112,7 @@ Offene Forschungsdaten des RKI werden auf GitHub.com, Zenodo.org und Edoc.rki.de
 * https://zenodo.org/communities/robertkochinstitut  
 * https://edoc.rki.de/
 
-Darüber hinaus können die Scientific Usefiles der Studie auf [Antrag beim Epidemiologisches Daten- und Befragungszentrum](https://www.rki.de/DE/Content/Forsch/FDZ/FDZ_node.html) zur wissenschaftlichen Nachnutzung erhalten werden.
+Darüber hinaus können die Scientific Usefiles der Studie auf [Antrag beim Epidemiologisches Daten- und Befragungszentrum](https://www.rki.de/fdz) zur wissenschaftlichen Nachnutzung erhalten werden.
 
 https://www.rki.de/DE/Content/Forsch/FDZ/Datenangebot/GEDA_inhalt.html
 
