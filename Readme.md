@@ -1,27 +1,48 @@
-Datensatzbeschreibung
-# Gesundheit in Deutschland aktuell <br> GEDA 2019/2020-EHIS  
+<!-- HEADER_START: {"lang": "de"} -->
 
-[**Robert Koch-Institut | RKI**](https://rki.de)  
-Abteilung für Epidemiologie und Gesundheitsmonitoring  
-Nordufer 20   
-13353 Berlin  
+
+Dokumentation  
+# Gesundheit in Deutschland aktuell - GEDA 2019/2020-EHIS
+
+<br> 
+<br> 
+<br> 
+
+[**Robert Koch-Institut**](https://www.rki.de/)
+
+<br> 
+
+**Beitragende**   
+[Jennifer Allen](https://orcid.org/0000-0002-9201-1801)&sup1;, & [Ronny Kuhnert](https://orcid.org/0000-0001-6617-8475)&sup1;
+
+&emsp;&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de/) | [Fachgebiet 21](https://www.rki.de/fg21)
+
+<br> 
+
+**Zitieren**  
+Robert Koch-Institut. (2022). Gesundheit in Deutschland aktuell - GEDA 2019/2020-EHIS [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.7214473](https://doi.org/10.5281/zenodo.7214473)
 
 <br>
 
-**Beitragende**  
 
-[Jennifer Allen](https://orcid.org/0000-0002-9201-1801)&sup1; (Projektleitung) und [Ronny Kuhnert](https://orcid.org/0000-0001-6617-8475)&sup1; (Datenmanagement)  
+**Zusammenfassung**    
+Die Studie "Gesundheit in Deutschland aktuell – GEDA 2019/2020-EHIS" des Robert Koch-Instituts erfasst Gesundheitsdaten der deutschsprachigen erwachsenen Bevölkerung in Deutschland. Das Ziel ist Informationen zu Gesundheitszustand, Verhaltensweisen und Nutzung des Gesundheitssystems unter anderem für den europäischen Vergleich bereitzustellen. Dazu wurden in computergestützten Telefoninterviews gesundheitsrelevante Indikatoren wie Prävalenz von Krankheiten (z. B. Asthma, Diabetes), Gesundheitsverhalten (z. B. Rauchen, Alkoholkonsum) sowie Inanspruchnahme von Gesundheitsdiensten (z. B. Vorsorgeuntersuchungen, Therapie) erhoben. Der vorliegende Datensatz stellt die aggregierten Daten und Ergebnisse der Studie als Open Data bereit.
 
-&emsp;&sup1; [Robert Koch-Institut | Fachgebiet 21 | Epidemiologisches Daten- und Befragungszentrum](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-2/FG21/fg21-epidemiologisches-daten-und-befragungszentren-node.html)  
+<br>
 
+**Inhaltsverzeichnis** 
+<!-- TOC_START: {"heading_depth": 2} -->
+  - [Einleitung und Ziele](#einleitung-und-ziele)
+  - [Studiendesign und Stichprobe](#studiendesign-und-stichprobe)
+  - [Aufbau und Inhalt des Datensatzes](#aufbau-und-inhalt-des-datensatzes)
+  - [GEDA Daten](#geda-daten)
+  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)
+<!-- TOC_END -->
 
----  
+<br>
 
+<!-- HEADER_END -->
 
-**Zitieren**  
-<!-- CITATION_START: {"citation_style": "apa"} -->
-Robert Koch-Institut. (2022). Gesundheit in Deutschland aktuell - GEDA 2019/2020-EHIS [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.7214473](https://doi.org/10.5281/zenodo.7214473)
-<!-- CITATION_END -->     
 
 
 ## Einleitung und Ziele
@@ -34,8 +55,8 @@ Der vorliegende Datensatz stellt aggregierte Daten und Ergebnisse der Studie als
 
 ### Projektbeteiligte und Rollenbesetzung  
 
-Die Studie "Gesundheit in Deutschland aktuell" (GEDA) wurde vom [Fachgebiet 21 | Epidemiologisches Daten- und Befragungszentrum](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-2/FG21/fg21-epidemiologisches-daten-und-befragungszentren-node.html) des RKIs durchgeführt. Darüber hinaus wirken weitere Fachgebiete der [Abteilung für Epidemiologie und Gesundheitsmonitoring (Abteilung 2)](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-2/abt2-epidemiologie-und-gesundheitsmonitoring-node.html) in der Erhebung und Auswertung der Daten mit. Inhaltliche Fragen bezüglich der Datenerhebung, der Datenauswertung oder Datenkuration können direkt an das Epidemiologische Daten- und Befragungszentrum unter [edz@rki.de](mailto:edz@rki.de) gestellt werden.  
-Die Veröffentlichung der Daten sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Forschungsdatenmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.  
+Die Studie "Gesundheit in Deutschland aktuell" (GEDA) wurde vom [Fachgebiet 21 | Epidemiologisches Daten- und Befragungszentrum](https://www.rki.de/fg21) des RKIs durchgeführt. Darüber hinaus wirken weitere Fachgebiete der [Abteilung für Epidemiologie und Gesundheitsmonitoring (Abteilung 2)](https://www.rki.de/abt2) in der Erhebung und Auswertung der Daten mit. Inhaltliche Fragen bezüglich der Datenerhebung, der Datenauswertung oder Datenkuration können direkt an das Epidemiologische Daten- und Befragungszentrum unter [edz@rki.de](mailto:edz@rki.de) gestellt werden.  
+Die Veröffentlichung der Daten sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Forschungsdatenmanagement](https://www.rki.de/mf4). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.  
 
 ## Studiendesign und Stichprobe
 ### Studiendesign
@@ -1082,7 +1103,7 @@ Bezüglich der Passivrauchbelastung bei Männern waren deutlich ausgeprägte Bil
 
 Ein Trendvergleich der regelmäßigen Passivrauchbelastung mit früheren GEDA-Wellen ist aufgrund unterschiedlicher Erhebungsmethoden bzw. unterschiedlicher Fragestellungen derzeit nicht möglich.
  
->[Robert Koch-Institut (RKI) (2020) Rauchen – Gesundheit A bis Z. https://www.rki.de/rauchen](www.rki.de/rauchen)
+>[Robert Koch-Institut (RKI) (2020) Rauchen – Gesundheit A bis Z. https://www.rki.de/rauchen](https://www.rki.de/rauchen)
 
   
 #### `RCstatE_k3` - Rauchen: Tabakprodukte
@@ -1103,7 +1124,7 @@ Rauchen war bei beiden Geschlechtern in der unteren Bildungsgruppe deutlich häu
 
 Ein Trendvergleich zwischen den GEDA-Wellen [1,2] ist aufgrund unterschiedlicher Erhebungsmethoden bzw. unterschiedlicher Fragestellungen nur eingeschränkt möglich.
  
->[Robert Koch-Institut (RKI) (2020) Rauchen – Gesundheit A bis Z. https://www.rki.de/rauchen](www.rki.de/rauchen)
+>[Robert Koch-Institut (RKI) (2020) Rauchen – Gesundheit A bis Z. https://www.rki.de/rauchen](https://www.rki.de/rauchen)
 
 <!-- FOOTER_START: {"lang": "de"} -->
 
