@@ -137,7 +137,7 @@
     {
       "name": "Variable",
       "type": "string",
-      "description": "Gesundheitsindikatoren der Studie. Eine detaillierte Beschreibung der Indikatoren befindet sich im Abschnitt [Indikatorenbeschreibung](#Indiaktorenbeschreibung)",
+      "description": "Gesundheitsindikatoren der Studie. Eine detaillierte Beschreibung der Indikatoren befindet sich im Abschnitt [Indikatorenbeschreibung](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell/tree/main#indikatorenbeschreibung)",
       "constraints": {
         "enum": [
           "AMarztB",

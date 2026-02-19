@@ -2,6 +2,7 @@
 
 
 Dokumentation  
+
 # Gesundheit in Deutschland aktuell - GEDA 2019/2020-EHIS
 
 <br> 
@@ -20,23 +21,26 @@ Dokumentation
 <br> 
 
 **Zitieren**  
+<!-- CITATION_START: {"citation_style": "apa"} -->
 Robert Koch-Institut. (2022). Gesundheit in Deutschland aktuell - GEDA 2019/2020-EHIS [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.7214473](https://doi.org/10.5281/zenodo.7214473)
+<!-- CITATION_END -->
+
 
 <br>
-
 
 **Zusammenfassung**    
 Die Studie "Gesundheit in Deutschland aktuell – GEDA 2019/2020-EHIS" des Robert Koch-Instituts erfasst Gesundheitsdaten der deutschsprachigen erwachsenen Bevölkerung in Deutschland. Das Ziel ist Informationen zu Gesundheitszustand, Verhaltensweisen und Nutzung des Gesundheitssystems unter anderem für den europäischen Vergleich bereitzustellen. Dazu wurden in computergestützten Telefoninterviews gesundheitsrelevante Indikatoren wie Prävalenz von Krankheiten (z. B. Asthma, Diabetes), Gesundheitsverhalten (z. B. Rauchen, Alkoholkonsum) sowie Inanspruchnahme von Gesundheitsdiensten (z. B. Vorsorgeuntersuchungen, Therapie) erhoben. Der vorliegende Datensatz stellt die aggregierten Daten und Ergebnisse der Studie als Open Data bereit.
 
 <br>
 
-**Inhaltsverzeichnis** 
+**Inhaltsverzeichnis**  
+
 <!-- TOC_START: {"heading_depth": 2} -->
-  - [Einleitung und Ziele](#einleitung-und-ziele)
-  - [Studiendesign und Stichprobe](#studiendesign-und-stichprobe)
-  - [Aufbau und Inhalt des Datensatzes](#aufbau-und-inhalt-des-datensatzes)
-  - [GEDA Daten](#geda-daten)
-  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)
+  - [Einleitung und Ziele](#einleitung-und-ziele)  
+  - [Studiendesign und Stichprobe](#studiendesign-und-stichprobe)  
+  - [Aufbau und Inhalt des Datensatzes](#aufbau-und-inhalt-des-datensatzes)  
+  - [GEDA Daten](#geda-daten)  
+  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)  
 <!-- TOC_END -->
 
 <br>
@@ -59,6 +63,7 @@ Die Studie "Gesundheit in Deutschland aktuell" (GEDA) wurde vom [Fachgebiet 21 |
 Die Veröffentlichung der Daten sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Forschungsdatenmanagement](https://www.rki.de/mf4). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.  
 
 ## Studiendesign und Stichprobe
+
 ### Studiendesign
 Den Vorgaben für den EHIS folgend, umfasst die Grundgesamtheit die in Privathaushalten lebende Bevölkerung ab 15 Jahren, deren üblicher Aufenthaltsort zum Zeitpunkt der Datenerhebung in Deutschland liegt. Hierbei sind sowohl Einpersonen- als auch Mehrpersonenhaushalte inbegriffen, die eigenständig wirtschaften und sich selbständig mit für den Lebensunterhalt notwendigen Dingen versorgen. Diese Definition umfasst keine kollektiven Haushalte wie Krankenhäuser, Pflege- oder Wohnheime, Gefängnisse, Kasernen, religiöse Einrichtungen, Pensionen oder Wohnheime. "Üblicher Aufenthaltsort" beschreibt den Ort, an dem eine Person normalerweise lebt oder ihren Lebensmittelpunkt sieht – ungeachtet vorübergehender Abwesenheit zu Zwecken der Erholung, der beruflichen Tätigkeit, der medizinischen Behandlung oder ähnlichem.
 
@@ -76,7 +81,7 @@ Von USUMA wurden nur vollständige Interviews geliefert, daher waren die Einschl
 23.001 Teilnehmer:innen im Alter von 15 bis 99 Jahre sind im Datensatz enthalten, davon sind 10.838 männlich und 12.101 weiblich (Variable Gender). Die Feldlaufzeit war vom 04.04.2019 bis zum 05.09.2020. Die ersten 200 Interviews waren als Pretest konzipiert. Für die vorliegenden Analysen wurden die Studienteilnehmer:innen auf 22.708 Personen ab 18 Jahren eingegrenzt
 
 | **Altersgruppe** | **Anzahl** | **Männer** | **Frauen** | **Missing** |
-| ---------------- | ---------- | ---------- | ---------- | ----------- |
+| :---------------- | ----------: | ----------: | ----------: | -----------: |
 | **15 - 24 Jahre**  | 1.467      | 805        | 656        | 6           |
 | **25 - 34 Jahre**  | 2.047      | 1.129      | 908        | 10          |
 | **35 - 44 Jahre**  | 2.649      | 1.269      | 1.373      | 7           |
@@ -92,7 +97,7 @@ Tabelle: Teilnehmer:innenzahlen nach Alter und Geschlechtsidentität (Variable g
 ### Datenprüfungen und Korrekturen
 Die GEDA19-Daten wurden einer umfangreichen Konsistenzprüfung unterzogen. Die Datenprüfung umfasste neben formalen ebenso inhaltliche Aspekte. Hauptkriterium für die Datenprüfung waren die Unterlagen von Eurostat (Methodenmanual und Validation-Rules), wenn die Fragen direkt von EHIS vorgegeben waren. Bei den anderen inhaltlichen Fragen wurde der oder die für den jeweiligen Fragebogenteil Verantwortliche an der Entscheidung, wie mit Implausibilitäten umzugehen ist oder wie codiert werden soll, beteiligt. Konnten widersprüchliche Angaben durch das Fehlen ergänzender Informationen nicht korrigiert werden, wurden diese Angaben in der Dateninfo dokumentiert. Zur Gewährleistung eines einheitlichen Vorgehens bei Datenänderungen wurden allgemeine Regeln zur Datenprüfung und -korrektur abgesprochen. Zudem wurden alle Editieranweisungen in einer Datenbank dokumentiert. Datenänderungen geschahen über eine Reihe von Korrektursyntaxen, so dass alle Änderungen nachvollziehbar und dokumentiert sind.
 Das Ergebnis der Datenqualitätssicherung ist ein geprüfter, aber nicht vollständig widerspruchsfreier Datensatz. Vollständige Widerspruchsfreiheit ließe sich nur durch ein übermäßiges Glätten des Datensatzes mit der Gefahr der Verfälschung erreichen. Mit Ausnahme von Angaben zum Alter und Geschlecht wurden nur punktuell Abgleiche zwischen verschiedenen Fragebögen durchgeführt. Alle Vorgaben von Eurostat zur Qualitätssicherung wurden eingehalten.
-Bei stetigen Variablen ist von Nutzer:innen der GEDA19-Daten zu beachten, dass nicht alle Extremwerte („Ausreißer“) aus den Daten eliminiert wurden. Aufgabe der Datenqualitätssicherung ist es, Werte zu eliminieren, die mit hoher Wahrscheinlichkeit falsch sind. Die Frage, ob ein einzelner extremer, aber plausibler Wert etwa eine Regressionsanalyse über Gebühr beeinflusst, ist bei der Auswertung zu überprüfen. Dabei ist auch darauf zu achten, ob eventuell Werte außerhalb des Messbereichs vorliegen.
+Bei stetigen Variablen ist von Nutzer:innen der GEDA19-Daten zu beachten, dass nicht alle Extremwerte ("Ausreißer") aus den Daten eliminiert wurden. Aufgabe der Datenqualitätssicherung ist es, Werte zu eliminieren, die mit hoher Wahrscheinlichkeit falsch sind. Die Frage, ob ein einzelner extremer, aber plausibler Wert etwa eine Regressionsanalyse über Gebühr beeinflusst, ist bei der Auswertung zu überprüfen. Dabei ist auch darauf zu achten, ob eventuell Werte außerhalb des Messbereichs vorliegen.
 
 
 ## Aufbau und Inhalt des Datensatzes
@@ -106,10 +111,10 @@ Der Datensatz enthält aggregierte Daten der Studie "Gesundheit in Deutschland a
 
 ### Formatierung der Daten 
 
-Die Daten der Studie sind im Datensatz als kommaseparierte .csv Datei enthalten. Der verwendete Zeichensatz der .csv Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma ",".  
+Die Daten der Studie sind im Datensatz als kommaseparierte .csv Datei enthalten. Der verwendete Zeichensatz der .csv Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma `,`.  
 
 * Zeichensatz: UTF-8  
-* .csv Trennzeichen: Komma ","  
+* .csv Trennzeichen: Komma `,`  
 
 ### Metadaten
 Zur Erhöhung der Auffindbarkeit, sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadaten-Ordner hinterlegt:
@@ -124,7 +129,7 @@ Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Di
 
 ## GEDA Daten 
 
-Die aktuellen Daten der Studie "Gesundheit in Deutschland aktuell" sind im Hauptverzeichnis unter “Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.csv” abrufbar. 
+Die aktuellen Daten der Studie "Gesundheit in Deutschland aktuell" sind im Hauptverzeichnis unter "Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.csv" abrufbar. 
 
 > [Gesundheit_in_Deutschland_aktuell_-\_2019-2020-EHIS.csv](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell/blob/main/Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.csv)
 
@@ -136,7 +141,7 @@ Die bereitgestellten GEDA-Daten differenzieren grundlegend nach drei übergeordn
 - Räumliche Zuordnung (Bundesland, BundeslandID) 
 - Demografische Zuordnung (Altersgruppe, Bildungsgruppe, Gender)  
 
-Eine zentrale Bedeutung kommt der Variable "Indikator" zu. Insgesamt werden Daten zu 42 verschiedenen Indikatoren der Gesundheitsberichterstattung ausgewiesen. Diese ergeben den Überblick über den allgemeinen Gesundheitszustand in Deutschland. Eine detailliertere Beschreibung der einzelnen Indikatoren ist im Abschnitt [Indikatorenbeschreibung](#Indiaktorenbeschreibung) zu finden.  
+Eine zentrale Bedeutung kommt der Variable "Indikator" zu. Insgesamt werden Daten zu 42 verschiedenen Indikatoren der Gesundheitsberichterstattung ausgewiesen. Diese ergeben den Überblick über den allgemeinen Gesundheitszustand in Deutschland. Eine detailliertere Beschreibung der einzelnen Indikatoren ist im Abschnitt [Indikatorenbeschreibung](#indikatorenbeschreibung) zu finden.  
 
 Darüber hinaus wird die Indikatorenbeschreibung, so wie eine erste Interpretation der Daten in einer separaten Metadaten-Datei "2019_Gesundheit_in_Deutschlandaktuell_Variablen.csv", bereitgestellt.
 
@@ -147,24 +152,25 @@ Darüber hinaus wird die Indikatorenbeschreibung, so wie eine erste Interpretati
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS", "lang": "de"} -->
 
 Die Datei [Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.csv](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell/blob/main/Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.json](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell/blob/main/Metadaten/schemas/tableschema_Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.json) hinterlegt:
+
 > [tableschema_Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.json](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell/blob/main/Metadaten/schemas/tableschema_Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
-| Variable                  | Typ     | Ausprägungen                                                                                                          | Beschreibung                                                                                                                                                                                                                                                                                                                                                                             |
-|:--------------------------|:--------|:----------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Altersgruppe              | string  | Werte: `18 - 29 Jahre`, `30 - 44 Jahre`, `45 - 64 Jahre`, `65+`, `50 - 54 Jahre`, `55 - 59 Jahre`, `60 - 64 Jahre`, … | Altersgruppe der Studienteilnehmer:innen                                                                                                                                                                                                                                                                                                                                                 |
-| Bildungsgruppe            | string  | Werte: `Untere`, `Mittlere`, `Obere`, `Gesamt`                                                                        | Bildungsabschluss kodiert nach ISCED11 (Internationale Standardklassifikation des Bildungswesens) der Studienteilnehmer:innen                                                                                                                                                                                                                                                            |
-| Gender                    | string  | Werte: `Frauen`, `Männer`, `Gesamt`                                                                                   | Geschlechtsidentität der Studienteilnehmer:innen                                                                                                                                                                                                                                                                                                                                         |
-| Frequency                 | integer | Werte: `≥0`                                                                                                           | Fälle innerhalb der Stichprobe, ungewichtet                                                                                                                                                                                                                                                                                                                                              |
-| Freq_ges                  | integer | Werte: `≥0`                                                                                                           | Gesamtumfang der Stichprobe, ungewichtet                                                                                                                                                                                                                                                                                                                                                 |
-| Percent                   | number  | Werte: `0.000` - `100.000`<br>Fehlende Werte: `NA`                                                                    | Mittelwert des Anteils der Fälle innerhalb der Stichprobe                                                                                                                                                                                                                                                                                                                                |
-| LowerCL                   | number  | Werte: `0.000` - `100.000`<br>Fehlende Werte: `NA`                                                                    | Untere Grenze des Konfidenzintervalls des Anteils der Fälle innerhalb der Stichprobe                                                                                                                                                                                                                                                                                                     |
-| UpperCL                   | number  | Werte: `0.000` - `100.000`<br>Fehlende Werte: `NA`                                                                    | Obere Grenze des Konfidenzintervalls des Anteils der Fälle innerhalb der Stichprobe                                                                                                                                                                                                                                                                                                      |
-| Bundesland                | string  | Werte: `Deutschland`, `Baden-Württemberg`, `Bayern`, `Berlin`, `Brandenburg`, `Bremen`, `Hamburg`, …                  | Wohnort der Studienteilnehmer:innen, aufgeschlüsselt nach Bundesländern zuzüglich der Ausweisung für das gesamte Bundesgebiet                                                                                                                                                                                                                                                            |
-| Standard                  | boolean | Werte: `0`, `1`                                                                                                       | Eine Standardisierung nach Alter und Geschlecht wurde innerhalb der Bundesländer und innerhalb der Bildungsgruppen durchgeführt. Dazu wurde die europäische Standardbevölkerung 2013 verwendet. Damit sind die Bundesländer und die Prävalenzen in den drei Bildungsgruppen hinsichtlich Alter und Geschlecht vergleichbar.                                                              |
-| Variable                  | string  | Werte: `AMarztB`, `Akrausch`, `Akrisiko_k`, `BBdors112`, `BBdors212`, `ENcolaBtgl`, `ENgemDtgl`, …                    | Gesundheitsindikatoren der Studie. Eine detaillierte Beschreibung der Indikatoren befindet sich im Abschnitt [Indikatorenbeschreibung](#Indiaktorenbeschreibung)                                                                                                                                                                                                                         |
-| BundeslandId              | integer | Werte: `0` - `16`                                                                                                     | Identifikationsnummer des Wohnorts der Studienteilnehmer:innen, basierend auf dem Amtlichen Gemeindeschlüssel (AGS). Zusätzlich der Ausweisung für das gesamte Bundesgebiet (`00`). `00` : Deutschland <br/>`01` bis `16` : Bundesland ID                                                                                                                                                |
-| Bundesland_Klassifikation | integer | Werte: `≥1`<br>Fehlende Werte: `NA`                                                                                   | Kategorie des Bundeslandes für diesen Indikator. Zum Hintergrund: Für jeden Indikator werden die Bundesländer nach dem Wert des Indikators in von niedrig(=1) zu hoch (=5) geordnete Kategorien eingeteilt.. Bei großen Unterschieden in den Werten des Indikators zwischen den Bundesländern gibt es viele Kategorien (max. 5), bei niedrigen Unterschieden gibt es weniger Kategorien. |
+| Variable                  | Typ     | Ausprägungen                                                                                                             | Beschreibung                                                                                                                                                                                                                                                                                                                                                                             |
+|:--------------------------|:--------|:-------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Altersgruppe              | string  | Werte:<br>`18 - 29 Jahre`, `30 - 44 Jahre`, `45 - 64 Jahre`, `65+`, `50 - 54 Jahre`, `55 - 59 Jahre`, `60 - 64 Jahre`, … | Altersgruppe der Studienteilnehmer:innen                                                                                                                                                                                                                                                                                                                                                 |
+| Bildungsgruppe            | string  | Werte:<br>`Untere`, `Mittlere`, `Obere`, `Gesamt`                                                                        | Bildungsabschluss kodiert nach ISCED11 (Internationale Standardklassifikation des Bildungswesens) der Studienteilnehmer:innen                                                                                                                                                                                                                                                            |
+| Gender                    | string  | Werte:<br>`Frauen`, `Männer`, `Gesamt`                                                                                   | Geschlechtsidentität der Studienteilnehmer:innen                                                                                                                                                                                                                                                                                                                                         |
+| Frequency                 | integer | Werte: `≥0`                                                                                                              | Fälle innerhalb der Stichprobe, ungewichtet                                                                                                                                                                                                                                                                                                                                              |
+| Freq_ges                  | integer | Werte: `≥0`                                                                                                              | Gesamtumfang der Stichprobe, ungewichtet                                                                                                                                                                                                                                                                                                                                                 |
+| Percent                   | number  | Werte: `0.000` - `100.000`<br>Fehlende Werte:<br>`NA`                                                                    | Mittelwert des Anteils der Fälle innerhalb der Stichprobe                                                                                                                                                                                                                                                                                                                                |
+| LowerCL                   | number  | Werte: `0.000` - `100.000`<br>Fehlende Werte:<br>`NA`                                                                    | Untere Grenze des Konfidenzintervalls des Anteils der Fälle innerhalb der Stichprobe                                                                                                                                                                                                                                                                                                     |
+| UpperCL                   | number  | Werte: `0.000` - `100.000`<br>Fehlende Werte:<br>`NA`                                                                    | Obere Grenze des Konfidenzintervalls des Anteils der Fälle innerhalb der Stichprobe                                                                                                                                                                                                                                                                                                      |
+| Bundesland                | string  | Werte:<br>`Deutschland`, `Baden-Württemberg`, `Bayern`, `Berlin`, `Brandenburg`, `Bremen`, `Hamburg`, …                  | Wohnort der Studienteilnehmer:innen, aufgeschlüsselt nach Bundesländern zuzüglich der Ausweisung für das gesamte Bundesgebiet                                                                                                                                                                                                                                                            |
+| Standard                  | boolean | Werte:<br>`0`, `1`                                                                                                       | Eine Standardisierung nach Alter und Geschlecht wurde innerhalb der Bundesländer und innerhalb der Bildungsgruppen durchgeführt. Dazu wurde die europäische Standardbevölkerung 2013 verwendet. Damit sind die Bundesländer und die Prävalenzen in den drei Bildungsgruppen hinsichtlich Alter und Geschlecht vergleichbar.                                                              |
+| Variable                  | string  | Werte:<br>`AMarztB`, `Akrausch`, `Akrisiko_k`, `BBdors112`, `BBdors212`, `ENcolaBtgl`, `ENgemDtgl`, …                    | Gesundheitsindikatoren der Studie. Eine detaillierte Beschreibung der Indikatoren befindet sich im Abschnitt [Indikatorenbeschreibung](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell/tree/main#indikatorenbeschreibung)                                                                                                                                      |
+| BundeslandId              | integer | Werte: `0` - `16`                                                                                                        | Identifikationsnummer des Wohnorts der Studienteilnehmer:innen, basierend auf dem Amtlichen Gemeindeschlüssel (AGS). Zusätzlich der Ausweisung für das gesamte Bundesgebiet (`00`). `00` : Deutschland <br/>`01` bis `16` : Bundesland ID                                                                                                                                                |
+| Bundesland_Klassifikation | integer | Werte: `≥1`<br>Fehlende Werte:<br>`NA`                                                                                   | Kategorie des Bundeslandes für diesen Indikator. Zum Hintergrund: Für jeden Indikator werden die Bundesländer nach dem Wert des Indikators in von niedrig(=1) zu hoch (=5) geordnete Kategorien eingeteilt.. Bei großen Unterschieden in den Werten des Indikators zwischen den Bundesländern gibt es viele Kategorien (max. 5), bei niedrigen Unterschieden gibt es weniger Kategorien. |
 
 <!-- DATA_SCHEMA_TABLE_END -->
 
@@ -176,9 +182,9 @@ Die Datei [Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.csv](https://githu
 #### `AMarztB` - Medikamenteneinnahme
  
 Selbstangabe der Befragten: 
-„Haben Sie in den letzten zwei Wochen Medikamente eingenommen, die Ihnen von einer Ärztin oder einem Arzt verschrieben wurden? Nicht gemeint sind die Pille oder andere Hormonpräparate zur Empfängnisverhütung“. 
+"Haben Sie in den letzten zwei Wochen Medikamente eingenommen, die Ihnen von einer Ärztin oder einem Arzt verschrieben wurden? Nicht gemeint sind die Pille oder andere Hormonpräparate zur Empfängnisverhütung". 
 
-Antwortmöglichkeiten: „ja“, „nein“, „weiß nicht“ und „keine Angabe“
+Antwortmöglichkeiten: "ja", "nein", "weiß nicht" und "keine Angabe"
  
 ##### **Ergebnisse - Medikamenteneinnahme**
  
@@ -193,8 +199,8 @@ Signifikante geschlechtsbezogene Unterschiede in der Anwendung ärztlich verschr
  
 #### `Akrausch` - Alkohol: Rauschtrinken
  
-Selbstangabe der Befragten: „Wie oft haben Sie in den letzten 12 Monaten sechs oder mehr alkoholische Getränke bei einem Anlass getrunken? Zum Beispiel während einer Party, eines Essens, beim Ausgehen mit Freunden oder alleine zu Hause.“ Dieses Verhalten wird als „Rauschtrinken“ bezeichnet. 
-Antwortmöglichkeiten: „Täglich oder fast täglich“, „An 5 - 6 Tagen pro Woche“, „An 3 - 4 Tagen pro Woche“, „An 1 - 2 Tagen pro Woche“ , „An 2 - 3 Tagen im Monat“, „Einmal im Monat“, „Weniger als einmal im Monat“ , „Nicht in den letzten 12 Monaten, „Nie in meinem Leben“, „Weiß nicht“. 
+Selbstangabe der Befragten: "Wie oft haben Sie in den letzten 12 Monaten sechs oder mehr alkoholische Getränke bei einem Anlass getrunken? Zum Beispiel während einer Party, eines Essens, beim Ausgehen mit Freunden oder alleine zu Hause." Dieses Verhalten wird als "Rauschtrinken" bezeichnet. 
+Antwortmöglichkeiten: "Täglich oder fast täglich", "An 5 - 6 Tagen pro Woche", "An 3 - 4 Tagen pro Woche", "An 1 - 2 Tagen pro Woche" , "An 2 - 3 Tagen im Monat", "Einmal im Monat", "Weniger als einmal im Monat" , "Nicht in den letzten 12 Monaten, "Nie in meinem Leben", "Weiß nicht". 
 Dargestellt ist der Anteil von Personen, die mindestens einmal im Monat Rauschtrinken.
  
 ##### **Ergebnisse - Alkohol: Rauschtrinken**
@@ -214,8 +220,8 @@ Ein Trendvergleich zwischen den GEDA-Wellen ist aufgrund unterschiedlicher Erheb
  
 #### `Akrisiko_k` - Alkohol: Riskanter Konsum
  
-Selbstangabe der Befragten: „Die folgenden Fragen beziehen sich auf Ihren Alkoholkonsum. Wie oft haben Sie in den letzten 12 Monaten Alkohol getrunken, wie Bier, Wein, Sekt, Spirituosen, Schnaps, Cocktails, alkoholische Mischgetränke, Liköre, hausgemachten oder selbstgebrannten Alkohol?“ 
-Antwortkategorien: „Täglich oder fast täglich“, „An 5 bis 6 Tagen pro Woche“, „An 3 bis 4 Tagen pro Woche“,  „An 1 bis 2 Tagen pro Woche“,  „An 1 bis 3 Tagen pro Monat“, „Einmal pro Monat“, „Weniger als einmal pro Monat“, „Nicht in den letzten 12 Monaten, da ich keinen Alkohol mehr trinke“, „Nie, oder lediglich einige wenige Schlucke in meinem Leben“ 
+Selbstangabe der Befragten: "Die folgenden Fragen beziehen sich auf Ihren Alkoholkonsum. Wie oft haben Sie in den letzten 12 Monaten Alkohol getrunken, wie Bier, Wein, Sekt, Spirituosen, Schnaps, Cocktails, alkoholische Mischgetränke, Liköre, hausgemachten oder selbstgebrannten Alkohol?" 
+Antwortkategorien: "Täglich oder fast täglich", "An 5 bis 6 Tagen pro Woche", "An 3 bis 4 Tagen pro Woche",  "An 1 bis 2 Tagen pro Woche",  "An 1 bis 3 Tagen pro Monat", "Einmal pro Monat", "Weniger als einmal pro Monat", "Nicht in den letzten 12 Monaten, da ich keinen Alkohol mehr trinke", "Nie, oder lediglich einige wenige Schlucke in meinem Leben" 
 
 Bei mindestens wöchentlichem Konsum wurde die Trinkmenge auf der Basis von Standardgetränken, differenziert nach Wochentagen (Montag bis Donnerstag) und Wochenenden (Freitag bis Sonntag), erfragt. Daraus wurde der mittlere Konsum in g Reinalkohol pro Tag geschätzt. Ein Konsum von > 10 g reinem Alkohol pro Tag bei Frauen und > 20 g pro Tag bei Männern wird als riskant definiert. 
 Dargestellt ist der Anteil Personen mit riskantem Alkoholkonsum.
@@ -238,9 +244,9 @@ Ein Trendvergleich zwischen den GEDA-Wellen ist aufgrund unterschiedlicher Erheb
 
 #### `ENcolaBtgl` - Ernährung: Täglich zuckerhaltige Erfrischungsgetränke
  
-Selbstangabe der Befragten: „Wie oft trinken Sie zuckerhaltige Getränke wie gesüßte Fruchtsaftgetränke, Limonade, Cola oder andere zuckerhaltige Erfrischungsgetränke? Bitte zählen Sie Light- und Diätgetränke oder Getränke mit Süßstoff nicht mit.“ 
+Selbstangabe der Befragten: "Wie oft trinken Sie zuckerhaltige Getränke wie gesüßte Fruchtsaftgetränke, Limonade, Cola oder andere zuckerhaltige Erfrischungsgetränke? Bitte zählen Sie Light- und Diätgetränke oder Getränke mit Süßstoff nicht mit." 
 
-Antwortmöglichkeiten: „Täglich oder mehrmals täglich“, „Vier bis Sechs Mal pro Woche“, „Ein bis Drei Mal pro Woche“, „Weniger als einmal pro Woche“, „Nie“
+Antwortmöglichkeiten: "Täglich oder mehrmals täglich", "Vier bis Sechs Mal pro Woche", "Ein bis Drei Mal pro Woche", "Weniger als einmal pro Woche", "Nie"
 
 Der Anteil derjenigen, die einen täglichen oder mehrmals täglichen Verzehr angaben, wurde analysiert.
  
@@ -260,9 +266,9 @@ In früheren GEDA-Erhebungen wurde dieser Indikator nicht erfasst.
  
 #### `ENgemDtgl` - Ernährung: Täglich Gemüse
  
-Selbstangabe der Befragten: „Wie oft essen Sie Gemüse oder Salat? Mit einzubeziehen ist getrocknetes, Tiefkühl- und Dosengemüse. Zählen Sie Kartoffeln und Gemüsesäfte bitte nicht mit“. 
+Selbstangabe der Befragten: "Wie oft essen Sie Gemüse oder Salat? Mit einzubeziehen ist getrocknetes, Tiefkühl- und Dosengemüse. Zählen Sie Kartoffeln und Gemüsesäfte bitte nicht mit". 
 Antwortmöglichkeiten: 
-„Täglich oder mehrmals täglich“, „4 bis 6 Mal pro Woche“, „1 bis 3 Mal pro Woche“, „Weniger als einmal pro Woche“, „Nie“ 
+"Täglich oder mehrmals täglich", "4 bis 6 Mal pro Woche", "1 bis 3 Mal pro Woche", "Weniger als einmal pro Woche", "Nie" 
 
 Der Anteil derjenigen, die einen täglichen oder mehrmals täglichen Verzehr angaben, wurde analysiert.
  
@@ -281,7 +287,7 @@ Im Vergleich zu GEDA 2012, erreichten inzwischen mehr Frauen einen täglichen Ge
  
 #### `ENobgemtgl` - Ernährung: Täglich Obst und Gemüse
  
-Selbstangabe der Befragten: „Wie oft essen Sie Obst? Mit einzubeziehen ist ebenfalls getrocknetes, Tiefkühl- und Dosenobst. Nicht gemeint sind hier Obstsäfte“ und „Wie oft essen Sie Gemüse oder Salat? Mit einzubeziehen ist getrocknetes, Tiefkühl- und Dosengemüse. Zählen Sie Kartoffeln und Gemüsesäfte bitte nicht mit“. 
+Selbstangabe der Befragten: "Wie oft essen Sie Obst? Mit einzubeziehen ist ebenfalls getrocknetes, Tiefkühl- und Dosenobst. Nicht gemeint sind hier Obstsäfte" und "Wie oft essen Sie Gemüse oder Salat? Mit einzubeziehen ist getrocknetes, Tiefkühl- und Dosengemüse. Zählen Sie Kartoffeln und Gemüsesäfte bitte nicht mit". 
 
 Diejenigen, die bei beiden Fragen einen (mehrmals) täglichen Verzehr angaben, wurden als Gruppe definiert und analysiert. Wenn eine der beiden Angaben fehlte, wurde die Indikatorvariable als fehlend kodiert.
  
@@ -299,14 +305,14 @@ Im Vergleich zu GEDA 12 verzehrten inzwischen etwas mehr Erwachsene täglich Obs
  
 >[Richter A, Schienkiewitz A, Starker A, Krug S, Domanska O et al. (2021) Gesundheitsfördernde Verhaltensweisen bei Erwachsenen in Deutschland – Ergebnisse der Studie GEDA 2019/2020-EHIS. Journal of Health Monitoring 6(3):28–48. DOI 10.25646/846](https://edoc.rki.de/handle/176904/8750)
 
->[Robert Koch-Institut (2014) Daten und Fakten: Ergebnisse der Studie „Gesundheit in Deutschland aktuell 2012“. Beiträge zur Gesundheitsberichterstattung des Bundes. Robert Koch-Institut, Berlin](https://edoc.rki.de/handle/176904/3245)
+>[Robert Koch-Institut (2014) Daten und Fakten: Ergebnisse der Studie "Gesundheit in Deutschland aktuell 2012". Beiträge zur Gesundheitsberichterstattung des Bundes. Robert Koch-Institut, Berlin](https://edoc.rki.de/handle/176904/3245)
 
  
 #### `ENobstDtgl` - Ernährung: Täglich Obst
  
-Selbstangabe der Befragten: „Wie oft essen Sie Obst? Mit einzubeziehen ist ebenfalls getrocknetes, Tiefkühl- und Dosenobst. Nicht gemeint sind hier Obstsäfte“. 
+Selbstangabe der Befragten: "Wie oft essen Sie Obst? Mit einzubeziehen ist ebenfalls getrocknetes, Tiefkühl- und Dosenobst. Nicht gemeint sind hier Obstsäfte". 
 
-Antwortmöglichkeiten: Täglich oder mehrmals täglich“, „4 bis 6 Mal pro Woche“, „1 bis 3 Mal pro Woche“, „Weniger als einmal pro Woche“, „Nie“ 
+Antwortmöglichkeiten: Täglich oder mehrmals täglich", "4 bis 6 Mal pro Woche", "1 bis 3 Mal pro Woche", "Weniger als einmal pro Woche", "Nie" 
 
 Der Anteil derjenigen, die einen täglichen oder mehrmals täglichen Verzehr angaben, wurde analysiert.
  
@@ -322,13 +328,13 @@ Seit GEDA 2012 sank der Anteil in der Bevölkerung, der täglich Obst isst, geri
 
 >[Gert B.M. Mensink, Anja Schienkiewitz, Cornelia Lange (2017) Obstkonsum bei Erwachsenen in Deutschland. Journal of Health Monitoring 2(2). DOI 10.17886/RKI-GBE-2017-028](https://edoc.rki.de/handle/176904/2652)
 
->[Robert Koch-Institut (2014) Daten und Fakten: Ergebnisse der Studie „Gesundheit in Deutschland aktuell 2012“. Beiträge zur Gesundheitsberichterstattung des Bundes. Robert Koch-Institut, Berlin](https://edoc.rki.de/handle/176904/3245)
+>[Robert Koch-Institut (2014) Daten und Fakten: Ergebnisse der Studie "Gesundheit in Deutschland aktuell 2012". Beiträge zur Gesundheitsberichterstattung des Bundes. Robert Koch-Institut, Berlin](https://edoc.rki.de/handle/176904/3245)
 
 #### `EnsaftBtgl` - Ernährung: Täglich Obst- oder Gemüsesaft
  
-Selbstangabe der Befragten: „Wie oft trinken Sie Obst- oder Gemüsesaft mit 100% Fruchtgehalt? Bitte zählen Sie Getränke aus Sirup oder gesüßte Fruchtsaftgetränke nicht mit.“ 
+Selbstangabe der Befragten: "Wie oft trinken Sie Obst- oder Gemüsesaft mit 100% Fruchtgehalt? Bitte zählen Sie Getränke aus Sirup oder gesüßte Fruchtsaftgetränke nicht mit." 
 
-Antwortmöglichkeiten: „Täglich oder mehrmals täglich“, „4 bis 6 Mal pro Woche“, „1 bis 3 Mal pro Woche“, „Weniger als einmal pro Woche“, „Nie“ 
+Antwortmöglichkeiten: "Täglich oder mehrmals täglich", "4 bis 6 Mal pro Woche", "1 bis 3 Mal pro Woche", "Weniger als einmal pro Woche", "Nie" 
 
 Der Anteil derjenigen, die einen täglichen oder mehrmals täglichen Konsum angaben, wurde analysiert.
  
@@ -342,7 +348,7 @@ Bezüglich Bildungsunterschieden, war nur bei Männern in der mittleren Gruppe e
 
 Der tägliche Konsum hat sich seit GEDA 2012 bei beiden Geschlechtern geringfügig verringert (2012: 14 % bei Frauen und 13 % bei Männern), insbesondere unter den 30- bis 64-jährigen Frauen (2012: jeweils 14 %). 
 
-Obst und Gemüsesäfte enthalten wichtige Vitamine und Mineralstoffe, jedoch häufig auch viel Zucker, ohne die sättigende Wirkung von frischem Obst und Gemüse zu haben. Bei der „fünf am Tag“- Empfehlung wird deshalb der Konsum von frischem Obst und Gemüse als günstiger erachtet.
+Obst und Gemüsesäfte enthalten wichtige Vitamine und Mineralstoffe, jedoch häufig auch viel Zucker, ohne die sättigende Wirkung von frischem Obst und Gemüse zu haben. Bei der "fünf am Tag"- Empfehlung wird deshalb der Konsum von frischem Obst und Gemüse als günstiger erachtet.
  
 >[Rabenberg M, Mensink GBM (2013) Limo, Saft & Co – Konsum zuckerhaltiger Getränke in Deutschland. GBE kompakt 1/2013. 4. Robert Koch-Institut, Berlin.](https://edoc.rki.de/handle/176904/3111)
 
@@ -350,11 +356,11 @@ Obst und Gemüsesäfte enthalten wichtige Vitamine und Mineralstoffe, jedoch hä
  
 #### `GVzahnsa_k` - Mundgesundheit
  
-Selbstangaben der Befragten: „Wie würden Sie den Zustand Ihrer Zähne und Ihres Zahnfleischs beschreiben?“
+Selbstangaben der Befragten: "Wie würden Sie den Zustand Ihrer Zähne und Ihres Zahnfleischs beschreiben?"
  
-Antwortmöglichkeiten: „Sehr gut“, „Gut“, „Mittelmäßig“, „Schlecht“, „Sehr schlecht“. 
+Antwortmöglichkeiten: "Sehr gut", "Gut", "Mittelmäßig", "Schlecht", "Sehr schlecht". 
 
-Für die Analysen wurde eine Dichotomisierung der Antwortkategorien in „sehr gut/gut“ vs. „mittelmäßig/schlecht/sehr schlecht“ vorgenommen.
+Für die Analysen wurde eine Dichotomisierung der Antwortkategorien in "sehr gut/gut" vs. "mittelmäßig/schlecht/sehr schlecht" vorgenommen.
  
 ##### **Ergebnisse - Mundgesundheit**
  
@@ -376,11 +382,11 @@ Es zeigten sich keine statistisch bedeutsamen Unterschiede nach Bundesländern.
  
 #### `GZmehm1_k` - Subjektive Gesundheit
  
-Selbstangaben der Befragten: „Wie ist Ihr Gesundheitszustand im Allgemeinen?“. 
+Selbstangaben der Befragten: "Wie ist Ihr Gesundheitszustand im Allgemeinen?". 
 
-Antwortmöglichkeiten: „Sehr gut“, „Gut“, „Mittelmäßig“, „Schlecht“, „Sehr schlecht“. 
+Antwortmöglichkeiten: "Sehr gut", "Gut", "Mittelmäßig", "Schlecht", "Sehr schlecht". 
 
-Die Angabe von „sehr gut“ oder „gut“ wird als positive Einschätzung der subjektiven Gesundheit definiert.
+Die Angabe von "sehr gut" oder "gut" wird als positive Einschätzung der subjektiven Gesundheit definiert.
  
 ##### **Ergebnisse - Subjektive Gesundheit**
  
@@ -397,13 +403,13 @@ In der unteren Bildungsgruppe wurde die subjektive Gesundheit deutlich schlechte
  
 #### `GZmehm2D_k3` - Einschränkung durch Krankheit
  
-Selbstangabe der Befragten: „Sind Sie durch ein gesundheitliches Problem bei Tätigkeiten des normalen Alltagslebens eingeschränkt? Würden Sie sagen, Sie sind…“
+Selbstangabe der Befragten: "Sind Sie durch ein gesundheitliches Problem bei Tätigkeiten des normalen Alltagslebens eingeschränkt? Würden Sie sagen, Sie sind…"
 
-Antwortmöglichkeiten: „Stark eingeschränkt“, „Mäßig eingeschränkt“, „Nicht eingeschränkt“
+Antwortmöglichkeiten: "Stark eingeschränkt", "Mäßig eingeschränkt", "Nicht eingeschränkt"
 
-Befragte, die eine der beiden ersten Antwortmöglichkeiten angaben, wurden weiterhin gefragt: „Wie lange dauern Ihre Einschränkungen bereits an?“. 
+Befragte, die eine der beiden ersten Antwortmöglichkeiten angaben, wurden weiterhin gefragt: "Wie lange dauern Ihre Einschränkungen bereits an?". 
 
-Antwortmöglichkeiten: „Weniger als 6 Monate“, „6 Monate oder länger“
+Antwortmöglichkeiten: "Weniger als 6 Monate", "6 Monate oder länger"
  
 ##### **Ergebnisse - Einschränkung durch Krankheit**
  
@@ -421,9 +427,9 @@ In der unteren Bildungsgruppe wurden gesundheitsbedingter Einschränkungen deutl
  
 #### `GZmehm3C` - Chronische Krankheit
  
-Selbstangaben der Befragten: „Haben Sie eine chronische Krankheit oder ein lang andauerndes gesundheitliches Problem? Damit gemeint sind Krankheiten oder gesundheitliche Probleme, die mindestens 6 Monate andauern oder voraussichtlich andauern werden.“ 
+Selbstangaben der Befragten: "Haben Sie eine chronische Krankheit oder ein lang andauerndes gesundheitliches Problem? Damit gemeint sind Krankheiten oder gesundheitliche Probleme, die mindestens 6 Monate andauern oder voraussichtlich andauern werden." 
 
-Antwortmöglichkeiten: „Ja“, „Nein“, „Weiß nicht“
+Antwortmöglichkeiten: "Ja", "Nein", "Weiß nicht"
  
 ##### **Ergebnisse - Chronische Krankheit**
  
@@ -457,7 +463,7 @@ Zudem zeigte sich ein deutlicher Bildungsgradient: Erwachsene der oberen Bildung
  
 #### `IAarzt1B_k` - Inanspruchnahme: Allgemeinärztliche oder hausärztliche Versorgung
  
-Selbstangabe der Befragten: „Wann haben Sie zuletzt einen Allgemeinmediziner oder Hausarzt konsultiert, um sich selbst beraten, untersuchen oder behandeln zu lassen?“ 
+Selbstangabe der Befragten: "Wann haben Sie zuletzt einen Allgemeinmediziner oder Hausarzt konsultiert, um sich selbst beraten, untersuchen oder behandeln zu lassen?" 
 
 Antwortmöglichkeiten: "Vor weniger als 12 Monaten", "Vor 12 Monaten oder länger", "Nie" 
 
@@ -476,9 +482,9 @@ Darüber hinaus bestand ein Bildungsgradient mit einer höheren Inanspruchnahme 
 
 #### `IAarzt8C` - Inanspruchnahme: Psycholog:in
  
-Selbstangabe der Befragten: „Waren Sie in den letzten 12 Monaten bei einem Psychologen, Psychotherapeuten oder Psychiater, um sich selbst beraten, untersuchen oder behandeln zu lassen?“ 
+Selbstangabe der Befragten: "Waren Sie in den letzten 12 Monaten bei einem Psychologen, Psychotherapeuten oder Psychiater, um sich selbst beraten, untersuchen oder behandeln zu lassen?" 
 
-Antwortmöglichkeiten: „Ja“, „Nein“, „Weiß nicht“
+Antwortmöglichkeiten: "Ja", "Nein", "Weiß nicht"
  
 ##### **Ergebnisse - Inanspruchnahme: Psycholog:in**
  
@@ -494,9 +500,9 @@ Gleichermaßen zeigten sich Geschlechterunterschiede im Vergleich der Bildungsgr
  
 #### `IAcholus_k` - Vorsorge: Blutfettwertebestimmung
  
-Selbstangabe der Befragten: „Wann wurden Ihre Blutfettwerte bzw. Cholesterinwerte zuletzt von medizinischem Fachpersonal bestimmt?“ 
+Selbstangabe der Befragten: "Wann wurden Ihre Blutfettwerte bzw. Cholesterinwerte zuletzt von medizinischem Fachpersonal bestimmt?" 
 
-Antwortmöglichkeiten: „Innerhalb der letzten 12 Monate“, Vor 1 bis weniger als 3 Jahren“, „Vor 3 bis weniger als 5 Jahren“, „Vor 5 Jahren oder mehr“ und „Nie“. 
+Antwortmöglichkeiten: "Innerhalb der letzten 12 Monate", Vor 1 bis weniger als 3 Jahren", "Vor 3 bis weniger als 5 Jahren", "Vor 5 Jahren oder mehr" und "Nie". 
 
 Basierend auf den Antworten wurde eine dichotome Variable zur Kontrolle von Blutfettwerten in den letzten zwölf Monaten gebildet (ja/nein).
  
@@ -510,9 +516,9 @@ Unsere Analysen zeigen, dass Die Mehrheit der Erwachsenen ließ in den letzten z
 
 #### `IAdiabus_k` - Vorsorge: Blutzuckermessung
  
-Selbstangabe der Befragten: „Wann wurde Ihr Blutzucker zuletzt von medizinischem Fachpersonal gemessen?“ 
+Selbstangabe der Befragten: "Wann wurde Ihr Blutzucker zuletzt von medizinischem Fachpersonal gemessen?" 
 
-Antwortmöglichkeiten: „Innerhalb der letzten 12 Monate“, „Vor 1 bis weniger als 3 Jahren“, „Vor 3 bis weniger als 5 Jahren“, „Vor 5 Jahren oder mehr“, „Nie“.
+Antwortmöglichkeiten: "Innerhalb der letzten 12 Monate", "Vor 1 bis weniger als 3 Jahren", "Vor 3 bis weniger als 5 Jahren", "Vor 5 Jahren oder mehr", "Nie".
 
 Basierend auf den Antworten wurde eine dichotome Variable zur Kontrolle von Blutzucker in den letzten zwölf Monaten gebildet (ja/nein).
  
@@ -526,7 +532,7 @@ Die Mehrheit der Erwachsenen ließ sich in den letzten 12 Monaten die Blutzucker
  
 #### `IAfa_k` - Inanspruchnahme: Fachärztliche Versorgung
  
-Selbstangabe der Befragten: „Wann waren Sie zuletzt bei einem Facharzt, um sich selbst beraten, untersuchen oder behandeln zu lassen?“ 
+Selbstangabe der Befragten: "Wann waren Sie zuletzt bei einem Facharzt, um sich selbst beraten, untersuchen oder behandeln zu lassen?" 
 
 Antwortmöglichkeiten: "Vor weniger als 12 Monaten", "Vor 12 Monaten oder länger", "Nie" 
 
@@ -544,9 +550,9 @@ Zudem bestand bei Frauen und Männern ein Bildungsgradient mit einer höheren fa
  
 #### `IAhypus_k` - Vorsorge: Blutdruckmessung
  
-Selbstangabe der Befragten: „Wann wurde Ihr Blutdruck zuletzt von medizinischem Fachpersonal gemessen?“ 
+Selbstangabe der Befragten: "Wann wurde Ihr Blutdruck zuletzt von medizinischem Fachpersonal gemessen?" 
 
-Antwortmöglichkeiten: „Innerhalb der letzten 12 Monate“, „Vor 1 bis weniger als 3 Jahren“, „Vor 3 bis weniger als 5 Jahren“, „Vor 5 Jahren oder mehr“, „Nie“ 
+Antwortmöglichkeiten: "Innerhalb der letzten 12 Monate", "Vor 1 bis weniger als 3 Jahren", "Vor 3 bis weniger als 5 Jahren", "Vor 5 Jahren oder mehr", "Nie" 
 
 Basierend auf den Antworten wurde eine dichotome Variable zur Kontrolle von Blutdruck in den letzten zwölf Monaten gebildet (ja/nein).
  
@@ -562,9 +568,9 @@ Mit zunehmendem Alter stieg der Anteil der Erwachsenen, die in den letzten 12 Mo
 
 #### `IAkfutyp2B_lz_k` - Vorsorge: Test auf Blut im Stuhl
  
-Selbstangabe der Befragten: „Wann wurde bei Ihnen zuletzt ein Test auf verstecktes Blut im Stuhl durchgeführt?“
+Selbstangabe der Befragten: "Wann wurde bei Ihnen zuletzt ein Test auf verstecktes Blut im Stuhl durchgeführt?"
 
-Antwortmöglichkeiten: „Innerhalb der letzten 12 Monate“, „Vor 1 bis weniger als 2 Jahren“, „Vor 2 bis weniger als 3 Jahren“, „Vor 3 Jahren oder mehr“, „Nie“
+Antwortmöglichkeiten: "Innerhalb der letzten 12 Monate", "Vor 1 bis weniger als 2 Jahren", "Vor 2 bis weniger als 3 Jahren", "Vor 3 Jahren oder mehr", "Nie"
 
 Die vorliegende Auswertung weist die Inanspruchnahme innerhalb der letzten zwei Jahre für Frauen und Männer ab einem Alter von 55 Jahren aus. Sie orientiert sich am empfohlenen Untersuchungsintervall gemäß der Krebsfrüherkennungsrichtlinie.
  
@@ -584,9 +590,9 @@ Ein Trendvergleich mit früheren GEDA-Wellen ist nicht möglich, da der Test auf
 
 #### `IAkfutyp4B_lz_k2` - Vorsorge: Darmspiegelung
  
-Selbstangabe der Befragten: „Wann wurde bei Ihnen zuletzt eine Darmspiegelung bzw. Koloskopie durchgeführt?“
+Selbstangabe der Befragten: "Wann wurde bei Ihnen zuletzt eine Darmspiegelung bzw. Koloskopie durchgeführt?"
 
-Antwortmöglichkeiten: „Innerhalb der letzten 12 Monate“, „Vor 1 bis weniger als 5 Jahren“, „Vor 5 bis weniger als 10 Jahren“, „Vor 10 Jahren oder mehr“, „Nie“ 
+Antwortmöglichkeiten: "Innerhalb der letzten 12 Monate", "Vor 1 bis weniger als 5 Jahren", "Vor 5 bis weniger als 10 Jahren", "Vor 10 Jahren oder mehr", "Nie" 
 
 Die vorliegende Auswertung weist die Inanspruchnahme der letzten Darmspiegelung innerhalb der letzten zehn Jahre für Männer ab einem Alter von 50 Jahren und für Frauen ab einem Alter von 55 Jahren aus. Sie orientiert sich am empfohlenen Untersuchungsintervall gemäß der Krebsfrüherkennungsrichtlinie, die sich für Frauen und Männer unterscheidet.
  
@@ -664,8 +670,8 @@ Für die Inanspruchnahme nach Bildung zeigt sich kein einheitliches Muster. Es g
 
 #### `KAarbeit` - Körperliche Aktivität: Arbeitsbezogene Aktivität
  
-Selbstangabe der Teilnehmenden: „Wenn Sie arbeiten, welche der folgenden Antwortmöglichkeiten beschreibt am besten was Sie tun?“ 
-Hierbei umfasst der Begriff „Arbeit“ sowohl bezahlte als auch unbezahlte Tätigkeiten (z.B. Studium, Hausarbeit). 
+Selbstangabe der Teilnehmenden: "Wenn Sie arbeiten, welche der folgenden Antwortmöglichkeiten beschreibt am besten was Sie tun?" 
+Hierbei umfasst der Begriff "Arbeit" sowohl bezahlte als auch unbezahlte Tätigkeiten (z.B. Studium, Hausarbeit). 
 
 Antwortkategorien: Vorwiegend sitzen oder stehen, Vorwiegend gehen oder mäßig anstrengende körperliche Tätigkeiten, Vorwiegend schwere körperliche Arbeit oder körperlich beanspruchende Tätigkeiten, Ich führe keine arbeitsbezogenen Tätigkeiten aus.
 
@@ -686,11 +692,11 @@ Im Vergleich zu GEDA 2014/2015 hat der Anteil der Personen mit sitzender oder st
 
 #### `KAcyc1` - Körperliche Aktivität: Fahrradfahren von Ort zu Ort
  
-Selbstangabe der Teilnehmenden: „An wie vielen Tagen in einer typischen Woche fahren Sie mindestens 10 Minuten ohne Unterbrechung mit dem Fahrrad, um von Ort zu Ort zu gelangen?“ 
+Selbstangabe der Teilnehmenden: "An wie vielen Tagen in einer typischen Woche fahren Sie mindestens 10 Minuten ohne Unterbrechung mit dem Fahrrad, um von Ort zu Ort zu gelangen?" 
 
 Antwortkategorien: Anzahl der Tage pro Woche
 
-Selbstangabe der Teilnehmenden: „Wie lange fahren Sie an einem typischen Tag mit dem Fahrrad, um von Ort zu Ort zu gelangen?“
+Selbstangabe der Teilnehmenden: "Wie lange fahren Sie an einem typischen Tag mit dem Fahrrad, um von Ort zu Ort zu gelangen?"
 
 Antwortkategorien: 10-29 Minuten pro Tag, 30-59 Minuten pro Tag, 1 Stunde bis unter 2 Stunden pro Tag, 2 Stunden bis unter 3 Stunden pro Tag, 3 Stunden pro Tag und mehr
 
@@ -730,9 +736,9 @@ Ein Trendvergleich zwischen den GEDA-Wellen ist aufgrund methodischer Unterschie
  
 #### `KAgfkaB` - Körperliche Aktivität: Ausdaueraktivität
  
-Selbstangabe der Befragten: „An wie vielen Tagen in einer typischen Woche üben Sie mindestens 10 Minuten ohne Unterbrechung Sport, Fitness oder körperliche Aktivität in der Freizeit aus?“ „Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlicher Aktivität in der Freizeit?“ Hierbei sollte an Aktivitäten gedacht werden, die zu einem leichten Anstieg der Atem- oder Herzfrequenz führen.
+Selbstangabe der Befragten: "An wie vielen Tagen in einer typischen Woche üben Sie mindestens 10 Minuten ohne Unterbrechung Sport, Fitness oder körperliche Aktivität in der Freizeit aus?" "Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlicher Aktivität in der Freizeit?" Hierbei sollte an Aktivitäten gedacht werden, die zu einem leichten Anstieg der Atem- oder Herzfrequenz führen.
 
-„An wie vielen Tagen in einer typischen Woche fahren Sie mindestens 10 Minuten ohne Unterbrechung mit dem Fahrrad, um von Ort zu Ort zu gelangen?“ Wie lange fahren Sie an einem typischen Tag mit dem Fahrrad, um von Ort zu Ort zu gelangen?
+"An wie vielen Tagen in einer typischen Woche fahren Sie mindestens 10 Minuten ohne Unterbrechung mit dem Fahrrad, um von Ort zu Ort zu gelangen?" Wie lange fahren Sie an einem typischen Tag mit dem Fahrrad, um von Ort zu Ort zu gelangen?
 
 Selbstangabe der Befragten: Mehrere Fragen zur körperlichen Aktivität in einer typischen Woche, der Fortbewegung sowie während der Freizeit.
 
@@ -754,9 +760,9 @@ Die Ergebnisse aus GEDA- 2014/2015-EHIS bestätigen ein selteneres Erreichen der
  
 #### `KAgfmk` - Körperliche Aktivität: Muskelkräftigung
  
-Selbstangabe der Befragten: „An wie vielen Tagen in einer typischen Woche üben Sie körperliche Aktivitäten aus, die speziell für den Aufbau oder die Kräftigung der Muskulatur gedacht sind? Zum Beispiel: Krafttraining oder Kräftigungsübungen mit Gewichten, Thera-Band, eigenem Körpergewicht, Kniebeugen, Liegestützen oder Sit-ups.“
+Selbstangabe der Befragten: "An wie vielen Tagen in einer typischen Woche üben Sie körperliche Aktivitäten aus, die speziell für den Aufbau oder die Kräftigung der Muskulatur gedacht sind? Zum Beispiel: Krafttraining oder Kräftigungsübungen mit Gewichten, Thera-Band, eigenem Körpergewicht, Kniebeugen, Liegestützen oder Sit-ups."
 
-Antwortmöglichkeiten: „Tage pro Woche, „Nie oder seltener als 1 Tag pro Woche“
+Antwortmöglichkeiten: "Tage pro Woche, "Nie oder seltener als 1 Tag pro Woche"
 Der Indikator beschreibt das Erreichen der Empfehlung zur Muskelkräftigung der Weltgesundheitsorganisation (WHO) [1]. Die Empfehlung gilt als erreicht, wenn mindestens an zwei Tagen der Woche Übungen zur Muskelkräftigung ausgeführt werden. Ein Trendvergleich zwischen den GEDA-Wellen ist aufgrund methodischer Unterschiede nur eingeschränkt möglich.
  
 ##### **Ergebnisse - Körperliche Aktivität: Muskelkräftigung**
@@ -775,11 +781,11 @@ Die Ergebnisse aus GEDA 2014/2015-EHIS bestätigen ein selteneres Erreichen der 
  
 #### `KAspo2` - Körperliche Aktivität: Freizeitbezogene Aktivität
  
-Selbstangabe der Teilnehmenden: „An wie vielen Tagen in einer typischen Woche üben Sie mindestens 10 Minuten ohne Unterbrechung Sport, Fitness oder körperliche Aktivität in der Freizeit aus?“ Hierbei sollte an Aktivitäten gedacht werden, welche zu mindestens einem leichten Anstieg der Atem- oder Herzfrequenz führen. 
+Selbstangabe der Teilnehmenden: "An wie vielen Tagen in einer typischen Woche üben Sie mindestens 10 Minuten ohne Unterbrechung Sport, Fitness oder körperliche Aktivität in der Freizeit aus?" Hierbei sollte an Aktivitäten gedacht werden, welche zu mindestens einem leichten Anstieg der Atem- oder Herzfrequenz führen. 
 
 Antwortkategorien: Anzahl der Tage pro Woche
 
-Selbstangabe der Teilnehmenden: „Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlicher Aktivität in der Freizeit?“
+Selbstangabe der Teilnehmenden: "Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlicher Aktivität in der Freizeit?"
 
 Antwortkategorien: Angabe von Minuten bzw. Stunden pro Woche
 
@@ -795,11 +801,11 @@ Zudem zeigte sich ein Bildungsgradient zu Ungunsten von Personen aus der unteren
 
 #### `KAwalk2` - Körperliche Aktivität: Zu Fuß gehen von Ort zu Ort
  
-Selbstangabe der Teilnehmenden: „An wie vielen Tagen in einer typischen Woche gehen Sie mindestens 10 Minuten ohne Unterbrechung zu Fuß, um von Ort zu Ort zu gelangen?“ 
+Selbstangabe der Teilnehmenden: "An wie vielen Tagen in einer typischen Woche gehen Sie mindestens 10 Minuten ohne Unterbrechung zu Fuß, um von Ort zu Ort zu gelangen?" 
 
 Antwortkategorien: Anzahl der Tage pro Woche
 
-Selbstangabe der Teilnehmenden: „Wie lange gehen Sie an einem typischen Tag zu Fuß, um von Ort zu Ort zu gelangen?“
+Selbstangabe der Teilnehmenden: "Wie lange gehen Sie an einem typischen Tag zu Fuß, um von Ort zu Ort zu gelangen?"
 
 Antwortkategorien: 10-29 Minuten pro Tag, 30-59 Minuten pro Tag, 1 Stunde bis unter 2 Stunden pro Tag, 2 Stunden bis unter 3 Stunden pro Tag, 3 Stunden pro Tag und mehr
 
@@ -816,11 +822,11 @@ Zwischen den Bildungsgruppen bestanden ebenfalls keine signifikanten Unterschied
 
 #### `KHBBsa12` - Schlaganfall
  
-Selbstangabe der Befragten: „Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme. Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?“.
+Selbstangabe der Befragten: "Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme. Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?".
 
-In einer im Fragebogen nachgeschalteten Liste wurde spezifisch nach einzelnen Erkrankungen und Beschwerden gefragt. Der Indikator Schlaganfall wurde erfragt als: „Schlaganfall“ und „chronische Beschwerden infolge eines Schlaganfalls“.
+In einer im Fragebogen nachgeschalteten Liste wurde spezifisch nach einzelnen Erkrankungen und Beschwerden gefragt. Der Indikator Schlaganfall wurde erfragt als: "Schlaganfall" und "chronische Beschwerden infolge eines Schlaganfalls".
 
-Antwortmöglichkeiten: „Ja“, „Nein“ „Weiß nicht“
+Antwortmöglichkeiten: "Ja", "Nein" "Weiß nicht"
  
 ##### **Ergebnisse - Schlaganfall**
  
@@ -838,11 +844,11 @@ Auch beim Schlaganfall zeigt sich in Übereinstimmung mit vorherigen Erhebungen 
 
 #### `KHab12` - Asthma
  
-Selbstangaben der Befragten: „Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme. Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?“.
+Selbstangaben der Befragten: "Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme. Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?".
 
-In einer im Fragebogen nachgeschalteten Liste wurde spezifisch nach einzelnen Erkrankungen und Beschwerden gefragt. Der Indikator Asthma bronchiale wurde erfragt als „Asthma, einschließlich allergischem Asthma“.
+In einer im Fragebogen nachgeschalteten Liste wurde spezifisch nach einzelnen Erkrankungen und Beschwerden gefragt. Der Indikator Asthma bronchiale wurde erfragt als "Asthma, einschließlich allergischem Asthma".
 
-Antwortmöglichkeiten: „Ja“, „Nein“, „Weiß nicht“
+Antwortmöglichkeiten: "Ja", "Nein", "Weiß nicht"
  
 ##### **Ergebnisse - Asthma**
  
@@ -863,11 +869,11 @@ In GEDA 2014/2015-EHIS lag die Asthmaprävalenz etwas niedriger.
  
 #### `KHalgi112` - Allergien
  
-Selbstangaben der Befragten: „Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme. Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?“. 
+Selbstangaben der Befragten: "Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme. Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?". 
 
-In einer im Fragebogen nachgeschalteten Liste wurde spezifisch nach einzelnen Erkrankungen und Beschwerden gefragt. Der Indikator Allergien wurde erfragt als „Allergien, wie Heuschnupfen, allergische Reaktionen der Augen oder der Haut, Lebensmittelallergien oder andere Allergien. Nicht gemeint ist allergisches Asthma“.
+In einer im Fragebogen nachgeschalteten Liste wurde spezifisch nach einzelnen Erkrankungen und Beschwerden gefragt. Der Indikator Allergien wurde erfragt als "Allergien, wie Heuschnupfen, allergische Reaktionen der Augen oder der Haut, Lebensmittelallergien oder andere Allergien. Nicht gemeint ist allergisches Asthma".
 
-Antwortmöglichkeiten: „Ja“, „Nein“, „Weiß nicht“
+Antwortmöglichkeiten: "Ja", "Nein", "Weiß nicht"
  
 ##### **Ergebnisse - Allergien**
  
@@ -884,11 +890,11 @@ Gegenüber GEDA 2014/2015-EHIS hat die 12-Monats-Prävalenz von Allergien insges
  
 #### `KHcb12B` - Chronische Bronchitis (COPD)
  
-Selbstangabe der Befragten: „Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme. Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?“. 
+Selbstangabe der Befragten: "Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme. Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?". 
 
-In einer im Fragebogen nachgeschalteten Liste wurde spezifisch nach einzelnen Erkrankungen und Beschwerden gefragt. Der Indikator chronisch obstruktive Lungenerkrankung (COPD) wurde erfragt als „chronische Bronchitis, chronisch obstruktive Lungenerkrankung, Lungenemphysem“.
+In einer im Fragebogen nachgeschalteten Liste wurde spezifisch nach einzelnen Erkrankungen und Beschwerden gefragt. Der Indikator chronisch obstruktive Lungenerkrankung (COPD) wurde erfragt als "chronische Bronchitis, chronisch obstruktive Lungenerkrankung, Lungenemphysem".
 
-Antwortmöglichkeiten: „Ja“, Nein“, „Weiß nicht“
+Antwortmöglichkeiten: "Ja", Nein", "Weiß nicht"
  
 ##### **Ergebnisse - Chronische Bronchitis (COPD)**
  
@@ -907,11 +913,11 @@ Zu beachten ist auch, dass Einschätzungen zur Prävalenz von COPD über Selbsta
  
 #### `KHdge12` - Arthrose
  
-Selbstangabe der Befragten: „Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme. Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?“. 
+Selbstangabe der Befragten: "Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme. Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?". 
 
-In einer im Fragebogen nachgeschalteten Liste wurde spezifisch nach einzelnen Erkrankungen und Beschwerden gefragt. Der Indikator Arthrose wurde erfragt als „Arthrose, nicht gemeint ist Arthritis bzw. Gelenksentzündung“.
+In einer im Fragebogen nachgeschalteten Liste wurde spezifisch nach einzelnen Erkrankungen und Beschwerden gefragt. Der Indikator Arthrose wurde erfragt als "Arthrose, nicht gemeint ist Arthritis bzw. Gelenksentzündung".
 
-Antwortkategorien:  „Ja“, „Nein“, „Weiß nicht“
+Antwortkategorien:  "Ja", "Nein", "Weiß nicht"
  
 ##### **Ergebnisse - Arthrose**
  
@@ -928,11 +934,11 @@ Bei Frauen ist bei Arthrose ein deutlicher Bildungsgradient mit niedrigster Prä
  
 #### `KHdiabB12` - Diabetes
  
-Selbstangabe der Befragten: „Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme. Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?“.
+Selbstangabe der Befragten: "Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme. Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?".
 
-In einer im Fragebogen nachgeschalteten Liste wurde spezifisch nach einzelnen Erkrankungen und Beschwerden gefragt. Der Indikator Diabetes wurde erfragt als „Zuckerkrankheit/Diabetes, kein Schwangerschaftsdiabetes“.
+In einer im Fragebogen nachgeschalteten Liste wurde spezifisch nach einzelnen Erkrankungen und Beschwerden gefragt. Der Indikator Diabetes wurde erfragt als "Zuckerkrankheit/Diabetes, kein Schwangerschaftsdiabetes".
 
-Antwortmöglichkeiten: „Ja“, „Nein“, „Weiß nicht“
+Antwortmöglichkeiten: "Ja", "Nein", "Weiß nicht"
  
 ##### **Ergebnisse - Diabetes**
  
@@ -952,11 +958,11 @@ Im Vergleich zu GEDA 2014/2015-EHIS liegt die aktuelle Prävalenzschätzung etwa
 
 #### `KHmyokhk12` - Koronare Herzerkrankung
  
-Selbstangaben der Befragten: „Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme. Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?“. 
+Selbstangaben der Befragten: "Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme. Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?". 
 
-In einer im Fragebogen nachgeschalteten Liste wurde spezifisch nach einzelnen Erkrankungen und Beschwerden gefragt. Der Indikator wurde erfragt als „Herzinfarkt“, „chronische Beschwerden infolge eines Herzinfarkts“ und „Koronare Herzerkrankung oder Angina Pectoris“.
+In einer im Fragebogen nachgeschalteten Liste wurde spezifisch nach einzelnen Erkrankungen und Beschwerden gefragt. Der Indikator wurde erfragt als "Herzinfarkt", "chronische Beschwerden infolge eines Herzinfarkts" und "Koronare Herzerkrankung oder Angina Pectoris".
 
-Antwortmöglichkeiten: „Ja“, „Nein“, „Weiß nicht".
+Antwortmöglichkeiten: "Ja", "Nein", "Weiß nicht".
  
 ##### **Ergebnisse - Koronare Herzerkrankung**
  
@@ -974,7 +980,7 @@ Die vorliegende Studie zeigte, dass Männer häufiger an einer KHK erkrankten al
 
 #### `PAadiposB` - Körpergewicht: Adipositas
  
-Selbstangabe der Befragten: „Wie groß sind Sie, wenn Sie keine Schuhe tragen? Bitte geben Sie Ihre Körpergröße in cm an.“, „Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere Frauen geben bitte ihr Gewicht vor der Schwangerschaft an.“
+Selbstangabe der Befragten: "Wie groß sind Sie, wenn Sie keine Schuhe tragen? Bitte geben Sie Ihre Körpergröße in cm an.", "Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere Frauen geben bitte ihr Gewicht vor der Schwangerschaft an."
 
 Der Indikator Adipositas wird definiert als ein Body Mass Index (BMI) von 30 kg/m2 und mehr. Der BMI wird aus dem Verhältnis des Körpergewichts einer Person zum Quadrat der Körpergröße (kg/m2) berechnet.
  
@@ -997,7 +1003,7 @@ Bei 26 % der Frauen und Männer der unteren Bildungsgruppe aber nur bei 11 % bzw
  
 #### `PAnormalB` - Körpergewicht: Normalgewicht
  
-Selbstangabe der Befragten: „Wie groß sind Sie, wenn Sie keine Schuhe tragen? Bitte geben Sie Ihre Körpergröße in cm an.“, „Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere Frauen geben bitte ihr Gewicht vor der Schwangerschaft an.“
+Selbstangabe der Befragten: "Wie groß sind Sie, wenn Sie keine Schuhe tragen? Bitte geben Sie Ihre Körpergröße in cm an.", "Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere Frauen geben bitte ihr Gewicht vor der Schwangerschaft an."
 
 Der Indikator Normalgewicht wird definiert als ein Body Mass Index (BMI) zwischen 18,5 und weniger als 25 kg/m2 und mehr. Der Body Mass Index (BMI) wird aus dem Verhältnis des Körpergewichts einer Person zum Quadrat der Körpergröße (kg/m2) berechnet.
  
@@ -1018,9 +1024,9 @@ Ein Normalgewicht lag bei 60 % der Frauen der oberen Bildungsgruppe vor, jedoch 
  
 #### `PAueberB` - Körpergewicht: Übergewicht
  
-Selbstangabe der Befragten: „Wie groß sind Sie, wenn Sie keine Schuhe tragen? Bitte geben Sie Ihre Körpergröße in cm an.“, „Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere Frauen geben bitte ihr Gewicht vor der Schwangerschaft an.“
+Selbstangabe der Befragten: "Wie groß sind Sie, wenn Sie keine Schuhe tragen? Bitte geben Sie Ihre Körpergröße in cm an.", "Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere Frauen geben bitte ihr Gewicht vor der Schwangerschaft an."
 
-Der Indikator Übergewicht (einschließlich Adipositas) wird definiert als ein Body Mass Index (BMI) von 25 kg/m2 und mehr. Für eine bessere Lesbarkeit wird im Ergebnisteil auf den Zusatz „einschließlich Adipositas“ verzichtet. Der BMI wird aus dem Verhältnis des Körpergewichts einer Person zum Quadrat der Körpergröße (kg/m2) berechnet.
+Der Indikator Übergewicht (einschließlich Adipositas) wird definiert als ein Body Mass Index (BMI) von 25 kg/m2 und mehr. Für eine bessere Lesbarkeit wird im Ergebnisteil auf den Zusatz "einschließlich Adipositas" verzichtet. Der BMI wird aus dem Verhältnis des Körpergewichts einer Person zum Quadrat der Körpergröße (kg/m2) berechnet.
  
 ##### **Ergebnisse - Körpergewicht: Übergewicht**
  
@@ -1059,13 +1065,13 @@ Ein Untergewicht lag bei 3,8 % der Frauen der unteren Bildungsgruppen, aber nur 
 
 #### `PKPHQ8_k6` - Depressive Symptomatik (PHQ-8)
  
-Selbstangabe der Teilnehmenden: „Die folgenden Fragen befassen sich mit Ihrem seelischen Befinden und Ihrer Stimmungslage in den letzten 2 Wochen. Wie oft fühlten Sie sich im Verlauf der letzten 2 Wochen durch die folgenden Beschwerden beeinträchtigt?“ 
+Selbstangabe der Teilnehmenden: "Die folgenden Fragen befassen sich mit Ihrem seelischen Befinden und Ihrer Stimmungslage in den letzten 2 Wochen. Wie oft fühlten Sie sich im Verlauf der letzten 2 Wochen durch die folgenden Beschwerden beeinträchtigt?" 
 
-Das Instrument PHQ-8 erfasst das Auftreten von Symptomen einer Depression innerhalb der letzten zwei Wochen mit „überhaupt nicht“, „an einzelnen Tagen“, „an mehr als der Hälfte der Tage“ oder „beinahe jeden Tag“. 
+Das Instrument PHQ-8 erfasst das Auftreten von Symptomen einer Depression innerhalb der letzten zwei Wochen mit "überhaupt nicht", "an einzelnen Tagen", "an mehr als der Hälfte der Tage" oder "beinahe jeden Tag". 
 
 Das Vorliegen einer depressiven Symptomatik wird ab einem Skalensummenwert von mindestens zehn der maximal 24 Punkte angenommen.
  
-Das Instrument erfasst das Auftreten von Symptomen einer Depression innerhalb der letzten zwei Wochen mit „überhaupt nicht“, „an einzelnen Tagen“, „an mehr als der Hälfte der Tage“ oder „beinahe jeden Tag“. 
+Das Instrument erfasst das Auftreten von Symptomen einer Depression innerhalb der letzten zwei Wochen mit "überhaupt nicht", "an einzelnen Tagen", "an mehr als der Hälfte der Tage" oder "beinahe jeden Tag". 
 
 Das Vorliegen einer depressiven Symptomatik wird ab einem Skalensummenwert von mindestens zehn der maximal 24 Punkte angenommen.
  
@@ -1087,9 +1093,9 @@ Bei der Betrachtung der depressiven Symptomatik nach Alters- und Bildungsgruppe 
 
 #### `RCpass4B_k2` - Rauchen: Passivrauchbelastung
  
-Selbstangabe der Befragten: „Wie oft sind Sie in geschlossenen Räumen Tabakrauch ausgesetzt? Mit geschlossenen Räumen meinen wir z.B.: zu Hause, auf der Arbeit, in öffentlichen Gebäuden oder im Restaurant.“
+Selbstangabe der Befragten: "Wie oft sind Sie in geschlossenen Räumen Tabakrauch ausgesetzt? Mit geschlossenen Räumen meinen wir z.B.: zu Hause, auf der Arbeit, in öffentlichen Gebäuden oder im Restaurant."
 
-Antwortkategorien: „Täglich, 1 Stunde oder mehr“, „Täglich, weniger als 1 Stunde“, „Mindestens 1 Mal pro Woche (aber nicht täglich)“, „Weniger als 1 Mal pro Woche“, „Nie oder fast nie“
+Antwortkategorien: "Täglich, 1 Stunde oder mehr", "Täglich, weniger als 1 Stunde", "Mindestens 1 Mal pro Woche (aber nicht täglich)", "Weniger als 1 Mal pro Woche", "Nie oder fast nie"
 
 Eine regelmäßige Passivrauchbelastung liegt vor, wenn Personen angeben, dass sie täglich oder mindestens 1 Mal pro Woche Passivrauch ausgesetzt sind. Ausgewiesen wird die regelmäßige Passivrauchbelastung von Nicht-Rauchenden.
  
@@ -1108,9 +1114,9 @@ Ein Trendvergleich der regelmäßigen Passivrauchbelastung mit früheren GEDA-We
   
 #### `RCstatE_k3` - Rauchen: Tabakprodukte
  
-Selbstangabe der Befragten: „Rauchen Sie Tabakprodukte, einschließlich Tabakerhitzer? Bitte schließen Sie elektronische Zigaretten oder ähnliche Produkte aus.“.
+Selbstangabe der Befragten: "Rauchen Sie Tabakprodukte, einschließlich Tabakerhitzer? Bitte schließen Sie elektronische Zigaretten oder ähnliche Produkte aus.".
 
-Antwortkategorien: „Ja, täglich“, „Ja, gelegentlich“, „Nein, nicht mehr“, „Ich habe noch nie geraucht“ 
+Antwortkategorien: "Ja, täglich", "Ja, gelegentlich", "Nein, nicht mehr", "Ich habe noch nie geraucht" 
 
 Dargestellt ist der Anteil derjenigen, die aktuell rauchen (täglich oder gelegentlich).
  
@@ -1128,15 +1134,13 @@ Ein Trendvergleich zwischen den GEDA-Wellen [1,2] ist aufgrund unterschiedlicher
 
 <!-- FOOTER_START: {"lang": "de"} -->
 
-
-
 ### Metadaten  
 
 Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadatenordner hinterlegt:  
 
 > [Metadaten/](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell/tree/main/Metadaten/) 
 
-Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.
+Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter [https://developers.zenodo.org/#representation](https://developers.zenodo.org/#representation) nachlesbar.
  
 > [Metadaten/zenodo.json](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell/blob/main/Metadaten/zenodo.json)  
 
@@ -1147,8 +1151,8 @@ In der zenodo.json ist neben dem Publikationsdatum (`"publication_date"`) auch d
     {
       "start": "2023-09-11T15:00:21+02:00",
       "end": "2023-09-11T15:00:21+02:00",
-      "type": "Collected",
-      "description": "Date when the Dataset was created"
+      "type": "Created",
+      "description": "Date when the published data was created"
     }
   ],
 ```    
@@ -1173,11 +1177,13 @@ Für tabellarische Daten definieren wir zusätzlich ein [Table Schema](https://d
 
 Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:  
 
-- https://zenodo.org/communities/robertkochinstitut  
-- https://github.com/robert-koch-institut  
-- https://gitlab.opencode.de/robert-koch-institut  
-- https://edoc.rki.de/  
- 
+- [https://zenodo.org/communities/robertkochinstitut](https://zenodo.org/communities/robertkochinstitut)  
+- [https://github.com/robert-koch-institut](https://github.com/robert-koch-institut)  
+- [https://gitlab.opencode.de/robert-koch-institut](https://gitlab.opencode.de/robert-koch-institut)  
+- [https://edoc.rki.de/](https://edoc.rki.de/) 
+
+
+
 ### Lizenz  
 
 Der Datensatz "Gesundheit in Deutschland aktuell - GEDA 2019/2020-EHIS" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
