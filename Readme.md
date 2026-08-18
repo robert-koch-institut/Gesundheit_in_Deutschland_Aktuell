@@ -147,6 +147,7 @@ Darüber hinaus wird die Indikatorenbeschreibung, so wie eine erste Interpretati
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS", "lang": "de"} -->
 
 Die Datei [Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.csv](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell/blob/main/Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.json](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell/blob/main/Metadaten/schemas/tableschema_Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.json) hinterlegt:
+
 > [tableschema_Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.json](https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell/blob/main/Metadaten/schemas/tableschema_Gesundheit_in_Deutschland_aktuell_-_2019-2020-EHIS.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
